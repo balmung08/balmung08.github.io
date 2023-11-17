@@ -4,7 +4,7 @@
     </div>
     <a href="{{post.url | absolute_url}}">
         <div class="column has-text-left-desktop has-text-left-tablet">
-            <h1 class="title is-size-4-touch">{{post.title}}</h1>
+            <h1 class="title is-size-5-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
                 {{ post.content | strip_html | strip_newlines | strip | truncate: 150 | escape }}
                 <hr class="has-background-grey">
