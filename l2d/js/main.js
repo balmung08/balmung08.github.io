@@ -25,7 +25,7 @@ class Viewer {
             console.log(name);            
             this.l2d.load(name, this);
         });*/
-        this.l2d.load("../model/xianghe_2",this);
+        this.l2d.load("/l2d/model/xianghe_2",this);
 
         //this.l2d.load("Azue Lane(JP)/xianghe_2",this);
 
