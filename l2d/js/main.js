@@ -8,22 +8,7 @@ class Viewer {
     constructor (basePath) {
         this.l2d = new L2D(basePath);
 
-        this.canvas = $(".Canvas");
-        this.selectCharacter = $(".selectCharacter");
-        this.selectAnimation = $(".selectAnimation");
 
-        let stringCharacter = "<option>Select</option>";
-        for (let val in charData) {
-            stringCharacter+= '<option value="' + charData[val] + '">' + val + '</option>';
-        }
-        this.selectCharacter.html(stringCharacter);
-        this.selectCharacter.change((event) => {
-            if (event.target.selectedIndex == 0) {
-                return;
-            }
-            let name = event.target.value;
-            this.l2d.load(name, this);
-        });
         this.l2d.load("../model/xianghe_2", this);
         this.app = new PIXI.Application(1280, 720, { backgroundColor: 0xffffff });
         let width = window.innerWidth;
