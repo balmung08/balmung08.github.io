@@ -7,11 +7,11 @@ $(document).ready(() => {
 class Viewer {
     constructor (basePath) {
         this.l2d = new L2D(basePath);
-//sdgsgsg
+
         this.canvas = $(".Canvas");
         this.selectCharacter = $(".selectCharacter");
         this.selectAnimation = $(".selectAnimation");
-/*
+
         let stringCharacter = "<option>Select</option>";
         for (let val in charData) {
             stringCharacter+= '<option value="' + charData[val] + '">' + val + '</option>';
@@ -21,20 +21,15 @@ class Viewer {
             if (event.target.selectedIndex == 0) {
                 return;
             }
-            let name = event.target.value;
-            console.log(name);            
+            let name = "https://cdn.jsdelivr.net/gh/balmung08/l2d/model/"+event.target.value;
             this.l2d.load(name, this);
-        });*/
-        this.l2d.load("../model/xianghe_2",this);
+        });
 
-        //this.l2d.load("Azue Lane(JP)/xianghe_2",this);
-
-        this.app = new PIXI.Application({width:320,height:180,transparent:true});
-        let width = 320;
-        let height = 180;
-        this.app.view.style.width = "1px";
-        this.app.view.style.height = "1px";
-        this.app.view.style.position = "fixed";
+        this.app = new PIXI.Application(1280, 720, { backgroundColor: 0xffffff });
+        let width = window.innerWidth;
+        let height = (width / 16.0) * 9.0;
+        this.app.view.style.width = width + "px";
+        this.app.view.style.height = height + "px";
         this.app.renderer.resize(width, height);
         this.canvas.html(this.app.view);
 
@@ -45,53 +40,44 @@ class Viewer {
 
             this.model.update(deltaTime);
             this.model.masks.update(this.app.renderer);
-
         });
         window.onresize = (event) => {
             if (event === void 0) { event = null; }
-            let width = 480;
-            let height = 270;
-            this.app.view.style.width = "480px";/*368/207*/
-            this.app.view.style.height = "270px";
-            this.app.view.style.position = "fixed";
-            this.app.view.style.right ="-100px";
-            this.app.view.style.bottom ="0px";
-
+            let width = window.innerWidth;
+            let height = (width / 16.0) * 9.0;
+            this.app.view.style.width = width + "px";
+            this.app.view.style.height = height + "px";
             this.app.renderer.resize(width, height);
 
             if (this.model) {
-                this.model.position = new PIXI.Point((width * 0.5), (height * 0.57));
-                this.model.scale = new PIXI.Point((this.model.position.x * 0.145), (this.model.position.x * 0.145));
+                this.model.position = new PIXI.Point((width * 0.5), (height * 0.5));
+                this.model.scale = new PIXI.Point((this.model.position.x * 0.06), (this.model.position.x * 0.06));
                 this.model.masks.resize(this.app.view.width, this.app.view.height);
-            
             }
-
+            if(this.model.height <= 200) {
+                this.model.scale = new PIXI.Point((this.model.position.x * 0.6), (this.model.position.x * 0.6));
+            }
         };
-    
-
-   this.isClick = false;
-
-
-        addEventListener('mousedown', (event) => {
+        this.isClick = false;
+        this.app.view.addEventListener('mousedown', (event) => {
             this.isClick = true;
         });
-        addEventListener('mousemove', (event) => {
-            if(this.isClick=true)
-                {this.isClick = false;}
-
+        this.app.view.addEventListener('mousemove', (event) => {
+            if (this.isClick) {
+                this.isClick = false;
                 if (this.model) {
                     this.model.inDrag = true;
                 }
-            
+            }
 
             if (this.model) {
-                let mouse_x = this.model.position.x - event.clientX;
-                let mouse_y = this.model.position.y - event.clientY;
+                let mouse_x = this.model.position.x - event.offsetX;
+                let mouse_y = this.model.position.y - event.offsetY;
                 this.model.pointerX = -mouse_x / this.app.view.height;
                 this.model.pointerY = -mouse_y / this.app.view.width;
             }
         });
-        addEventListener('mouseup', (event) => {
+        this.app.view.addEventListener('mouseup', (event) => {
             if (!this.model) {
                 return;
             }
@@ -99,24 +85,17 @@ class Viewer {
             if (this.isClick) {
                 if (this.isHit('TouchHead', event.offsetX, event.offsetY)) {
                     this.startAnimation("touch_head", "base");
-                } if (this.isHit('TouchSpecial', event.offsetX, event.offsetY)) {
+                } else if (this.isHit('TouchSpecial', event.offsetX, event.offsetY)) {
                     this.startAnimation("touch_special", "base");
-                } if(this.isHit('TouchBody',event.offsetX,event.offsetY)){
-                    const bodyMotions = ["touch_body", "main_1", "main_2", "main_3","complete","mail"];
+                } else {
+                    const bodyMotions = ["touch_body", "main_1", "main_2", "main_3"];
                     let currentMotion = bodyMotions[Math.floor(Math.random()*bodyMotions.length)];
                     this.startAnimation(currentMotion, "base");
-                }}
-
-
-    
-        if (this.model) {       
-                let mouse_x = this.model.position.x - event.clientX;
-                let mouse_y = this.model.position.y - event.clientY;
-                this.model.pointerX = -mouse_x / this.app.view.height;
-                this.model.pointerY = -mouse_y / this.app.view.width;
+                }
             }
-            this.isClick = false;
 
+            this.isClick = false;
+            this.model.inDrag = false;
         });
     }
 
