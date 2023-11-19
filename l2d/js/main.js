@@ -26,7 +26,7 @@ class Viewer {
             this.l2d.load(name, this);
         });*/
         this.l2d.load("../../l2d/model/xianghe_2",this);
-
+        console.log("55555");
 
         this.app = new PIXI.Application({width:320,height:180,transparent:true});
         let width = 320;
