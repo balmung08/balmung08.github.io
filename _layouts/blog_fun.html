@@ -18,8 +18,8 @@ layout: compress
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% for project in site.data.projects %}
-            <li>{{ project }}</li>
+        {% for post in site.postsc %}
+            {% include blog-card.html %}
         {% endfor %}
         </div>
     </section>
