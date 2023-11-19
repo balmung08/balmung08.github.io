@@ -20,6 +20,7 @@ layout: compress
         <!--Blog Cards Section-->
         {% for post in site.posts %}
             {% include blog-card.html %}
+            <li>{{ post }}</li>
         {% endfor %}
         </div>
     </section>
