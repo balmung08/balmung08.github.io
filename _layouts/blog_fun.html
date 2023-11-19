@@ -18,7 +18,7 @@ layout: compress
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% for post in site.post.postfun %}
+        {% for post in site.posts.postfun %}
             {% include blog-card.html %}
             <li>{{ post_fun }}</li>
         {% endfor %}
