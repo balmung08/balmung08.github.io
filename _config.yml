@@ -83,18 +83,13 @@ defaults:
         - ""
   -
     scope:
-      type: 'postsc'
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
       type: 'pages'
     values:
       layout: page
+      
+collections:
+  postsc:
+    output: true
 
 # Exclude
 exclude:
