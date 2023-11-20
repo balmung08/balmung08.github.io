@@ -1,5 +1,5 @@
 ---
-title: 个人简历
+title: Resume
 layout: post
 post-image: ../blog_pic/resume.jpg
 description: 个人简历汇总
