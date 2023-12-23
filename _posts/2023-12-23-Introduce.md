@@ -15,7 +15,8 @@ tags:
 * <details><summary><b>基础概念</b></summary>
 
   > 主要内容：基本概念及MDP框架下概念
-  * <details><summary><b>笔记文档</b></summary>
+  * <details>
+    <summary><b>笔记文档</b></summary>
 
     ### 基本概念
     * state：物体相对于环境的状态
@@ -45,12 +46,14 @@ tags:
     * MDP在policy确定后，就可以转变为一个Markov process
     ![1.png](pic/1.png)
 
+    </details>
   </details>
-  </details>
+
 * <details><summary><b>贝尔曼公式</b></summary>
 
   > 主要内容：状态值与贝尔曼方程
   > 贝尔曼方程描述了状态之间的关系，可以进行策略评价再改进
+
   * <details><summary><b>笔记文档</b></summary>
     
     ### state value
@@ -92,13 +95,15 @@ tags:
     * 知道了所有的action，加权平均即可求出state value，知道了所有的state value也可以求出action value
     * policy即使唯一确定一个方向，其他方向的action value仍旧重要，因为目前的状态不一定是最优策略
     * 可以先计算state value，再依次算出所有的action value；但我们也可以不依赖于模型直接计算action value，这就是有模型和无模型的学习问题
-  </details>  
+    </details>  
   </details>
+
 * <details><summary><b>贝尔曼最优公式</b></summary>
 
   > 是贝尔曼方程的特殊情况，对应最优策略【强化学习的终极目标】
   > 最优策略对应最大的状态值
   > 不动点原理、基础问题与解方程的方法
+
   * <details><summary><b>笔记文档</b></summary>
     
     ### optimal policy
@@ -125,7 +130,7 @@ tags:
     * 修改$\gamma$：$\gamma$越大，策略越远视，会考虑更多步以后的情况；极端情况下$\gamma$为0，则最优policy对应的state value就等于当前步骤的最大reward
     * 修改reward：$r_{new}=ar+b$，线性修改reward时不会影响最优策略；最优策略不关注reward的绝对值，而是各个状态之间的reward相对值
     * 想要获取最短路径，除了每一步给出一个负reward表示能量消耗以外，折扣因子也可以起到鼓励最短策略的效果
-  </details>  
+    </details>  
   </details>
 ### 算法与方法
 * <details><summary><b>值迭代与策略迭代</b></summary>
@@ -133,6 +138,7 @@ tags:
   > 迭代方法求解最优策略
   > 策略更新与值更新
   > 此方法需要环境的模型
+
   * <details><summary><b>笔记文档</b></summary>
     
     ### Value Iteration Algorithm
@@ -154,13 +160,14 @@ tags:
     * turncated policy iteration 则是在计算策略对应的state value时执行给定次数次的迭代
     * 未进行无穷多次会导致输出的state value不是目前的策略对应的最大state value，但是公式仍旧收敛，能够逼近最优策略
     * truncated policy iteration的关键参数就是迭代次数，次数为1是就是值迭代，次数变大就趋近策略迭代；增加迭代次数可以一定程度减少更新次数，但是迭代次数增大的过多会导致加速效果越来越不明显
-  </details>  
+    </details>  
   </details>
 * <details><summary><b>蒙特卡洛法</b></summary>
 
   > 面对无模型的学习问题--无模型有什么条件与要学习什么指标
   > 学习随机变量的期望值，目前要有随机变量的采样
   > MC系列算法--MC Basic--MC Exploring Starts--MC greedy
+
   * <details><summary><b>笔记文档</b></summary>
       
     ### MC Basic
@@ -189,13 +196,14 @@ tags:
     * $\epsilon$越大越趋近于探索，越小越趋近于利用；极端情况下$\epsilon$为1时所有策略概率均等，只有探索，$\epsilon$为0时与greedy相同，只有利用
     * 可以使用变化的$\epsilon$先大后小，先鼓励探索，在探索一段时间后鼓励最优
     * 在实际使用时，我们要把$\epsilon-$greedy策略转化为greedy策略进行使用
-  </details>  
+    </details>  
   </details>
 * <details><summary><b>随机近似理论</b></summary>
 
   > 从无增量到增量算法
   > 估计随机变量的的期望：无增量是全采完以后求均值，增量是实时更新
   > RM算法、SGD\BGD\MBGD算法
+
   * <details><summary><b>笔记文档</b></summary>
   
     ### mean estimation
@@ -228,8 +236,9 @@ tags:
     ![Alt text](pic/10.png)
     * 通过上图的构造可以把SGD构造为一个RM函数，由此可知SGD是收敛的
     * 我们的SGD涉及到一个随机噪声量，由此要求X是随机变量的采样，而如果我们的采样已经采完了，得到了一个确定的X的集合，则需要手动构造随机变量X使其在集合内等概率的随机选取采样值，由此实现了将固定量的集合变为随机变量的效果
-  </details> 
+    </details> 
   </details>
+  
 * <details><summary><b>时序差分法</b></summary>
 
   > 使用时序差分法计算状态值
