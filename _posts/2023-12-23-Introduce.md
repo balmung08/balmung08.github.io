@@ -9,10 +9,19 @@ tags:
 - note
 
 ---
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-
+<script> 
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    processEscapes: true
+  }
+};
+</script>
 ## 强化学习的基础数学原理
 > [【强化学习的数学原理】课程：从零开始到透彻理解](https://www.bilibili.com/video/BV1sd4y167NS)笔记
 
