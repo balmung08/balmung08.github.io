@@ -1,3 +1,14 @@
+---
+title: 强化学习基础数学原理
+layout: post
+post-image: ../blog_pic/RL.png
+description: 强化学习的入门学习笔记
+tags:
+- reinforce learning
+- analysis
+- note
+
+---
 ## 强化学习的基础数学原理
 > [【强化学习的数学原理】课程：从零开始到透彻理解](https://www.bilibili.com/video/BV1sd4y167NS)笔记
 ### 基础工具
