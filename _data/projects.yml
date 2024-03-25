@@ -22,7 +22,7 @@
   image: ../program_pic/P4.jpg
   description: 2023-上海宝钢巡检AGV小车：底层控制驱动逻辑设计与调试
   link: https://github.com/balmung08/Miscellaneous/tree/main/SH_AGV
-- name: AGV小车驱动
+- name: AGV控制系统
   image: ../program_pic/P5.jpg
   description: 2024-上海宝钢巡检AGV小车：巡检感知与控制系统设计与调试
   link: https://github.com/balmung08/AGV_system_design
