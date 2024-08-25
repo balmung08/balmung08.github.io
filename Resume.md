@@ -16,8 +16,8 @@ tags:
 -----------------
 ### 项目经历
 
-> **本科阶段**
-<br>
+> **本科阶段**<br>
+
 * **团队项目：基于法拉第效应的光强自稳定装置**
 
 本项目设计并制造了一套磁致旋光型光强稳定装置，利用法拉第效应的旋光特性，结合对激光偏振角的检测与分析，实现了接收端光强的实时动态调节，直接稳定接收端光强，同时解决光源和传播路径对激光光强的影响<br>
@@ -43,8 +43,8 @@ tags:
 项目地址：[https://github.com/balmung08/Spider_Robot](https://github.com/balmung08/Spider_Robot)
 
 
-> **硕士阶段**
-<br>
+> **硕士阶段**<br>
+
 * **个人项目：基于gazebo的slam综合仿真环境**
 
 创建了一套基于gazebo的slam综合仿真环境，包含如下功能：基于velodyne雷达sdk与gazebo的车辆模型与仿真环境；可基于Lio-sam算法的三维建图；可三维激光雷达to二维激光雷达的数据格式转换；基于gmapping、ACML、Move_base三件套的二维激光slam与导航<br>
@@ -95,8 +95,8 @@ tags:
 ➢ 发明专利：一种自适应多地形电动爬楼轮椅（CN202210559864.1）<br>
 ➢ 实用新型：一种基于法拉第效应的光强稳定调节系统（CN202221034861.8）<br>
 
-> **硕士阶段**
-<br>
+> **硕士阶段**<br>
+
 * 个人成果
 
 ➢ 在投论文（一作）：Deep Reinforcement Learning-Based AGV Trajectory Planning for Docking Finished Vehicles in RO/RO Terminals
