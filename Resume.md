@@ -66,8 +66,8 @@ tags:
 本项目研制了一种适应于淬火炉区环境的巡检机器人，该机器人具有多传感器集成的环境感知系统、运动驱动系统、超视距遥操作系统、室内定位系统和处理计算机等，以完成巡检信息的采集、障碍物检测和机器人定位等<br>
 本人负责对SLAM建图与重定位精度的调试、巡检流程设计与路径跟踪、充电对接功能的实现<br>
 项目地址：
-（底层运动驱动）https://github.com/balmung08/Miscellaneous/tree/main/SH_AGV<br>
-（感知控制系统）https://github.com/balmung08/AGV_system_design
+（底层运动驱动）[https://github.com/balmung08/Miscellaneous/tree/main/SH_AGV](https://github.com/balmung08/Miscellaneous/tree/main/SH_AGV)<br>
+（感知控制系统）[https://github.com/balmung08/AGV_system_design](https://github.com/balmung08/AGV_system_design)
 
 ----------------------
 ### 比赛奖项
@@ -90,10 +90,10 @@ tags:
 
 #### 本科阶段
 
-➢ 发明专利： 一种驾驶员驾驶情绪状态及驾驶姿势的监测系统（CN202210512266.9）<br>
-➢ 发明专利：一种基于法拉第效应的光强自稳定系统（CN202210476717.8）<br>
-➢ 发明专利：一种自适应多地形电动爬楼轮椅（CN202210559864.1）<br>
-➢ 实用新型：一种基于法拉第效应的光强稳定调节系统（CN202221034861.8）<br>
+➢ 发明专利： 一种驾驶员驾驶情绪状态及驾驶姿势的监测系统（202210512266.9）<br>
+➢ 发明专利：一种基于法拉第效应的光强自稳定系统（202210476717.8）<br>
+➢ 发明专利：一种自适应多地形电动爬楼轮椅（202210559864.1）<br>
+➢ 实用新型：一种基于法拉第效应的光强稳定调节系统（202221034861.8）<br>
 
 #### 硕士阶段
 
@@ -106,3 +106,5 @@ tags:
 ➢ 在投论文（三作）：A Hierarchical Multi-objective Trajectory Planning Framework for Autonomous Ground Vehicles with Irregular Placed Obstacles<br>
 ➢ 在投论文（三作）：The role of mobile transportation robotics in roll on/roll off logistics terminal applications<br>
 ➢ 在投论文（三作）：Cooperative Comprehensive Scheduling Method for Multi-robot Systems in Narrow Environment<br>
+➢ 在投论文（四作）：A Multi-objective Real-time Trajectory Planning Framework for Human-in-the-Loop Traffic based on Self-attention Guided LSTM-CNN<br>
+➢ 发明专利：一种连续退火炉作业环境的特种巡检机器人及巡检方法（2024105066047）
