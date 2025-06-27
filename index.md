@@ -21,13 +21,13 @@ title: Curriculum Vitae
 ### First-Author Publications
 * **R. Bao**, Y. Xu, J. Xue, H. Yuan, L. Zhang, S. Wang*. [A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment.](https://ieeexplore.ieee.org/document/11023124) IEEE Sensors Journal. JCR Q1, IF: 4.5
 * **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang*. Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes. IROS2025. (Accepted).
-* **R. Bao**, Y. Xu, C. Hao, T. Niu, S. Wang* et al. STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning. IEEE Transactions on Automation Science and Engineering (Revision 1).
+* **R. Bao**, Y. Xu, C. Hao, T. Niu, S. Wang* et al. STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning. IEEE Transactions on Automation Science and Engineering (Revision 1). 
 * **R. Bao**, Y. Xu* et al. LLM-Guided Embodied Navigation for Industrial Robots: Real-Time Execution of Inspection Tasks from Language Commands. Journal of Industrial Information Integration (Under Review).
 
 
 ### Co-Author Publications
 * Y. Xu, **R. Bao**, L. Zhang, S. Wang*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture. Science China-Information Sciences.](https://link.springer.com/article/10.1007/s11432-024-4395-7) JCR Q1, IF: 7.6
-* L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals. Expert Systems with Applications.](https://doi.org/10.1016/j.eswa.2025.128347) JCR Q1, IF: 7.5
+* L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.] Expert Systems with Applications.(https://doi.org/10.1016/j.eswa.2025.128347) JCR Q1, IF: 7.5
 * G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) IEEE Transactions on Intelligent Transportation Systems. JCR Q1, IF: 8.4
 * L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang*. Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards. IROS2025 (Accepted).
 * H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. IROS2025(Accepted).
@@ -37,6 +37,7 @@ title: Curriculum Vitae
 ### Multi-robot system for autonomous vehicle transfer at roll-on/roll-off terminals
 
 * Project overview
+
 Designed and developed an all-terrain, high-speed intelligent transfer robot tailored for complex port environments. Leveraging multi-robot coordinated scheduling, implemented a multi-robot system for autonomous and efficient transfer of commercial vehicles at Ro-Ro terminals, featuring precise docking, obstacle avoidance.
 
 * Main responsibilities
@@ -44,11 +45,13 @@ Designed and developed an all-terrain, high-speed intelligent transfer robot tai
 2. Enabled dynamic and real-time port road network updates for pickup/drop-off operations and path planning, leveraging cloud scheduling system data, onboard multi-sensor perception, and vehicle status information.
 
 * Main achievements
+
 Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students’ Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).
 
 ### Intelligent Inspection Robot System for Harsh Environments in Annealing Furnace Areas
 
 * Project overview
+
 Developed an inspection robot for quenching furnace environments, integrating multi-sensor perception, remote operation, indoor positioning, and onboard computing. The robot enables reliable data acquisition, obstacle detection, precise localization, and safe operation in harsh, high-temperature industrial settings.
 
 * Main responsibilities
@@ -56,18 +59,21 @@ Developed an inspection robot for quenching furnace environments, integrating mu
 2. Developed a hierarchical multimodal tracker leveraging DRL , capable of autonomously selecting the optimal steering configuration and effectively performing precise multimodal tracking in complex environments.
 
 * Main achievements
+
 Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).
 
 ### Controllable Seismic Source Vehicle Advanced Driver Assistance System Development
 
 * Project overview
+
 In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., developed an advanced driver assistance system for controllable seismic source vehicles based on Linux and ROS platforms, improving efficiency, positioning accuracy, and safety in seismic data acquisition for geological exploration.
 
 * Main responsibilities
 1. Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm to identify flat roads and ensure safe and efficient path planning.
 2. Achieved efficient trajectory optimization and adaptive speed control in challenging and dynamic terrains using a terrain risk-aware RRT* algorithm combined with a dynamic terrain flatness corridor and CiLQR methods.
 
-* Main achievements:
+* Main achievements
+
 Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers (TIE, TMACH) in robotics.
 
 ## MAIN AWARDS
