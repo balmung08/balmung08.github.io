@@ -20,9 +20,8 @@ permalink: /docs/
 
   A commonly used and convenient commenting plugin is Disqus. You just need to register an account, create a shortname for your site, then replace the shortname in the template with your own and embed the code snippet at the bottom of your blog page to enable the comments section.
 
-  <details><summary><b>Code snippet to embed in your webpage</b></summary>
 
-{%
+  <pre><code>
   <script>
   /**
    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -41,7 +40,6 @@ permalink: /docs/
     (d.head || d.body).appendChild(s);
   })();
   </script>
-%}
+  </pre></code>
 
-  </details>
 
