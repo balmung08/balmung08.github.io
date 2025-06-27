@@ -22,7 +22,7 @@ permalink: /docs/
 
   <details><summary><b>Code snippet to embed in your webpage</b></summary>
 
-  ```html
+{%
   <script>
   /**
    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -41,7 +41,7 @@ permalink: /docs/
     (d.head || d.body).appendChild(s);
   })();
   </script>
-  ```
+%}
 
   </details>
 
