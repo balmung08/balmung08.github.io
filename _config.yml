@@ -3,7 +3,8 @@ description: A minimal and beautiful Jekyll theme best for writing and note-taki
 author: Shangzhi Huang
 avatar: /test.ico
 email: ngzhio@gmail.com
-
+disqus: balmung08
+location: China, Beijing
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
