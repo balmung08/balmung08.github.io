@@ -157,7 +157,6 @@ a.navbar-item.is-active {
 
         .content {
             margin: 0.5rem;
-            overflow: auto;
         }
 
         .column {
@@ -291,8 +290,8 @@ a.navbar-item.is-active {
 }
 
 #post {
-    @media (min-width: 868px) {
-        margin: auto 15vmax;
+    @media (min-width: 768px) {
+        margin: auto 2.5vmax;
     }
     a {
         text-decoration: underline;

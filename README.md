@@ -1,62 +1,53 @@
-### 模板挂载与微调
-> 原模板来自[https://github.com/thedevslot/WhatATheme]
+# WhatATheme
+**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
-#### 基本挂载流程
-* [https://blog.csdn.net/hohaizx/article/details/85066248](https://blog.csdn.net/hohaizx/article/details/85066248)对基本挂载流程进行了介绍
-* 本模板使用jekyllrb，[http://jekyllthemes.org](http://jekyllthemes.org/)中提供了非常多的模板可供选择；如果想进一步了解并修改模板，可以参考[中文教程](https://www.wenjiangs.com/doc/jekyll-home)。*（注：这个网站只能使用国内网打开）*
+#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
 
-#### 主页面格式微调
-* **主页面采用了bulma css框架作为格式划分**
-* 
-    ```<section class="hero is-halfheight has-text-centered has-background-white-ter" id="about">```
+![WhatATheme](assets/images/meta.jpg)
 
-    就是这一框架的典型语句，可以调整is-halfheight为is-fullheight改变section的高度，也可以更改后面的参数调整section的位置和背景颜色；
-* 在此模板中，section的背景图片在assets/css/style.css中，根据上面section的id确定其对应的css块
+# Features :sparkles:
+* Free and Easy setup
+* No Coding Required
+* Compatible with [Github Pages](https://pages.github.com/)
+* Responsive and Blogging Ready
+* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
+* Minified CSS using SaSS
+* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
+* Stylesheet built using SaSS
+* Comments using Disqus
+* Analytics using Google Analytics
+* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
 
-#### 创建新联系方式图标
-* **联系方式图标使用Font Awesome Web的应用图标**
+# Installation :books:
+### System Requirements
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Jekyll](https://jekyllrb.com/)
+> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
+### Up and Running
+* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
+* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
+* Inside the directory run `bundle install`
+* Host WhatATheme locally by running `bundle exec jekyll s`
 
-    ```其v5格式为<i class="fas fa-tags"></i>```，其中fas，fab用于显示不同种类的图标，但是实际上统一使用fa即可显示；fa-tags是图标名，可以换成其他图标，关于可选图标可见[https://fontawesome.com.cn/v5#google_vignette](https://fontawesome.com.cn/v5#google_vignette)。另外，Font Awesome Web在v6版中加入了新的图标，可见[https://fontawesome.com/icons](https://fontawesome.com/icons)，但是使用的fa-brands等标签无法正确被浏览器解析导致无法显示。但是该网站提供了SVG向量图的显示方式，可以替代原本的```<i>```标签进行显示
+> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
 
-* **```<i>```和SVG显示同一个图标的时候，SVG会稍微偏上一点，为了保证标签的整齐尽量统一选择，而SVG可以使用最新版图标，推荐选择SVG进行显示**
+[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
 
-#### 创建新的project页面
-* **project.md $\Rightarrow$ project.html $\Rightarrow$ project-card.html**
+---
 
-    project.md用于输入project每张卡片的属性与文字；project.md对应的layout是project.html，在其中包含了include中的project-card.html文件，project-card.html会遍历project.md的所有卡片属性，生成卡片嵌入project.html中，三者高度嵌合，为了尽量少的改参数，最好直接把这三个全部新建以防止参数互相干扰
-* 为保证project卡片的整齐，即标题都为一排，简述都为两排，标题需要小于等于九个字且描述为16-28字之间
+### Content Credits :green_heart:
+* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
+* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
+* [Font Awesome](https://fontawesome.com/)
+* [Poppins Font](https://fonts.google.com/specimen/Poppins)
+* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
 
-#### 调整建议阅读时间
-* **原模板使用的```{% assign words = post.content | number_of_words %}```函数无法正确统计中文字数**
+---
 
-    阅读时间是词数整除180，而此函数的原理是根据单词之间的空格来计算词数；对中文来说非常不合理，导致很长的文章仍旧显示0分钟即可阅读完成，故需要替换统计方法。[[巡音儿力]的知乎专栏](https://zhuanlan.zhihu.com/p/433233271)提供了三种不同的解决方法，本人最后采用了覆盖主题文件的方法，目前阅读时间已经可以正常计算了
+### Credits :bulb:
+* [Sneha Omer](http://sassyecoder.github.io/)
+* [Harsh Trivedi](http://harsh98trivedi.github.io/)
 
-#### 博客评论区
-* **github的io主页是典型的静态网页，需要使用插件才能实现评论互动**
-
-    比较方便使用的评论插件有Disqus，只需要简单的注册账号，创建网站短域名，在模板中把短域名改成和自己创建的相同并把代码内嵌到博客网页的最后即可完成评论区绑定
-
-    <details><summary><b>网页中需要内嵌的代码</b></summary>
-
-    ```
-  <script>
-  /**
-   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function () { /* DON'T EDIT BELOW THIS LINE */
-    var d = document,
-      s = d.createElement('script');
-    s.src = 'https://{{site.disqus-shortname}}.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  ```
-  </details>
-
+### License
+The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)

@@ -1,9 +1,0 @@
-- name: Pixiv爬图UI
-  image: ../program_pic/fun0.png
-  link: https://github.com/balmung08/Miscellaneous/tree/main/pixiv%E7%88%AC%E5%9B%BE
-  description: 2021-墙内获取Pixiv镜像站图片的爬虫程序与UI
-- name: L2D-Vits-GPT
-  image: ../program_pic/fun1.png
-  link: https://github.com/balmung08/Live2d-Chatgpt-Vits_Waifu
-  description: 2022-基于L2D、Vits、GPT的虚拟人物对话的早期探索
-
