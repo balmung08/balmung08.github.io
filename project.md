@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research & Collaborations
+toc: true
 permalink: /project/
 ---
 
