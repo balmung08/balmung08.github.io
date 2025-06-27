@@ -1,110 +1,179 @@
 ---
-layout: compress
+layout: default
+refactor: true
+panel_includes:
+  - toc
+tail_includes:
+  - related-posts
+  - post-nav
+script_includes:
+  - comment
 ---
 
-<!DOCTYPE html>
-<html>
+{% include lang.html %}
 
-<head>
-  {% include head.html %}
-</head>
+{% include toc-status.html %}
 
-<body>
-  {% include navbar.html %}
+<article class="px-1" data-toc="{{ enable_toc }}">
+  <header>
+    <h1 data-toc-skip>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+    {% endif %}
 
-  <section class="hero is-fullheight has-text-centered" id="post">
-    <div class="hero-body">
-      <div class="container">
-        <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
-          <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
-        </a>
-        <hr class="has-background-black">
-        <div class="columns is-variable is-5">
-          <div class="column is-6">
-            <figure class="image is-16by9 has-shadow">
-              <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
-            </figure>
-          </div>
-          <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
-            {% unless page.description.size == 0 %}
-            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
-            {% endunless %}
-            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
-              </a>
-            </p>
-            {%- assign tags = page.tags -%}
-            {%- unless tags.size == 0 -%}
-            <p class="subtitle is-uppercase">
-              <i class="fas fa-tags"></i>
-              {% assign i = 0 %}
-              {% for tags in page.tags %}
-              <span class="tag is-link">{{page.tags[i]}}</span>
-              {% assign i = i | plus:1 %}
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        {{ site.data.locales[lang].post.posted }}
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
+      </span>
+
+      <!-- lastmod date -->
+      {% if page.last_modified_at and page.last_modified_at != page.date %}
+        <span>
+          {{ site.data.locales[lang].post.updated }}
+          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
+        </span>
+      {% endif %}
+
+      {% if page.image %}
+        {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+
+        {% if page.image.lqip %}
+          {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+        {% endif %}
+
+        <div class="mt-3 mb-3">
+          <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+          {%- if page.image.alt -%}
+            <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+          {%- endif -%}
+        </div>
+      {% endif %}
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          {% if page.author %}
+            {% assign authors = page.author %}
+          {% elsif page.authors %}
+            {% assign authors = page.authors %}
+          {% endif %}
+
+          {{ site.data.locales[lang].post.written_by }}
+
+          <em>
+            {% if authors %}
+              {% for author in authors %}
+                {% if site.data.authors[author].url -%}
+                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+                {%- else -%}
+                  {{ site.data.authors[author].name }}
+                {%- endif %}
+                {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
               {% endfor %}
-            </p>
-            {%- endunless -%}
-            {% assign content0 = content %}
-      {% assign content_size = content0 | size | minus: 1 %}
-      {% assign pre_is_letter = false %}
-      {% assign words = 0 %}
-      {% for i in (0..content_size) %}
-        {% assign character = content0 | slice: i %}
-        {% case character %}
-          {% when "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" %}
-            {% assign pre_is_letter = true %}
-          {% when "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" %}
-            {% assign pre_is_letter = true %}
-          {% when "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" %}
-            {% assign pre_is_letter = true %}
-          {% when " ", "\t", "\r", "\n", "!", ".", "?", ",", "！", "。", "？", "，", "/", "、", "：", ":", "(", "（", ")", "）", "；", ";", "_", "—", "-" %}
-            {% if pre_is_letter %}
-              {% assign words = words | plus: 1 %}
+            {% else %}
+              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
             {% endif %}
-            {% assign pre_is_letter = false %}
-          {% else %}
-            {% if pre_is_letter %}
-              {% assign words = words | plus: 1 %}
-            {% endif %}
-            {% assign pre_is_letter = false %}
-            {% assign words = words | plus: 1 %}
-        {% endcase %}
-      {% endfor %}
-            {%- unless content.size == 0 -%}
-            <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
-                {{ words | divided_by:300 }} min
-              </b>READ</p>
-            {%- endunless -%}
-          </div>
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
+            <span>
+              <em id="pageviews">
+                <i class="fas fa-spinner fa-spin small"></i>
+              </em>
+              {{ site.data.locales[lang].post.pageview_measure }}
+            </span>
+          {% endif %}
+
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true lang=lang %}
         </div>
-        <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
-          <p>{{ content }}</p>
-        </div>
-        {% unless site.disqus-shortname == "" %}
-        <div class="disqus-comments" id="disqus_thread"></div>
-        {% endunless %}
       </div>
     </div>
-  </section>
-  {% include footer.html %}
-</body>
-<script>
-  /**
-   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function () { /* DON'T EDIT BELOW THIS LINE */
-    var d = document,
-      s = d.createElement('script');
-    s.src = 'https://{{site.disqus-shortname}}.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
+  </header>
 
-</html>
+  {% if enable_toc %}
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">{{ page.title }}</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">{{- site.data.locales[lang].panel.toc -}}</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">{{- page.title -}}</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    {% if page.categories.size > 0 %}
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        {% for category in page.categories %}
+          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+          {%- unless forloop.last -%},{%- endunless -%}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- tags -->
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        {% for tag in page.tags %}
+          <a
+            href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+            class="post-tag no-text-decoration"
+          >
+            {{- tag -}}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        {% if site.data.locales[lang].copyright.license.template %}
+          {% capture _replacement %}
+        <a href="{{ site.data.locales[lang].copyright.license.link }}">
+          {{ site.data.locales[lang].copyright.license.name }}
+        </a>
+        {% endcapture %}
+
+          {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
+        {% endif %}
+      </div>
+
+      {% include post-sharing.html lang=lang %}
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
