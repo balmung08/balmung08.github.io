@@ -1,6 +1,15 @@
-- title: Twitter
-  url: https://twitter.com/ngzhio
-  icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/balmung08
   icon: fab fa-github
+- title: Google Scholar
+  url: https://scholar.google.com/citations?user=k0GGYasAAAAJ&hl=ja
+  icon: fas fa-graduation-cap
+- title: ORCID
+  url: https://orcid.org/0009-0009-7999-8638
+  icon: fas fa-id-badge
+# - title: Bilibili
+#   url: https://space.bilibili.com/184704138  # 替换为你的B站UID
+#   icon: fab fa-bilibili  # 注意：Font Awesome 默认没有 Bilibili 图标，见说明
+# - title: Steam
+#   url: https://steamcommunity.com/id/你的用户名  # 或 /profiles/你的SteamID
+#   icon: fab fa-steam
