@@ -9,7 +9,7 @@ permalink: /project/
 
 
 <div style="overflow: hidden;">
-  <img src="pic/1.png" alt="图片名称"
+  <img src="/pic/1.png" alt="图片名称"
        style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px;">
   <p>
     这里是很多文字。它会先在图片左侧显示，并随着段落增长，自动排满图片旁边的空白区域。
