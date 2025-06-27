@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs
+title: Tips for Applying Template
 permalink: /docs/
 ---
 
