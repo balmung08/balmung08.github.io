@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research & Collaborations
-permalink: /about/
+permalink: /project/
 ---
 
 Another minimal style of Jekyll theme for writers.
