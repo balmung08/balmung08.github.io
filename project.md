@@ -12,27 +12,17 @@ permalink: /project/
   <img src="/pic/1.png" alt="图片名称"
        style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px;">
   <p>
-
+    With the rapid development of smart port infrastructure, leading ports like Rotterdam and Ningbo are advancing toward greater automation. However, traditional manual operations at roll-on/roll-off (Ro-Ro) terminals are increasingly unable to meet the demands for efficient, cost-effective, and standardized processes—pressured by rising cargo volumes, labor shortages, and operational complexity.<br>
+    In response, this project developed an autonomous robotic transfer system specifically designed for handling heavy-duty commercial vehicles in Ro-Ro terminals. The system was deployed at Yantai Port in Shandong Province, where it demonstrated strong performance in real-world operations. Key outcomes include centimeter-level precision in vehicle handling and a transfer efficiency reaching 91% of manual operations, while operating continuously at two to three times the typical manual working time.<br>
+    These results highlight the system’s potential to significantly improve the automation level, safety, and efficiency of Ro-Ro terminal operations.
   </p>
 </div>
 
 
 <div style="overflow: hidden;">
-
-  <video style="float: right; width: 50%;margin-left: 20px; margin-bottom: 10px;" controls>
+  <video style="float: right; width: 100%;margin-left: 20px; margin-bottom: 10px;" controls>
     <source src="/pic/1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
   </video>
-
-  <p style="text-align: justify; line-height: 1.6;">
-    这里是很多文字。它会先在视频左侧显示，并随着段落增长，自动排满视频旁边的空白区域。
-    当文字足够多、超过了视频的高度后，就会在视频下方继续展示一整行，不再两列并排。
-    <br><br>
-    你可以继续写很多内容，它都会自动避开右边的视频，并在下方延续整行展示，直到段落结束。
-    <br><br>
-    这个排版方式特别适合做“图文讲解”或者“左文右视频”的展示，简洁直观，结构清晰。
-  </p>
-
 </div>
 
 ### Intelligent Inspection Robot System for Harsh Environments in Annealing Furnace Areas
