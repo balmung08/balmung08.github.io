@@ -26,11 +26,11 @@ title: Curriculum Vitae
 
 
 ### Co-Author Publications
-* Y. Xu, **R. Bao**, L. Zhang, S. Wang*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture. Science China-Information Sciences.](https://link.springer.com/article/10.1007/s11432-024-4395-7) JCR Q1, IF: 7.6
+* Y. Xu, **R. Bao**, L. Zhang, S. Wang*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture.](https://link.springer.com/article/10.1007/s11432-024-4395-7) Science China-Information Sciences. JCR Q1, IF: 7.6
 * L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.](https://doi.org/10.1016/j.eswa.2025.128347) Expert Systems with Applications. JCR Q1, IF: 7.5
 * G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) IEEE Transactions on Intelligent Transportation Systems. JCR Q1, IF: 8.4
 * L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang*. Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards. IROS2025 (Accepted).
-* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. IROS2025(Accepted).
+* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. IROS2025 (Accepted).
 
 ## MAIN PROJECTS
 
