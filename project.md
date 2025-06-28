@@ -43,7 +43,7 @@ permalink: /project/
 
 <div style="overflow: hidden;">
   <video style="display: block; margin: 0 auto; width: 100%; margin-bottom: 10px;" controls>
-    <source src="/pic/1.mp4" type="video/mp4">
+    <source src="/pic/2.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -51,3 +51,21 @@ permalink: /project/
 -----------------------------
 
 ### Controllable Seismic Source Vehicle Advanced Driver Assistance System Development
+
+
+<div style="overflow: hidden;">
+  <img src="/pic/3.png" alt="图片名称"
+       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px;">
+  <p>
+    In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., we developed an advanced driver assistance system for controllable seismic source vehicles, designed specifically for geological exploration in harsh environments such as mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency.<br>
+    Our system integrates multi-sensor SLAM, real-time terrain perception, and intelligent planning algorithms to enable autonomous navigation in unstructured environments. By analyzing local point clouds, it quantifies terrain risk and identifies traversable paths using an adaptive sampling strategy combined with Bayesian graph search. Optimized trajectories are generated through risk-aware planning and control modules. The system also supports multi-vehicle coordination, excitation point planning, and autonomous operation—ensuring safe, efficient, and standardized deployment in rugged field conditions.<br>
+    To date, 12 full systems have been successfully delivered and deployed, earning high recognition from PetroChina and generating cumulative economic value exceeding tens of millions of RMB.
+  </p>
+</div>
+
+<div style="overflow: hidden;">
+  <video style="display: block; margin: 0 auto; width: 100%; margin-bottom: 10px;" controls>
+    <source src="/pic/3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
