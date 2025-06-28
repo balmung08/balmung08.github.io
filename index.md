@@ -86,7 +86,7 @@ Successfully delivered 12 complete vehicle systems, generating cumulative value 
 * 2024 Provincial Special Prize, China’s Innovation Challenge on Artificial Intelligence Application Scene
 
 ## SKILLS
-* Languages: Chinese (native), English (CET4 - 580, CET6 – 524)<br>
+* Languages: Chinese (native), English (CET4 - 580, CET6 – 524)
 * Programming Languages & Tools: Python, C++, MATLAB, Linux, Git, CMake, Docker
 * Robotics Frameworks & Platforms: ROS, Gazebo, Coppeliasim, MuJoCo, Issac Gym
 * Robotics Core Skills: Robot Perception, Mobile Robot Navigation (SLAM, Motion Planning)
