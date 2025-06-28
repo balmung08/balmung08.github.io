@@ -2,8 +2,8 @@
 layout: post
 toc: true
 title: "This is a test blog"
-categories: junk
-tags: [markdown, css, html]
+# categories: junk
+tags: [note]
 author:
   - Bart Simpson
   - Nelson Mandela Muntz
