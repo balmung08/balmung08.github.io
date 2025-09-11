@@ -20,9 +20,10 @@ title: Curriculum Vitae
 
 ### First-Author Publications
 * **R. Bao**, Y. Xu, J. Xue, H. Yuan, L. Zhang, S. Wang*. [A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment.](https://ieeexplore.ieee.org/document/11023124) IEEE Sensors Journal. JCR Q1, IF: 4.5
+* **R. Bao**, J. Wang, S. Wang*. Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds. Expert Systems With Applications (Accepted). JCR Q1, IF: 7.5
 * **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang*. Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes. IROS2025. (Accepted).
 * **R. Bao**, Y. Xu, C. Hao, T. Niu, S. Wang* et al. STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning. IEEE Transactions on Automation Science and Engineering (Revision 1). 
-* **R. Bao**, Y. Xu* et al. LLM-Guided Embodied Navigation for Industrial Robots: Real-Time Execution of Inspection Tasks from Language Commands. Journal of Industrial Information Integration (Under Review).
+
 
 
 ### Co-Author Publications
