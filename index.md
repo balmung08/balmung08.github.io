@@ -4,6 +4,7 @@ title: Curriculum Vitae
 ---
 
 > [📄 Download My Curriculum Vitae (PDF)](/pic/cv.pdf)
+> Website information updated on 10.25
 
 ## EDUCATION
 
@@ -24,13 +25,14 @@ title: Curriculum Vitae
 * **R. Bao**, Y. Xu, J. Xue, H. Yuan, L. Zhang, S. Wang*. [A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment.](https://ieeexplore.ieee.org/document/11023124) IEEE Sensors Journal. JCR Q1, IF: 4.5
 * **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang*. Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes. IROS2025. (Accepted).
 
-
+* **R. Bao**, L. Zhang, T. Niu, H. Yuan, S. Wang*. [Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots.](https://arxiv.org/abs/2509.06115) Arxiv.
 
 
 ### Co-Author Publications
 * Y. Xu, **R. Bao**, L. Zhang, S. Wang*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture.](https://link.springer.com/article/10.1007/s11432-024-4395-7) Science China-Information Sciences. JCR Q1, IF: 7.6
 * L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.](https://doi.org/10.1016/j.eswa.2025.128347) Expert Systems with Applications. JCR Q1, IF: 7.5
 * G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) IEEE Transactions on Intelligent Transportation Systems. JCR Q1, IF: 8.4
+* C. Wang, L. Ma*, J. Wang, **R. Bao**, H. Yu, S. Wang. [Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions](https://ieeexplore.ieee.org/document/11208682/) IEEE Transactions on Instrumentation and Measurement. JCR Q1, IF: 5.9
 * L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang*. Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards. IROS2025 (Accepted).
 * H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. IROS2025 (Accepted).
 
