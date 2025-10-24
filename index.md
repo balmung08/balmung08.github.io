@@ -4,6 +4,7 @@ title: Curriculum Vitae
 ---
 
 > [📄 Download My Curriculum Vitae (PDF)](/pic/cv.pdf)
+
 > Website information updated on 10.25
 
 ## EDUCATION
