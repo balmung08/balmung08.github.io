@@ -37,7 +37,7 @@ h3:has(+ .cards-container) {
 
 /* 卡片样式 */
 .card {
-    width: 100%;
+    width: 90%;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(8px);
     border-radius: 15px;
