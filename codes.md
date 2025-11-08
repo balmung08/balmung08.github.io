@@ -73,7 +73,7 @@ h3:has(+ .cards-container) {
 </style>
 
 
-### Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes
+### DRL-Based Trajectory Tracking for 4WS Robot
 
 <div class="cards-container">
 
@@ -88,7 +88,7 @@ h3:has(+ .cards-container) {
 </div>
 
 
-### Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds
+### Geodesic-Based Path Planning for Port Robots
 <div class="cards-container">
   <div class="card">
     <h4>Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds</h4>
