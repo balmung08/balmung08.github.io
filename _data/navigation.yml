@@ -1,11 +1,19 @@
+- title: Achievements
+  sublinks:
+    - title: Publications
+      url: /publications/
+    - title: Awards
+      url: /award/
+
 - title: Projects
   url: /project/
-# - title: Side Proj.
-#   url: /toyproject/
-# - title: Blogs
-#   url: /categories/
+
+- title: Codes
+  url: /codes/
+
 - title: Blogs
   url: /tags/
+
 - title: More
   sublinks:
     - title: FAQ

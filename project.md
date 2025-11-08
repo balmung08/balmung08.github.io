@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research & Collaborations
+title: Project Experiences
 toc: true
 permalink: /project/
 ---
@@ -26,6 +26,14 @@ permalink: /project/
   </video>
 </div>
 
+* Main responsibilities
+1. Designed a hierarchical vehicle pose estimation method combining Voxel-RCNN and an improved BBox fitting algorithm to address feature loss and frequent pointcloud shape changes during vehicle pickup operations.
+2. Enabled dynamic and real-time port road network updates for pickup/drop-off operations and path planning, leveraging cloud scheduling system data, onboard multi-sensor perception, and vehicle status information.
+
+* Main achievements
+
+Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students’ Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).
+
 ----------------------------
 
 
@@ -48,6 +56,14 @@ permalink: /project/
   </video>
 </div>
 
+* Main responsibilities
+1. Assisted in RGB-T dataset collection for annealing furnace areas and built an anomaly detection algorithm.
+2. Developed a hierarchical multimodal tracker leveraging DRL , capable of autonomously selecting the optimal steering configuration and effectively performing precise multimodal tracking in complex environments.
+
+* Main achievements
+
+Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).
+
 -----------------------------
 
 ### Controllable Seismic Source Vehicle Advanced Driver Assistance System Development
@@ -69,3 +85,11 @@ permalink: /project/
     Your browser does not support the video tag.
   </video>
 </div>
+
+* Main responsibilities
+1. Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm to identify flat roads and ensure safe and efficient path planning.
+2. Achieved efficient trajectory optimization and adaptive speed control in challenging and dynamic terrains using a terrain risk-aware RRT* algorithm combined with a dynamic terrain flatness corridor and CiLQR methods.
+
+* Main achievements
+
+Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers in robotics.
