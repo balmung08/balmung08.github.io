@@ -27,6 +27,7 @@ permalink: /project/
 </div>
 
 * Main responsibilities
+
 1. Designed a hierarchical vehicle pose estimation method combining Voxel-RCNN and an improved BBox fitting algorithm to address feature loss and frequent pointcloud shape changes during vehicle pickup operations.
 2. Enabled dynamic and real-time port road network updates for pickup/drop-off operations and path planning, leveraging cloud scheduling system data, onboard multi-sensor perception, and vehicle status information.
 
@@ -57,6 +58,7 @@ Completed feasibility validation and conducted on-site field tests. Acceptance t
 </div>
 
 * Main responsibilities
+
 1. Assisted in RGB-T dataset collection for annealing furnace areas and built an anomaly detection algorithm.
 2. Developed a hierarchical multimodal tracker leveraging DRL , capable of autonomously selecting the optimal steering configuration and effectively performing precise multimodal tracking in complex environments.
 
@@ -87,6 +89,7 @@ Successfully deployed the system to replace manual inspection in narrow and hars
 </div>
 
 * Main responsibilities
+
 1. Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm to identify flat roads and ensure safe and efficient path planning.
 2. Achieved efficient trajectory optimization and adaptive speed control in challenging and dynamic terrains using a terrain risk-aware RRT* algorithm combined with a dynamic terrain flatness corridor and CiLQR methods.
 

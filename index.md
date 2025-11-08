@@ -1,12 +1,13 @@
 ---
 layout: home
-title: 
+title: About Me
 ---
+> Website information updated on 10.25
 
-## 👋 Hey there! 
+
+### 👋 Hey there! 
+
 I'm currently a Master's student at **Beijing Institute of Technology (BIT)**, hacking away at **mobile robots that actually work in the real world**.
-
-
 
 ### 🔬 Research Overview
 
@@ -35,7 +36,9 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 
 > *“All those moments will be lost in time, like tears in rain.”*
-> — *Blade Runner (1982)*
+> — *Blade Runner*
+
+> [📄 **Download My Current Curriculum Vitae (PDF)**](/pic/cv.pdf)
 
 
 

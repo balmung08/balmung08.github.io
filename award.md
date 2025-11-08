@@ -1,3 +1,10 @@
+---
+layout: page
+title: Awards
+toc: true
+permalink: /award/
+---
+
 ### Innovation and Technology Competitions
 * 2024 National Gold Award, China International College Students’ Innovation Competition
 * 2024 National Second Award, China Postgraduate “Dual-Carbon” Innovation Competition
