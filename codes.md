@@ -62,7 +62,8 @@ permalink: /codes/
 
 <div class="cards-container">
 
-### Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes{: .toc-anchor}
+### Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes
+{: .toc-anchor}
   <div class="card">
     <h4>Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes</h4>
     <p><strong>Paper:</strong> <a href="xxxxx" target="_blank">The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems & Automation (IROS 2025)</a></p>
@@ -71,7 +72,8 @@ permalink: /codes/
     <p><strong>Abstract:</strong> —The application scenarios of automated robots are undergoing a paradigm shift from structured environments to unstructured, complex settings. In highly constrained settings like factory inspections or disaster rescue, conventional steering systems show clear drawbacks. While the four-wheel independent drive and independent steering (4WS) robot provides a variety of steering modes, which can effectively meet the needs of complex environments. However, how a 4WS robot autonomously selects different steering modes based on trajectory point information during trajectory tracking remains a challenging problem. This paper proposes a multi-modal trajectory tracking method considering the switch of steering modes, which decomposes the trajectory tracking task into two parts: mode decision-making and tracking control. The corresponding method is designed based on deep reinforcement learning Additionally, a target trajectory random generator and corresponding training interaction environment are designed to train the model in a data-driven manner. In the designed scenario, our tracker achieve more than a 30% improvement in average tracking error across all motion modes compared with model predictive control, and the decider’s average decision position error is less than 2 cm. Extensive experiments demonstrate that our method achieves superior tracking performance and real-time capabilities compared to current methods.</p>
   </div>
 
-### Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds{: .toc-anchor}
+### Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds
+{: .toc-anchor}
   <div class="card">
     <h4>Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds</h4>
     <p><strong>Paper:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0957417425033214" target="_blank">Expert Systems With Applications (ESWA 2025)</a></p>
