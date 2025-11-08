@@ -2,8 +2,7 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 10.25
-
+> Website information updated on 11.09
 
 ### 👋 Hey there! 
 

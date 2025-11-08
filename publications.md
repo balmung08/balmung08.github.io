@@ -7,20 +7,20 @@ permalink: /publications/
 
 ### Journal Papers
 
-* **R. Bao**, J. Wang, S. Wang*. [Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds.](https://www.sciencedirect.com/science/article/pii/S0957417425033214) *Expert Systems With Applications*, vol. 298, 2026. (JCR Q1, IF: 7.5)
-* **R. Bao**, Y. Xu, C. Wang, T. Niu, J. Wang, S. Wang* et al. [STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning.](https://ieeexplore.ieee.org/document/11180012) *IEEE Transactions on Automation Science and Engineering*, vol. 22, pp. 21897-21912, 2025. (JCR Q1, IF: 6.4)
-* **R. Bao**, Y. Xu, J. Xue, H. Yuan, L. Zhang, S. Wang*. [A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment.](https://ieeexplore.ieee.org/document/11023124) *IEEE Sensors Journal*, vol. 25, no. 14, pp. 27001-27012, July15, 2025. (JCR Q1, IF: 4.5)
-* Y. Xu, **R. Bao**, L. Zhang, S. Wang*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture.](https://link.springer.com/article/10.1007/s11432-024-4395-7) *SCIENCE CHINA Information Sciences*, vol. 68, no. 5, pp. 150210, Apr.25,2025. (JCR Q1, IF: 7.6)
-* G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 10, pp. 14764-14779, Oct. 2025. (JCR Q1, IF: 8.4)
-* L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.](https://doi.org/10.1016/j.eswa.2025.128347) *Expert Systems With Applications*, vol. 289, 2025. (JCR Q1, IF: 7.5)
-* C. Wang, L. Ma*, J. Wang, **R. Bao**, H. Yu, S. Wang. [Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions.](https://ieeexplore.ieee.org/document/11208682/) *IEEE Transactions on Instrumentation and Measurement*, vol. 74, pp. 1-11, 2025, Art no. 3563611. JCR Q1, IF: 5.9
+* **R. Bao**, J. Wang, S. Wang\*. [Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds.](https://www.sciencedirect.com/science/article/pii/S0957417425033214) *Expert Systems With Applications*, vol. 298, 2026. (JCR Q1, IF: 7.5)
+* **R. Bao**, Y. Xu, C. Wang, T. Niu, J. Wang, S. Wang\* et al. [STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning.](https://ieeexplore.ieee.org/document/11180012) *IEEE Transactions on Automation Science and Engineering*, vol. 22, pp. 21897-21912, 2025. (JCR Q1, IF: 6.4)
+* **R. Bao**, Y. Xu, J. Xue, H. Yuan, L. Zhang, S. Wang\*. [A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment.](https://ieeexplore.ieee.org/document/11023124) *IEEE Sensors Journal*, vol. 25, no. 14, pp. 27001-27012, July15, 2025. (JCR Q1, IF: 4.5)
+* Y. Xu, **R. Bao**, L. Zhang, S. Wang\*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture.](https://link.springer.com/article/10.1007/s11432-024-4395-7) *SCIENCE CHINA Information Sciences*, vol. 68, no. 5, pp. 150210, Apr.25,2025. (JCR Q1, IF: 7.6)
+* G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai\*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 10, pp. 14764-14779, Oct. 2025. (JCR Q1, IF: 8.4)
+* L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang\*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.](https://doi.org/10.1016/j.eswa.2025.128347) *Expert Systems With Applications*, vol. 289, 2025. (JCR Q1, IF: 7.5)
+* C. Wang, L. Ma\*, J. Wang, **R. Bao**, H. Yu, S. Wang. [Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions.](https://ieeexplore.ieee.org/document/11208682/) *IEEE Transactions on Instrumentation and Measurement*, vol. 74, pp. 1-11, 2025, Art no. 3563611. JCR Q1, IF: 5.9
 
 
 ### Conference Papers
-* **R. Bao**, L. Zhang, T. Niu, H. Yuan, S. Wang*. [Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots.](https://arxiv.org/abs/2509.06115) *Arxiv*.
-* **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang*. Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes. *IROS2025*. (Accepted).
-* L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang*. Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards. *IROS2025* (Accepted).
-* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. *IROS2025* (Accepted).
+* **R. Bao**, L. Zhang, T. Niu, H. Yuan, S. Wang\*. [Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots.](https://arxiv.org/abs/2509.06115) *Arxiv*.
+* **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang\*. Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes. *IROS2025*. (Accepted).
+* L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang\*. Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards. *IROS2025* (Accepted).
+* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang\*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. *IROS2025* (Accepted).
 
 
 ### Patent
