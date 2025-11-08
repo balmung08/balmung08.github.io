@@ -4,46 +4,52 @@ title: Avaliable Codes
 toc: True
 permalink: /codes/
 ---
+
 <style>
+/* 强制隐藏用于TOC的Markdown标题 */
+h3:not(.card h3) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* 或者更精确：只隐藏cards-container前面的h3 */
+.cards-container-wrapper > h3:first-child {
+    display: none !important;
+}
+
 /* 卡片容器 */
 .cards-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 30px;
-}
-
-/* 隐藏用于目录的Markdown标题 */
-.toc-anchor {
-    position: absolute;
-    visibility: hidden;
-    height: 0;
-    margin: 0;
-    padding: 0;
+    margin-top: 0; /* 改为0避免多余空白 */
 }
 
 /* 卡片样式 */
 .card {
-    width: 100%; /* 全宽 */
-    background: rgba(255, 255, 255, 0.15); /* 半透明白色 */
-    backdrop-filter: blur(8px); /* 背景模糊，增强透明感 */
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* 轻微立体感 */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    color: #1a1a1a; /* 文字颜色 */
+    color: #1a1a1a;
 }
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
-/* 标题 */
 .card h3 {
     margin-top: 0;
     font-size: 1.4em;
     font-weight: 700;
+    display: block !important; /* 确保卡片内的h3显示 */
 }
-/* 链接 */
 .card a {
     color: #1a1a1a;
     text-decoration: underline;
@@ -52,7 +58,6 @@ permalink: /codes/
 .card a:hover {
     color: #222222;
 }
-/* 摘要 */
 .card p {
     font-size: 0.95em;
     line-height: 1.5em;
@@ -60,7 +65,8 @@ permalink: /codes/
 }
 </style>
 
-### Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes{: .toc-anchor}
+
+### Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes
 
 <div class="cards-container">
 
@@ -75,7 +81,7 @@ permalink: /codes/
 </div>
 
 
-### Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds{: .toc-anchor}
+### Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds
 <div class="cards-container">
   <div class="card">
     <h4>Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds</h4>
