@@ -6,27 +6,23 @@ permalink: /codes/
 ---
 
 <style>
-/* 强制隐藏用于TOC的Markdown标题 */
-h3:not(.card h3) {
-    display: none !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 0 !important;
-    overflow: hidden !important;
-}
-
-/* 或者更精确：只隐藏cards-container前面的h3 */
-.cards-container-wrapper > h3:first-child {
-    display: none !important;
-}
-
 /* 卡片容器 */
 .cards-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 0; /* 改为0避免多余空白 */
+    margin-top: 0;
+}
+
+/* 隐藏Markdown标题的文字，但保留锚点 */
+h3:not(.card h3) {
+    font-size: 0 !important;
+    line-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    /* 保留元素在DOM中，只是看不见 */
 }
 
 /* 卡片样式 */
@@ -46,9 +42,10 @@ h3:not(.card h3) {
 }
 .card h3 {
     margin-top: 0;
-    font-size: 1.4em;
+    font-size: 1.4em !important;
     font-weight: 700;
-    display: block !important; /* 确保卡片内的h3显示 */
+    line-height: 1.3em !important;
+    height: auto !important;
 }
 .card a {
     color: #1a1a1a;
