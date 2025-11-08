@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: FAQ
 permalink: /faq/
 ---
 
-An FAQ page.
+An FAQ page. Feel free to ask me anything here.
