@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Avaliable Codes
-toc: True
+toc: true
 permalink: /codes/
 ---
 
@@ -14,15 +14,25 @@ permalink: /codes/
     margin-top: 0;
 }
 
-/* 隐藏Markdown标题的文字，但保留锚点 */
-h3:not(.card h3) {
+/* 只隐藏紧邻cards-container前面的h3标题 */
+h3 + .cards-container {
+    margin-top: 0;
+}
+
+h3:has(+ .cards-container) {
     font-size: 0 !important;
     line-height: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
     height: 0 !important;
     overflow: hidden !important;
-    /* 保留元素在DOM中，只是看不见 */
+}
+
+/* 如果上面的:has不支持，用这个备选方案 */
+.cards-container::before {
+    content: '';
+    display: block;
+    margin-top: 0;
 }
 
 /* 卡片样式 */
