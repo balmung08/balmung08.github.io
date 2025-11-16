@@ -43,7 +43,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 ### News
 * **2025.10.29** – I was honored to receive the highly competitive National Graduate Student Scholarship of China.
-* **2025.10.21** – I attended *IROS 2025* and delivered an oral presentation on our work
+* **2025.10.21** – I attended *IROS 2025* and delivered an oral presentation on our work.
 * **2025.09.23** – Our paper *[Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions](https://ieeexplore.ieee.org/document/11208682/)* was accepted by *IEEE Transactions on Instrumentation and Measurement*.
 * **2025.09.23** – My lead-author paper *[STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning](https://ieeexplore.ieee.org/document/11180012)* was accepted by *IEEE Transactions on Automation Science and Engineering*.
 * **2025.09.09** – I was invited to review a manuscript for *Engineering Research Express*, marking my first involvement in academic peer review.
