@@ -2,7 +2,7 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 11.09
+> Website information updated on 11.16
 
 ### 👋 Hey there! 
 
@@ -39,8 +39,21 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 > [📄 **Download My Current Curriculum Vitae (PDF)**](/pic/cv.pdf)
 
+--------------------
 
+### News
 
+* **2025.10.21** – I attended **IROS 2025** and delivered an oral presentation on our recent work
+* **2025.09.23** – Our paper *[Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions](https://ieeexplore.ieee.org/document/11208682/)* was accepted by *IEEE Transactions on Instrumentation and Measurement*.
+* **2025.09.23** – My lead-author paper *[STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning](https://ieeexplore.ieee.org/document/11180012)* was accepted by *IEEE Transactions on Automation Science and Engineering*.
+* **2025.09.09** – I was invited to review a manuscript for *Engineering Research Express*, marking my first involvement in academic peer review.
 
-
+* **2025.09.09** – My lead-author paper *[Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds](https://www.sciencedirect.com/science/article/pii/S0957417425033214)* was accepted by *Expert Systems With Applications*.
+* **2025.09.07** – My lead-author preliminary work *[Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots](https://arxiv.org/abs/2509.06115)* was uploaded to *arXiv*.
+* **2025.07.14** – Our paper *[An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments](https://doi.org/10.1016/j.conengprac.2025.106498)* was accepted by *Control Engineering Practice*.
+* **2025.06.16** – Our three papers *“Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes”*, *“Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards”*, and *“HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area”* were accepted by *IROS 2025*.
+* **2025.05.25** – Our paper *[A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM](https://ieeexplore.ieee.org/document/11048698)* was accepted by *IEEE Transactions on Intelligent Transportation Systems*.
+* **2025.05.24** – Our paper *[Autonomous Transfer Robot System for Commercial Vehicles at Ro-Ro Terminals](https://doi.org/10.1016/j.eswa.2025.128347)* was accepted by *Expert Systems With Applications*.
+* **2025.05.23** – My first lead-author paper *[A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment](https://ieeexplore.ieee.org/document/11023124)* was accepted by *IEEE Sensors Journal*.
+* **2025.03.11** – Our paper *[Embodied Intelligence in RO/RO Logistic Terminal: Autonomous Intelligent Transportation Robot Architecture](https://link.springer.com/article/10.1007/s11432-024-4395-7)* was accepted by *Science China Information Sciences*.
 

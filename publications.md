@@ -14,6 +14,7 @@ permalink: /publications/
 * G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai\*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 10, pp. 14764-14779, Oct. 2025. (JCR Q1, IF: 8.4)
 * L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang\*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.](https://doi.org/10.1016/j.eswa.2025.128347) *Expert Systems With Applications*, vol. 289, 2025. (JCR Q1, IF: 7.5)
 * C. Wang, L. Ma\*, J. Wang, **R. Bao**, H. Yu, S. Wang. [Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions.](https://ieeexplore.ieee.org/document/11208682/) *IEEE Transactions on Instrumentation and Measurement*, vol. 74, pp. 1-11, 2025, Art no. 3563611. JCR Q1, IF: 5.9
+* L. Zhang, Y. An, T. Niu, **R. Bao**, S. Wang\*, J. Wang. [An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments.](https://doi.org/10.1016/j.conengprac.2025.106498) *Control Engineering Practice*, vol. 164, 2025. (JCR Q1, IF: 4.6)
 
 
 ### Conference Papers
