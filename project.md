@@ -9,8 +9,8 @@ permalink: /project/
 
 
 <div style="overflow: hidden;">
-  <img src="/pic/1.png" alt="图片名称"
-       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px;">
+  <img src="/pic/1.png" alt="图片名称" data-video="/pic/1.mp4"
+       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px; cursor: pointer;">
   <p>
     With the rapid development of smart port infrastructure, leading ports like Rotterdam and Ningbo have made major strides in automation. However, traditional manual operations at roll-on/roll-off (Ro-Ro) terminals struggle to meet the rising demands for efficiency, cost-effectiveness, and standardization—driven by growing throughput, labor shortages, and increasing operational complexity.<br>
     To address this challenge, we developed and deployed an autonomous robotic transfer system tailored for heavy-duty commercial vehicle handling. The system integrates centimeter-level precise localization and control for vehicle pick-up and drop-off, adaptive multi-mode motion planning and obstacle avoidance based on four-wheel steering (4WS), as well as multi-robot scheduling coordinated with port terminal systems.<br>
@@ -19,13 +19,6 @@ permalink: /project/
 </div>
 
 
-<div style="overflow: hidden;">
-  <video style="display: block; margin: 0 auto; width: 100%; margin-bottom: 10px;" controls>
-    <source src="/pic/1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
 * Main responsibilities
 
 1. Designed a hierarchical vehicle pose estimation method combining Voxel-RCNN and an improved BBox fitting algorithm to address feature loss and frequent pointcloud shape changes during vehicle pickup operations.
@@ -33,7 +26,7 @@ permalink: /project/
 
 * Main achievements
 
-Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students’ Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).
+Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).
 
 ----------------------------
 
@@ -41,8 +34,8 @@ Completed feasibility validation and conducted on-site field tests. Acceptance t
 ### Intelligent Inspection Robot System for Harsh Environments in Annealing Furnace Areas
 
 <div style="overflow: hidden;">
-  <img src="/pic/2.png" alt="图片名称"
-       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px;">
+  <img src="/pic/2.png" alt="图片名称" data-video="/pic/2.mp4"
+       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px; cursor: pointer;">
   <p>
     Industrial inspection in high-temperature environments such as quenching furnace zones poses significant challenges due to extreme heat, low visibility, and confined operating space. Traditional manual inspections are often inefficient and unsafe, especially under continuous production demands. With the growing push toward intelligent, unmanned factories, there is an urgent need for autonomous systems capable of reliable operation in such harsh industrial settings.<br>
     To address this need, we developed and deployed an autonomous inspection robot specifically designed for quenching furnace environments. The system integrates multi-sensor perception, indoor positioning, and onboard computing to achieve safe, robust, and continuous monitoring. It features RGB-T-based fault detection, enabling effective identification of anomalies under variable lighting and thermal conditions. In addition, a path planning module optimized for narrow and obstacle-dense spaces ensures safe navigation in cluttered industrial layouts. The robot's four-wheel steering (4WS) system supports multiple motion modes, enabling precise trajectory tracking even in constrained environments.<br>
@@ -50,12 +43,7 @@ Completed feasibility validation and conducted on-site field tests. Acceptance t
   </p>
 </div>
 
-<div style="overflow: hidden;">
-  <video style="display: block; margin: 0 auto; width: 100%; margin-bottom: 10px;" controls>
-    <source src="/pic/2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+
 
 * Main responsibilities
 
@@ -72,8 +60,8 @@ Successfully deployed the system to replace manual inspection in narrow and hars
 
 
 <div style="overflow: hidden;">
-  <img src="/pic/3.png" alt="图片名称"
-       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px;">
+  <img src="/pic/3.png" alt="图片名称" data-video="/pic/3.mp4"
+       style="float: right; width: 50%; margin-left: 20px; margin-bottom: 10px; cursor: pointer;">
   <p>
     In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., we developed an advanced driver assistance system for controllable seismic source vehicles, designed specifically for geological exploration in harsh environments such as mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency.<br>
     Our system integrates multi-sensor SLAM, real-time terrain perception, and intelligent planning algorithms to enable autonomous navigation in unstructured environments. By analyzing local point clouds, it quantifies terrain risk and identifies traversable paths using an adaptive sampling strategy combined with Bayesian graph search. Optimized trajectories are generated through risk-aware planning and control modules. The system also supports multi-vehicle coordination, excitation point planning, and autonomous operation—ensuring safe, efficient, and standardized deployment in rugged field conditions.<br>
@@ -81,12 +69,6 @@ Successfully deployed the system to replace manual inspection in narrow and hars
   </p>
 </div>
 
-<div style="overflow: hidden;">
-  <video style="display: block; margin: 0 auto; width: 100%; margin-bottom: 10px;" controls>
-    <source src="/pic/3.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
 * Main responsibilities
 
