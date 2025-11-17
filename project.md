@@ -6,6 +6,8 @@ permalink: /project/
 ---
 
 
+> **👉 Click the images to play the corresponding videos.**
+
 <!-- 视频弹窗容器 -->
 <div id="video-modal" style="
   display:none; 
