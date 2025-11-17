@@ -4,27 +4,42 @@ title: Project Experiences
 toc: true
 permalink: /project/
 ---
-<!-- 视频弹窗 -->
-<div id="m" onclick="this.style.display='none';this.querySelector('video').pause()">
-    <video controls onclick="event.stopPropagation()"></video>
+
+
+<!-- 视频弹窗容器 -->
+<div id="video-modal" style="
+  display:none; 
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  background: rgba(0,0,0,0.7); z-index:9999;
+  justify-content: center; align-items: center;
+">
+  <video id="video-player" controls style="max-width:90%; max-height:90%; background:#000;"></video>
 </div>
-<style>
-    img[data-video] { cursor: pointer; }
-    #m { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 9999; }
-    #m video { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90%; max-height: 90%; }
-</style>
+
 <script>
-    document.querySelectorAll('img[data-video]').forEach(img => {
-        img.onclick = () => {
-            const v = document.querySelector('#m video');
-            v.src = img.dataset.video;
-            document.getElementById('m').style.display = 'block';
-            v.play();
-        };
+// 点击图片 -> 播放视频
+document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll("img[data-video]");
+  const modal = document.getElementById("video-modal");
+  const player = document.getElementById("video-player");
+
+  images.forEach(img => {
+    img.addEventListener("click", () => {
+      const videoSrc = img.getAttribute("data-video");
+      player.src = videoSrc;
+      modal.style.display = "flex";
+      player.play();
     });
+  });
+
+  // 点击背景关闭视频
+  modal.addEventListener("click", () => {
+    player.pause();
+    player.src = "";
+    modal.style.display = "none";
+  });
+});
 </script>
-
-
 
 
 ### Multi-robot system for autonomous vehicle transfer at roll-on/roll-off terminals
