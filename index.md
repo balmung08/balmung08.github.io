@@ -2,7 +2,7 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 11.16
+> Website information updated on 11.19
 
 ### 👋 Hey there! 
 
@@ -42,6 +42,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 --------------------
 
 ### News
+* **2025.11.19** – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).
 * **2025.10.29** – I was honored to receive the highly competitive National Graduate Student Scholarship of China.
 * **2025.10.21** – I attended *IROS 2025* and delivered an oral presentation on our work.
 * **2025.09.23** – Our paper *[Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions](https://ieeexplore.ieee.org/document/11208682/)* was accepted by *IEEE Transactions on Instrumentation and Measurement*.
