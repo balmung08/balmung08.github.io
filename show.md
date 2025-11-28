@@ -3,12 +3,7 @@ layout: page
 title: Documents
 permalink: /show/
 ---
-
 <link rel="stylesheet" href="../assets/css/pdf-viewer.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.css">
-
-<!-- 引入 PDF.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
 <div class="pdf-wrapper">
     <div class="category-tabs">
@@ -37,23 +32,10 @@ permalink: /show/
     </div>
 
     <div class="pdf-container">
-        <div class="pdf-controls">
-            <button id="prev-page">◀ 上一页</button>
-            <span class="pdf-page-info">
-                第 <span id="page-num">1</span> 页 / 共 <span id="page-count">-</span> 页
-            </span>
-            <button id="next-page">下一页 ▶</button>
-            <button id="zoom-out">缩小 -</button>
-            <button id="zoom-in">放大 +</button>
+        <div class="pdf-click-shield" onclick="activatePDF()">
+            <div class="pdf-hint">👆 点击此处查看 PDF</div>
         </div>
-        
-        <div class="pdf-canvas-container">
-            <div id="pdf-loading" class="pdf-loading">正在加载 PDF...</div>
-            <div class="pdf-page-wrapper">
-                <canvas id="pdf-canvas"></canvas>
-                <div id="text-layer"></div>
-            </div>
-        </div>
+        <iframe id="pdf-viewer" src="/assets/pdfs/paper1.pdf"></iframe>
     </div>
 </div>
 
