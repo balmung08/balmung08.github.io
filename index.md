@@ -56,4 +56,9 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 * **2025.05.24** – Our paper *[Autonomous Transfer Robot System for Commercial Vehicles at Ro-Ro Terminals](https://doi.org/10.1016/j.eswa.2025.128347)* was accepted by *Expert Systems With Applications*.
 * **2025.05.23** – My first lead-author paper *[A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment](https://ieeexplore.ieee.org/document/11023124)* was accepted by *IEEE Sensors Journal*.
 * **2025.03.11** – Our paper *[Embodied Intelligence in RO/RO Logistic Terminal: Autonomous Intelligent Transportation Robot Architecture](https://link.springer.com/article/10.1007/s11432-024-4395-7)* was accepted by *Science China Information Sciences*.
+* **2024.11.24** - As team leader, I led my team to win the National Second Award in the China Postgraduate “Dual-Carbon” Innovation Competition
+* **2024.10.25** - As team leader, I led my team to win the National Third Award in the China Postgraduate Robot Innovation and Design Competition.
+* **2024.10.14** – As one of the key members, we won the National Gold Award in the China International College Students’ Innovation Competition. Congratulations!
+* **2023.09.01** – I have officially become a master's student at Beijing Institute of Technology.
+
 
