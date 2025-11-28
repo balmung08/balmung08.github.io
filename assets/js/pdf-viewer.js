@@ -15,7 +15,7 @@ function renderPage(num) {
     pageRendering = true;
     
     pdfDoc.getPage(num).then(function(page) {
-        const viewport = page.getViewpoint({ scale: scale });
+        const viewport = page.getViewport({ scale: scale });  // 这里改正了
         canvas.height = viewport.height;
         canvas.width = viewport.width;
 
