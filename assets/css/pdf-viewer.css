@@ -76,44 +76,8 @@
     pointer-events: none;  /* 默认不捕获鼠标事件 */
 }
 
-.pdf-wrapper iframe.active {
-    pointer-events: auto;  /* 激活后才能交互 */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.pdf-container {
-    position: relative;
-}
-
-.pdf-click-shield {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.02);
-    transition: background 0.3s;
-}
-
-.pdf-click-shield:hover {
-    background: rgba(0, 0, 0, 0.05);
-}
-
-.pdf-click-shield.hidden {
-    display: none;
-}
-
-.pdf-hint {
-    background: white;
-    padding: 12px 24px;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    font-size: 14px;
-    color: #555;
+.pdf-wrapper iframe:hover {
+    pointer-events: auto;  /* 鼠标悬停时才能交互 */
 }
 
 .doc-group {
