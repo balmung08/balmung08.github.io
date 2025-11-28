@@ -16,6 +16,9 @@
 - title: Blogs
   url: /tags/
 
+- title: Documents
+  url: /show/
+
 - title: More
   sublinks:
     - title: FAQ
