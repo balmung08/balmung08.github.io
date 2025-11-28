@@ -35,7 +35,7 @@ permalink: /show/
         <div class="pdf-click-shield" onclick="activatePDF()">
             <div class="pdf-hint">👆 点击此处查看 PDF</div>
         </div>
-        <iframe id="pdf-viewer" src="/assets/pdfs/paper1.pdf"></iframe>
+        <iframe id="pdf-viewer" src="1.pdf"></iframe>
     </div>
 </div>
 
