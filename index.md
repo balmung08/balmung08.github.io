@@ -2,7 +2,7 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 11.19
+> Website information updated on 2025.11.29
 
 ### 👋 Hey there! 
 
@@ -51,7 +51,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 * **2025.09.09** – My lead-author paper *[Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds](https://www.sciencedirect.com/science/article/pii/S0957417425033214)* was accepted by *Expert Systems With Applications*.
 * **2025.09.07** – My lead-author preliminary work *[Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots](https://arxiv.org/abs/2509.06115)* was uploaded to *arXiv*.
 * **2025.07.14** – Our paper *[An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments](https://doi.org/10.1016/j.conengprac.2025.106498)* was accepted by *Control Engineering Practice*.
-* **2025.06.16** – Our three papers *“Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes”*, *“Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards”*, and *“HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area”* were accepted by *IROS 2025*.
+* **2025.06.16** – Our three papers *[Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes](https://ieeexplore.ieee.org/document/11247526)*, *[Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards](https://ieeexplore.ieee.org/document/11245857)* and *[HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area](https://ieeexplore.ieee.org/document/11247613)* were accepted by *IROS 2025*.
 * **2025.05.25** – Our paper *[A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM](https://ieeexplore.ieee.org/document/11048698)* was accepted by *IEEE Transactions on Intelligent Transportation Systems*.
 * **2025.05.24** – Our paper *[Autonomous Transfer Robot System for Commercial Vehicles at Ro-Ro Terminals](https://doi.org/10.1016/j.eswa.2025.128347)* was accepted by *Expert Systems With Applications*.
 * **2025.05.23** – My first lead-author paper *[A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment](https://ieeexplore.ieee.org/document/11023124)* was accepted by *IEEE Sensors Journal*.

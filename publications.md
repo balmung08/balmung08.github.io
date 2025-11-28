@@ -19,13 +19,14 @@ permalink: /publications/
 
 ### Conference Papers
 * **R. Bao**, L. Zhang, T. Niu, H. Yuan, S. Wang\*. [Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots.](https://arxiv.org/abs/2509.06115) *Arxiv*.
-* **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang\*. Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes. *IROS2025*. (Accepted).
-* L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang\*. Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards. *IROS2025* (Accepted).
-* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang\*. HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area. *IROS2025* (Accepted).
+* **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang\*. [Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes.](https://ieeexplore.ieee.org/document/11247526) *IROS2025*. (Accepted).
+* L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang\*. [Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards.](https://ieeexplore.ieee.org/document/11245857) *IROS2025* (Accepted).
+* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang\*. [HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area.](https://ieeexplore.ieee.org/document/11247613) *IROS2025* (Accepted).
 
 
 ### Patent
 
+* D. Huang, **R. Bao** et al. A Parking Control Method for Transfer AGVs Based on Vehicle Tire Contour Memory Inference, *National Invention patent*, China, PN: CN120972784A.
 * S. Wang, H. Yuan, Y. Xu, L. Zhang, **R. Bao** et al. A special inspection robot and inspection method for continuous annealing furnace operating environment, *National Invention patent*, China, PN: CN118456461A.
 * B. Duan, C. Li, S. He, **R. Bao** et al. A monitoring system for driver's emotional state and driving posture, *National Invention patent*, China, PN: CN114869284A.
 <!-- * S. Yang, S. Wang, R. Shao, Y. Sun, Z. Zheng, H. Chen, S. He, **R. Bao** et al. An adaptive multi-terrain electric stair-climbing wheelchair, *National Invention patent*, China, PN: CN114983694A. -->
