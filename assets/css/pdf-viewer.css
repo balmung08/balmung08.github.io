@@ -122,16 +122,44 @@
 
 .pdf-canvas-container {
     overflow: auto;
-    max-height: 700px;
+    max-height: 900px;
     background: #525659;
     display: flex;
     justify-content: center;
     padding: 20px;
+    position: relative;
+}
+
+.pdf-page-wrapper {
+    position: relative;
 }
 
 #pdf-canvas {
     display: block;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#text-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    opacity: 0.2;
+    line-height: 1.0;
+}
+
+#text-layer > span {
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    transform-origin: 0% 0%;
+}
+
+#text-layer ::selection {
+    background: rgba(0, 123, 255, 0.3);
 }
 
 .pdf-loading {

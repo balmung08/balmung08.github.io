@@ -5,19 +5,25 @@ let pdfDoc = null;
 let pageNum = 1;
 let pageRendering = false;
 let pageNumPending = null;
-let scale = 1.5;
+let scale = 1.2;
 
 const canvas = document.getElementById('pdf-canvas');
 const ctx = canvas.getContext('2d');
+const textLayerDiv = document.getElementById('text-layer');
 
 // 渲染页面
 function renderPage(num) {
     pageRendering = true;
     
     pdfDoc.getPage(num).then(function(page) {
-        const viewport = page.getViewport({ scale: scale });  // 这里改正了
+        const viewport = page.getViewport({ scale: scale });
         canvas.height = viewport.height;
         canvas.width = viewport.width;
+
+        // 清空文本层
+        textLayerDiv.innerHTML = '';
+        textLayerDiv.style.width = viewport.width + 'px';
+        textLayerDiv.style.height = viewport.height + 'px';
 
         const renderContext = {
             canvasContext: ctx,
@@ -27,6 +33,16 @@ function renderPage(num) {
         const renderTask = page.render(renderContext);
 
         renderTask.promise.then(function() {
+            // 渲染文本层，使文字可选择
+            return page.getTextContent();
+        }).then(function(textContent) {
+            pdfjsLib.renderTextLayer({
+                textContentSource: textContent,
+                container: textLayerDiv,
+                viewport: viewport,
+                textDivs: []
+            });
+            
             pageRendering = false;
             if (pageNumPending !== null) {
                 renderPage(pageNumPending);
@@ -91,6 +107,7 @@ function updateButtons() {
 function loadPDF(url) {
     document.getElementById('pdf-loading').style.display = 'block';
     canvas.style.display = 'none';
+    textLayerDiv.style.display = 'none';
     
     const loadingTask = pdfjsLib.getDocument(url);
     
@@ -100,6 +117,7 @@ function loadPDF(url) {
 
         document.getElementById('pdf-loading').style.display = 'none';
         canvas.style.display = 'block';
+        textLayerDiv.style.display = 'block';
         
         pageNum = 1;
         renderPage(pageNum);

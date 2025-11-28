@@ -5,6 +5,7 @@ permalink: /show/
 ---
 
 <link rel="stylesheet" href="../assets/css/pdf-viewer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.css">
 
 <!-- 引入 PDF.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
@@ -48,7 +49,10 @@ permalink: /show/
         
         <div class="pdf-canvas-container">
             <div id="pdf-loading" class="pdf-loading">正在加载 PDF...</div>
-            <canvas id="pdf-canvas"></canvas>
+            <div class="pdf-page-wrapper">
+                <canvas id="pdf-canvas"></canvas>
+                <div id="text-layer"></div>
+            </div>
         </div>
     </div>
 </div>
