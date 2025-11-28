@@ -21,18 +21,16 @@ permalink: /show/
         <!-- 学术论文组 -->
         <div id="academic" class="doc-group active">
             <select onchange="changePDF()">
-                <option value="/assets/pdfs/paper1.pdf">机器学习研究论文</option>
-                <option value="/assets/pdfs/paper2.pdf">数据分析论文</option>
-                <option value="/assets/pdfs/thesis.pdf">毕业论文</option>
+                <option value="1.pdf">机器学习研究论文</option>
+                <option value="2.pdf">数据分析论文</option>
             </select>
         </div>
         
         <!-- 个人资料组 -->
         <div id="personal" class="doc-group">
             <select onchange="changePDF()">
-                <option value="/assets/pdfs/resume.pdf">个人简历</option>
-                <option value="/assets/pdfs/portfolio.pdf">作品集</option>
-                <option value="/assets/pdfs/certificate.pdf">获奖证书</option>
+                <option value="1.pdf">111</option>
+                <option value="2.pdf">222</option>
             </select>
         </div>
     </div>
