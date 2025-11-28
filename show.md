@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: page
 title: Documents
 permalink: /show/
 ---
 
-
 <link rel="stylesheet" href="../assets/css/pdf-viewer.css">
+
+<!-- 引入 PDF.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
 <div class="pdf-wrapper">
     <div class="category-tabs">
@@ -19,25 +21,38 @@ permalink: /show/
         <!-- 学术论文组 -->
         <div id="academic" class="doc-group active">
             <select onchange="changePDF()">
-                <option value="1.pdf">机器学习研究论文</option>
-                <option value="2.pdf">数据分析论文</option>
-
-                <!-- 想加新文档，直接在这里加一行 option 就行 -->
+                <option value="/assets/pdfs/paper1.pdf">机器学习研究论文</option>
+                <option value="/assets/pdfs/paper2.pdf">数据分析论文</option>
+                <option value="/assets/pdfs/thesis.pdf">毕业论文</option>
             </select>
         </div>
         
         <!-- 个人资料组 -->
         <div id="personal" class="doc-group">
             <select onchange="changePDF()">
-                <option value="1.pdf">222</option>
-                <option value="2.pdf">333</option>
-
-                <!-- 想加新文档，直接在这里加一行 option 就行 -->
+                <option value="/assets/pdfs/resume.pdf">个人简历</option>
+                <option value="/assets/pdfs/portfolio.pdf">作品集</option>
+                <option value="/assets/pdfs/certificate.pdf">获奖证书</option>
             </select>
         </div>
     </div>
 
-    <iframe id="pdf-viewer" src="1.pdf"></iframe>
+    <div class="pdf-container">
+        <div class="pdf-controls">
+            <button id="prev-page">◀ 上一页</button>
+            <span class="pdf-page-info">
+                第 <span id="page-num">1</span> 页 / 共 <span id="page-count">-</span> 页
+            </span>
+            <button id="next-page">下一页 ▶</button>
+            <button id="zoom-out">缩小 -</button>
+            <button id="zoom-in">放大 +</button>
+        </div>
+        
+        <div class="pdf-canvas-container">
+            <div id="pdf-loading" class="pdf-loading">正在加载 PDF...</div>
+            <canvas id="pdf-canvas"></canvas>
+        </div>
+    </div>
 </div>
 
 <script src="../assets/js/pdf-viewer.js"></script>
