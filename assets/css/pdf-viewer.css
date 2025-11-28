@@ -73,6 +73,11 @@
     border: 2px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    pointer-events: none;  /* 默认不捕获鼠标事件 */
+}
+
+.pdf-wrapper iframe:hover {
+    pointer-events: auto;  /* 鼠标悬停时才能交互 */
 }
 
 .doc-group {
