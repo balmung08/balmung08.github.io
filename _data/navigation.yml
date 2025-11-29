@@ -21,7 +21,10 @@
 
 - title: More
   sublinks:
+    - title: Friendly Links
+      url: /links/
     - title: FAQ
       url: /faq/
     - title: Tips
       url: /docs/
+
