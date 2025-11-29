@@ -5,6 +5,8 @@ toc: true
 permalink: /publications/
 ---
 
+> [👉 Click Here to Read/Download My Related Papers](https://balmung08.github.io/show/)
+
 ### Journal Papers
 
 * **R. Bao**, J. Wang, S. Wang\*. [Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds.](https://www.sciencedirect.com/science/article/pii/S0957417425033214) *Expert Systems With Applications*, vol. 298, 2026. (JCR Q1, IF: 7.5)
