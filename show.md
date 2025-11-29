@@ -45,7 +45,7 @@ permalink: /show/
         </div>
     </div>
 
-<iframe id="pdf-viewer"></iframe>
+<iframe id="pdf-viewer" src="First-author/1.pdf"></iframe>
 </div>
 
 <script src="../assets/js/pdf-viewer.js"></script>
