@@ -20,10 +20,11 @@ permalink: /publications/
 
 
 ### Conference Papers
+
+* **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang\*. [Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes.](https://ieeexplore.ieee.org/document/11247526) *IROS2025*.
 * **R. Bao**, L. Zhang, T. Niu, H. Yuan, S. Wang\*. [Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots.](https://arxiv.org/abs/2509.06115) *Arxiv*.
-* **R. Bao**, Y. Xu, T. Niu, L. Zhang, H. Yuan, J. Si, S. Wang\*. [Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes.](https://ieeexplore.ieee.org/document/11247526) *IROS2025*. (Accepted).
-* L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang\*. [Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards.](https://ieeexplore.ieee.org/document/11245857) *IROS2025* (Accepted).
-* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang\*. [HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area.](https://ieeexplore.ieee.org/document/11247613) *IROS2025* (Accepted).
+* L. Zhang, Q. Cai, **R. Bao**, T. Niu, Y. Xu, J. Si, S. Wang\*. [Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards.](https://ieeexplore.ieee.org/document/11245857) *IROS2025*.
+* H. Yuan, T. Niu, L. Zhang, **R. Bao**, J. Si, S. Wang\*. [HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area.](https://ieeexplore.ieee.org/document/11247613) *IROS2025*.
 
 
 ### Patent
