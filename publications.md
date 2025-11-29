@@ -5,7 +5,7 @@ toc: true
 permalink: /publications/
 ---
 
-> [👉 Click Here to Read/Download My Related Papers](https://balmung08.github.io/show/)
+> [👉 Click here to read my papers online (PDFs available without database access)](https://balmung08.github.io/show/)
 
 ### Journal Papers
 
