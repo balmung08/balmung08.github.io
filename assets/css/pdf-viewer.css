@@ -34,8 +34,24 @@
     border-color: rgba(100, 100, 100, 0.5);
 }
 
-.pdf-selector {
-    margin-bottom: 20px;
+/* --- Year Filter --- */
+.year-filter {
+    margin-bottom: 15px;
+}
+
+#year-select {
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#year-select:hover {
+    border-color: #999;
 }
 
 .pdf-selector label {
@@ -46,7 +62,7 @@
     font-weight: 500;
 }
 
-/* 自定义下拉菜单样式 */
+/* Custom dropdown */
 .custom-select {
     position: relative;
     width: 100%;
@@ -116,11 +132,7 @@
     background-color: #f5f5f5;
 }
 
-.select-item:last-child {
-    border-radius: 0 0 6px 6px;
-}
-
-/* 年份分隔线样式 - 自适应宽度 */
+/* Year divider */
 .year-divider {
     display: flex;
     align-items: center;

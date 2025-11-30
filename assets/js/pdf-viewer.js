@@ -1,95 +1,131 @@
+// ------------------------
+// Category Switching
+// ------------------------
 function changeCategory(category) {
-    // 移除所有按钮的激活状态
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-    });
-    
-    // 激活当前按钮
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
-    
-    // 隐藏所有文档组
-    document.querySelectorAll('.doc-group').forEach(group => {
-        group.classList.remove('active');
+
+    document.querySelectorAll('.doc-group').forEach(group => group.classList.remove('active'));
+    const activeGroup = document.getElementById(category);
+    activeGroup.classList.add('active');
+
+    resetFirstItem(activeGroup);
+    updateYearOptions(activeGroup);
+}
+
+// ------------------------
+// Dropdown Menu Behavior
+// ------------------------
+function toggleDropdown(element) {
+    const selectItems = element.nextElementSibling;
+
+    document.querySelectorAll('.select-items').forEach(drop => {
+        if (drop !== selectItems) drop.classList.remove('show');
     });
-    
-    // 显示选中的文档组
-    document.getElementById(category).classList.add('active');
-    
-    // 重置下拉菜单显示为第一个可选项
-    const activeGroup = document.querySelector('.doc-group.active');
-    const firstItem = activeGroup.querySelector('.select-item');
-    if (firstItem) {
-        const text = firstItem.textContent.trim();
-        const value = firstItem.getAttribute('data-value');
-        activeGroup.querySelector('.select-selected').textContent = text;
-        document.getElementById('pdf-viewer').src = value;
+
+    element.classList.toggle('active');
+    selectItems.classList.toggle('show');
+}
+
+function resetFirstItem(group) {
+    const first = group.querySelector('.select-item');
+    if (first) {
+        group.querySelector('.select-selected').textContent = first.textContent.trim();
+        document.getElementById('pdf-viewer').src = first.getAttribute('data-value');
     }
 }
 
-// 切换下拉菜单显示/隐藏
-function toggleDropdown(element) {
-    const selectItems = element.nextElementSibling;
-    const allDropdowns = document.querySelectorAll('.select-items');
-    
-    // 关闭其他下拉菜单
-    allDropdowns.forEach(dropdown => {
-        if (dropdown !== selectItems) {
-            dropdown.classList.remove('show');
-            dropdown.previousElementSibling.classList.remove('active');
-        }
-    });
-    
-    // 切换当前下拉菜单
-    selectItems.classList.toggle('show');
-    element.classList.toggle('active');
+// ------------------------
+// Year Filter Logic
+// ------------------------
+function initYearFilter() {
+    const activeGroup = document.querySelector('.doc-group.active');
+    updateYearOptions(activeGroup);
 }
 
-// 初始化下拉菜单事件
-document.addEventListener('DOMContentLoaded', function() {
-    // 为每个选项添加点击事件
+function updateYearOptions(docGroup) {
+    const yearSelect = document.getElementById('year-select');
+    yearSelect.innerHTML = '<option value="all">All</option>';
+
+    const yearDividers = docGroup.querySelectorAll('.year-divider span');
+    const years = Array.from(yearDividers).map(y => y.textContent.trim());
+
+    years.forEach(year => {
+        const opt = document.createElement('option');
+        opt.value = year;
+        opt.textContent = year;
+        yearSelect.appendChild(opt);
+    });
+
+    filterByYear();
+}
+
+function filterByYear() {
+    const selectedYear = document.getElementById('year-select').value;
+    const activeGroup = document.querySelector('.doc-group.active');
+    if (!activeGroup) return;
+
+    const items = activeGroup.querySelectorAll('.select-item');
+    const dividers = activeGroup.querySelectorAll('.year-divider');
+
+    if (selectedYear === 'all') {
+        dividers.forEach(d => d.style.display = 'flex');
+        items.forEach(i => i.style.display = 'block');
+        return;
+    }
+
+    dividers.forEach(div => {
+        const year = div.querySelector('span').textContent.trim();
+        const visible = (year === selectedYear);
+        div.style.display = visible ? 'flex' : 'none';
+
+        let next = div.nextElementSibling;
+        while (next && !next.classList.contains('year-divider')) {
+            if (next.classList.contains('select-item')) {
+                next.style.display = visible ? 'block' : 'none';
+            }
+            next = next.nextElementSibling;
+        }
+    });
+}
+
+// ------------------------
+// Init
+// ------------------------
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Attach click listeners
     document.querySelectorAll('.select-item').forEach(item => {
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function () {
             const value = this.getAttribute('data-value');
             const text = this.textContent.trim();
-            
-            // 找到所属的文档组
-            const docGroup = this.closest('.doc-group');
-            const selectedDiv = docGroup.querySelector('.select-selected');
-            
-            // 更新显示的文本
+
+            const group = this.closest('.doc-group');
+            const selectedDiv = group.querySelector('.select-selected');
+
             selectedDiv.textContent = text;
-            
-            // 更新 PDF 查看器
             document.getElementById('pdf-viewer').src = value;
-            
-            // 关闭下拉菜单
-            const selectItems = docGroup.querySelector('.select-items');
-            selectItems.classList.remove('show');
+
+            group.querySelector('.select-items').classList.remove('show');
             selectedDiv.classList.remove('active');
         });
     });
-    
-    // 点击外部关闭下拉菜单
-    document.addEventListener('click', function(e) {
+
+    // Clicking outside closes dropdowns
+    document.addEventListener('click', function (e) {
         if (!e.target.closest('.custom-select')) {
-            document.querySelectorAll('.select-items').forEach(dropdown => {
-                dropdown.classList.remove('show');
-            });
-            document.querySelectorAll('.select-selected').forEach(selected => {
-                selected.classList.remove('active');
-            });
+            document.querySelectorAll('.select-items').forEach(drop => drop.classList.remove('show'));
+            document.querySelectorAll('.select-selected').forEach(s => s.classList.remove('active'));
         }
     });
-    
-    // 初始化第一个文档
+
+    // Initialize first document
     const firstGroup = document.querySelector('.doc-group.active');
-    if (firstGroup) {
-        const firstItem = firstGroup.querySelector('.select-item');
-        if (firstItem) {
-            const text = firstItem.textContent.trim();
-            const value = firstItem.getAttribute('data-value');
-            firstGroup.querySelector('.select-selected').textContent = text;
-            document.getElementById('pdf-viewer').src = value;
-        }
-    }
+    if (firstGroup) resetFirstItem(firstGroup);
+
+    // Initialize Year Filter
+    initYearFilter();
+
+    // Year selection listener
+    document.getElementById('year-select').addEventListener('change', filterByYear);
 });
