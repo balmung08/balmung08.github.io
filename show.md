@@ -62,6 +62,12 @@ permalink: /show/
                 </div>
                 <div class="select-items">
 
+                    <div class="year-divider"><span>2026</span></div>
+
+                    <div class="select-item" data-value="Co-author/1.pdf">
+                        Embodied intelligence in RO/RO logistic terminal
+                    </div>
+
                     <div class="year-divider"><span>2025</span></div>
 
                     <div class="select-item" data-value="Co-author/1.pdf">
