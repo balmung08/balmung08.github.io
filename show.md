@@ -18,6 +18,7 @@ permalink: /show/
         <!-- 一作论文 -->
         <div id="First-author" class="doc-group active">
             <select onchange="changePDF()">
+            <option disabled>─────────── 2025 ───────────</option>
                 <option value="First-author/1.pdf"> Geodesic-based path planning for port transfer robots on Riemannian manifolds </option>
                 <option value="First-author/2.pdf"> STGN: A Spatio-Temporal Graph Network for Real-Time and Generalizable Trajectory Planning </option>
                 <option value="First-author/3.pdf"> A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment </option>
@@ -29,6 +30,7 @@ permalink: /show/
         <!-- 合作论文 -->
         <div id="Co-author" class="doc-group">
             <select onchange="changePDF()">
+            <option disabled>─────────── 2025 ───────────</option>
                 <option value="Co-author/1.pdf"> Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture </option>
                 <option value="Co-author/2.pdf"> A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM </option>
                 <option value="Co-author/3.pdf"> Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals </option>
