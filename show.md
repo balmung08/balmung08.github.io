@@ -22,6 +22,8 @@ permalink: /show/
                     Select a document
                 </div>
                 <div class="select-items">
+
+
                     <div class="year-divider"><span>2025</span></div>
                     <div class="select-item" data-value="First-author/1.pdf">
                         Geodesic-based path planning for port transfer robots on Riemannian manifolds
@@ -50,6 +52,8 @@ permalink: /show/
                     Select a document
                 </div>
                 <div class="select-items">
+
+                
                     <div class="year-divider"><span>2025</span></div>
                     <div class="select-item" data-value="Co-author/1.pdf">
                         Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture
