@@ -672,3 +672,18 @@ figcaption.align-center {
     }
   }
 }
+
+.pinned-post {
+  background: #f7f7f7;
+  padding: 6px;
+  border-left: 3px solid #666;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.pin-label {
+  color: #d18;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 6px;
+}

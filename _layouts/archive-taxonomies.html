@@ -66,20 +66,7 @@ layout: page
       <ul class="post-list-by-taxonomy">
         {%- assign pinned_posts = posts | where_exp:"p","p.pin == true" -%}
         {%- assign normal_posts = posts | where_exp:"p","p.pin != true" -%}
-        .pinned-post {
-          background: #f7f7f7;
-          padding: 6px;
-          border-left: 3px solid #666;
-          margin-bottom: 4px;
-          border-radius: 4px;
-        }
 
-        .pin-label {
-          color: #d18;
-          font-size: 12px;
-          font-weight: bold;
-          margin-left: 6px;
-        }
         {%- for post in pinned_posts -%}
           <li class="pinned-post">
             <strong>📌 {{ post.title | escape }}</strong>
