@@ -30,7 +30,6 @@ permalink: /show/
                         STGN: A Spatio-Temporal Graph Network for Real-Time and Generalizable Trajectory Planning
                     </div>
                     
-                    <div class="year-divider"><span>2024</span></div>
                     <div class="select-item" data-value="First-author/3.pdf">
                         A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment
                     </div>
@@ -59,7 +58,6 @@ permalink: /show/
                         A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM
                     </div>
                     
-                    <div class="year-divider"><span>2024</span></div>
                     <div class="select-item" data-value="Co-author/3.pdf">
                         Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals
                     </div>
