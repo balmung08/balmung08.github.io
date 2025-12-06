@@ -4,7 +4,7 @@ title: Awards
 toc: true
 permalink: /award/
 ---
-> [👉 Click here to see the details)](https://balmung08.github.io/show/)
+> [👉 Click here to see the details](https://balmung08.github.io/show/)
 
 ### Innovation and Technology Competitions
 * 2024 National Gold Award, China International College Students’ Innovation Competition
