@@ -43,30 +43,31 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 <link rel="stylesheet" href="assets/css/news.css">
 
+### News
 
 <div class="news-wrapper" data-visible-count="10">
-
-### News
-* **2025.11.19** – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).
-* **2025.10.29** – I was honored to receive the highly competitive National Graduate Student Scholarship of China.
-* **2025.10.21** – I attended *IROS 2025* and delivered an oral presentation on our work.
-* **2025.09.23** – Our paper *[Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions](https://ieeexplore.ieee.org/document/11208682/)* was accepted by *IEEE Transactions on Instrumentation and Measurement*.
-* **2025.09.23** – My lead-author paper *[STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning](https://ieeexplore.ieee.org/document/11180012)* was accepted by *IEEE Transactions on Automation Science and Engineering*.
-* **2025.09.09** – I was invited to review a manuscript for *Engineering Research Express*, marking my first involvement in academic peer review.
-* **2025.09.09** – My lead-author paper *[Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds](https://www.sciencedirect.com/science/article/pii/S0957417425033214)* was accepted by *Expert Systems With Applications*.
-* **2025.09.07** – My lead-author preliminary work *[Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots](https://arxiv.org/abs/2509.06115)* was uploaded to *arXiv*.
-* **2025.07.14** – Our paper *[An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments](https://doi.org/10.1016/j.conengprac.2025.106498)* was accepted by *Control Engineering Practice*.
-* **2025.06.16** – Our three papers *[Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes](https://ieeexplore.ieee.org/document/11247526)*, *[Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards](https://ieeexplore.ieee.org/document/11245857)* and *[HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area](https://ieeexplore.ieee.org/document/11247613)* were accepted by *IROS 2025*.
-* **2025.05.25** – Our paper *[A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM](https://ieeexplore.ieee.org/document/11048698)* was accepted by *IEEE Transactions on Intelligent Transportation Systems*.
-* **2025.05.24** – Our paper *[Autonomous Transfer Robot System for Commercial Vehicles at Ro-Ro Terminals](https://doi.org/10.1016/j.eswa.2025.128347)* was accepted by *Expert Systems With Applications*.
-* **2025.05.23** – My first lead-author paper *[A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment](https://ieeexplore.ieee.org/document/11023124)* was accepted by *IEEE Sensors Journal*.
-* **2025.03.11** – Our paper *[Embodied Intelligence in RO/RO Logistic Terminal: Autonomous Intelligent Transportation Robot Architecture](https://link.springer.com/article/10.1007/s11432-024-4395-7)* was accepted by *Science China Information Sciences*.
-* **2024.11.24** - As team leader, I led my team to win the National Second Award in the China Postgraduate “Dual-Carbon” Innovation Competition
-* **2024.10.25** - As team leader, I led my team to win the National Third Award in the China Postgraduate Robot Innovation and Design Competition.
-* **2024.10.14** – As one of the key members, we won the National Gold Award in the China International College Students’ Innovation Competition. Congratulations!
-* **2023.09.01** – I have officially become a master's student at Beijing Institute of Technology.
-
+  <ul class="news-list">
+    <li><strong>2025.11.19</strong> – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).</li>
+    <li><strong>2025.10.29</strong> – I was honored to receive the highly competitive National Graduate Student Scholarship of China.</li>
+    <li><strong>2025.10.21</strong> – I attended <em>IROS 2025</em> and delivered an oral presentation on our work.</li>
+    <li><strong>2025.09.23</strong> – Our paper <em><a href="https://ieeexplore.ieee.org/document/11208682/" target="_blank">Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions</a></em> was accepted by <em>IEEE Transactions on Instrumentation and Measurement</em>.</li>
+    <li><strong>2025.09.23</strong> – My lead-author paper <em><a href="https://ieeexplore.ieee.org/document/11180012/" target="_blank">STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning</a></em> was accepted by <em>IEEE Transactions on Automation Science and Engineering</em>.</li>
+    <li><strong>2025.09.09</strong> – I was invited to review a manuscript for <em>Engineering Research Express</em>, marking my first involvement in academic peer review.</li>
+    <li><strong>2025.09.09</strong> – My lead-author paper <em><a href="https://www.sciencedirect.com/science/article/pii/S0957417425033214" target="_blank">Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds</a></em> was accepted by <em>Expert Systems With Applications</em>.</li>
+    <li><strong>2025.09.07</strong> – My lead-author preliminary work <em><a href="https://arxiv.org/abs/2509.06115" target="_blank">Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots</a></em> was uploaded to <em>arXiv</em>.</li>
+    <li><strong>2025.07.14</strong> – Our paper <em><a href="https://doi.org/10.1016/j.conengprac.2025.106498" target="_blank">An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments</a></em> was accepted by <em>Control Engineering Practice</em>.</li>
+    <li><strong>2025.06.16</strong> – Our three papers <em><a href="https://ieeexplore.ieee.org/document/11247526/" target="_blank">Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes</a></em>, <em><a href="https://ieeexplore.ieee.org/document/11245857/" target="_blank">Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards</a></em> and <em><a href="https://ieeexplore.ieee.org/document/11247613/" target="_blank">HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area</a></em> were accepted by <em>IROS 2025</em>.</li>
+    <li><strong>2025.05.25</strong> – Our paper <em><a href="https://ieeexplore.ieee.org/document/11048698/" target="_blank">A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM</a></em> was accepted by <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
+    <li><strong>2025.05.24</strong> – Our paper <em><a href="https://doi.org/10.1016/j.eswa.2025.128347" target="_blank">Autonomous Transfer Robot System for Commercial Vehicles at Ro-Ro Terminals</a></em> was accepted by <em>Expert Systems With Applications</em>.</li>
+    <li><strong>2025.05.23</strong> – My first lead-author paper <em><a href="https://ieeexplore.ieee.org/document/11023124/" target="_blank">A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment</a></em> was accepted by <em>IEEE Sensors Journal</em>.</li>
+    <li><strong>2025.03.11</strong> – Our paper <em><a href="https://link.springer.com/article/10.1007/s11432-024-4395-7" target="_blank">Embodied Intelligence in RO/RO Logistic Terminal: Autonomous Intelligent Transportation Robot Architecture</a></em> was accepted by <em>Science China Information Sciences</em>.</li>
+    <li><strong>2024.11.24</strong> – As team leader, I led my team to win the National Second Award in the China Postgraduate “Dual-Carbon” Innovation Competition.</li>
+    <li><strong>2024.10.25</strong> – As team leader, I led my team to win the National Third Award in the China Postgraduate Robot Innovation and Design Competition.</li>
+    <li><strong>2024.10.14</strong> – As one of the key members, we won the National Gold Award in the China International College Students’ Innovation Competition. Congratulations!</li>
+    <li><strong>2023.09.01</strong> – I have officially become a master's student at Beijing Institute of Technology.</li>
+  </ul>
 </div>
+
 
 <button class="news-toggle">Show more ↓</button>
 

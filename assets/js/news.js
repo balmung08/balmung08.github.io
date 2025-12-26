@@ -3,13 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!wrapper) return;
 
     const ul = wrapper.querySelector("ul");
-    if (!ul) return;
-
-    const visibleCount = parseInt(wrapper.dataset.visibleCount || "10", 10);
     const items = Array.from(ul.children);
-
+    const visibleCount = parseInt(wrapper.dataset.visibleCount || "10", 10);
     const toggleBtn = document.querySelector(".news-toggle");
-    if (!toggleBtn) return;
 
     if (items.length <= visibleCount) {
         toggleBtn.style.display = "none";

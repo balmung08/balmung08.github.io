@@ -1,3 +1,12 @@
+.news-list {
+    padding-left: 20px;   /* 和 Markdown ul 一致 */
+    margin: 0;
+}
+
+.news-list li {
+    margin-bottom: 6px;
+}
+
 .news-toggle {
     margin-top: 10px;
     background: none;
