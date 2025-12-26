@@ -70,4 +70,4 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 <button class="news-toggle">Show more ↓</button>
 
-<script src="assets/css/news.js"></script>
+<script src="assets/js/news.js"></script>
