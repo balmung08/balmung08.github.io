@@ -45,7 +45,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 ### News
 
-<div class="news-wrapper" data-visible-count="10">
+<div class="news-wrapper" data-visible-count="15">
   <ul class="news-list">
     <li><strong>2025.11.19</strong> – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).</li>
     <li><strong>2025.10.29</strong> – I was honored to receive the highly competitive National Graduate Student Scholarship of China.</li>
