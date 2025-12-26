@@ -17,6 +17,11 @@
         <span class="contact-info p-name">{{ site.author | escape }}</span>
       </li>
     {%- endif %}
+    {% if site.author_bio %}
+      <p class="post-author-bio">
+        {{ site.author_bio }}
+      </p>
+      {% endif %}
     {% if site.email -%}
       <li>
         <i class="sidebar-icon fas fa-envelope"></i>
