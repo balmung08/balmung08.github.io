@@ -1,0 +1,13 @@
+.news-toggle {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #1a4fc5;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.news-toggle:hover {
+    text-decoration: underline;
+}

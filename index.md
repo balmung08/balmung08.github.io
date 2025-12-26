@@ -41,6 +41,11 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 --------------------
 
+<link rel="stylesheet" href="assets/css/news.css">
+
+
+<div class="news-wrapper" data-visible-count="10">
+
 ### News
 * **2025.11.19** – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).
 * **2025.10.29** – I was honored to receive the highly competitive National Graduate Student Scholarship of China.
@@ -61,4 +66,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 * **2024.10.14** – As one of the key members, we won the National Gold Award in the China International College Students’ Innovation Competition. Congratulations!
 * **2023.09.01** – I have officially become a master's student at Beijing Institute of Technology.
 
+</div>
 
+<button class="news-toggle">Show more ↓</button>
+
+<script src="assets/css/news.js"></script>
