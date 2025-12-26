@@ -65,25 +65,25 @@ permalink: /show/
                     <div class="year-divider"><span>2025</span></div>
 
                     <div class="select-item" data-value="Co-author/2025/1.pdf">
-                        Embodied intelligence in RO/RO logistic terminal
+                        Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture
                     </div>
                     <div class="select-item" data-value="Co-author/2025/2.pdf">
-                        Multi-Objective Real-Time Trajectory Planning Framework
+                        A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM
                     </div>
                     <div class="select-item" data-value="Co-author/2025/3.pdf">
-                        Autonomous transfer robot system for commercial vehicles
+                        Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals
                     </div>
                     <div class="select-item" data-value="Co-author/2025/4.pdf">
-                        Enhanced Hybrid Metaheuristic for Hierarchical Scheduling
+                        An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments
                     </div>
                     <div class="select-item" data-value="Co-author/2025/5.pdf">
-                        Continuously Indexed Domain Generalization for Fault Diagnosis
+                        Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions
                     </div>
                     <div class="select-item" data-value="Co-author/2025/6.pdf">
-                        Dynamic Network Topology Analysis for Multi-Robot Vehicle Transfer
+                        Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards
                     </div>
                     <div class="select-item" data-value="Co-author/2025/7.pdf">
-                        HFSENet for RGB-T Semantic Segmentation in Furnace
+                        HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area
                     </div>
 
                 </div>
@@ -109,23 +109,23 @@ permalink: /show/
 
                     <div class="year-divider"><span>2024</span></div>
 
-                    <div class="select-item" data-value="Award/2024/1.pdf">
-                        North China Division Second Award, The China Graduate Electronics Design Contest
-                    </div>
-                    <div class="select-item" data-value="Award/2024/2.pdf">
-                        Third Prize, Innovation and Entrepreneurship Competition for College Students in Beijing
-                    </div>
                     <div class="select-item" data-value="Award/2024/3.pdf">
                         National Gold Award, China International College Students’ Innovation Competition
-                    </div>
-                    <div class="select-item" data-value="Award/2024/4.pdf">
-                        Provincial Special Prize, China’s Innovation Challenge on Artificial Intelligence Application Scene
                     </div>
                     <div class="select-item" data-value="Award/2024/5.pdf">
                         National Second Award, China Postgraduate “Dual-Carbon” Innovation Competition
                     </div>
                     <div class="select-item" data-value="Award/2024/6.pdf">
                         National Third Award, China Postgraduate Robot Innovation and Design Competition
+                    </div>
+                    <div class="select-item" data-value="Award/2024/1.pdf">
+                        North China Division Second Award, The China Graduate Electronics Design Contest
+                    </div>
+                    <div class="select-item" data-value="Award/2024/4.pdf">
+                        Provincial Special Prize, China’s Innovation Challenge on Artificial Intelligence Application Scene
+                    </div>
+                    <div class="select-item" data-value="Award/2024/2.pdf">
+                        Third Prize, Innovation and Entrepreneurship Competition for College Students in Beijing
                     </div>
                     <div class="select-item" data-value="Award/2024/7.pdf">
                         Beijing Institute of Technology First-Class Academic Scholarship

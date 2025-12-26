@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-### [Mar. 2025 – now] Controllable Seismic Source Vehicle Advanced Driver Assistance System Development
+### [Mar. 2025 – Nov. 2025] Controllable Seismic Source Vehicle Advanced Driver Assistance System Development
 
 
 <div style="overflow: hidden;">
