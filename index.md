@@ -179,7 +179,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
   <div class="rvp-header">
     <h2 class="rvp-title">Robotics Publication Pyramid</h2>
     <p class="rvp-hint">
-      This pyramid represents my academic goals, which I hope to fully illuminate over the course of my career.<br>
+      This pyramid represents my academic goals. I wonder if I'll be able to light them all up in my lifetime.<br>
       FA = First-author, CA = Co-author.
     </p>
   </div>
