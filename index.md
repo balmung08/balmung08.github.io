@@ -2,7 +2,7 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 2025.12.26
+> Website information updated on 2025.12.30
 
 ### 👋 Hey there! 
 
@@ -168,3 +168,271 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 <button class="news-toggle">Show more ↓</button>
 
 <script src="assets/js/news.js"></script>
+
+
+-----
+
+
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Robotics Venues Pyramid</title>
+
+<style>
+:root{
+  --border:#d0d7de;
+  --chip:#f6f8fa;
+  --text:#111827;
+  --muted:#6b7280;
+
+  /* author styles */
+  --fa-bg:#111827;
+  --fa-text:#ffffff;
+  --ca-border:#6b7280;
+  --ca-text:#374151;
+}
+
+body{
+  margin:0;
+  padding:24px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background:#ffffff;
+  color:var(--text);
+}
+
+.wrap{
+  max-width:780px;
+  margin:0 auto;
+}
+
+h2{
+  margin:0 0 6px 0;
+  font-size:20px;
+}
+
+.hint{
+  margin:0 0 18px 0;
+  font-size:13px;
+  color:var(--muted);
+}
+
+/* ===== Pyramid ===== */
+.pyramid{
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  align-items:center;
+}
+
+/* fixed grid per tier */
+.tier{
+  display:grid;
+  gap:14px;
+  justify-content:center;
+  width:100%;
+}
+
+.tier.top{
+  grid-template-columns: repeat(1, minmax(0, 260px));
+}
+.tier.middle{
+  grid-template-columns: repeat(3, minmax(0, 220px));
+}
+.tier.base{
+  grid-template-columns: repeat(4, minmax(0, 190px));
+}
+
+/* ===== Card ===== */
+.card{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:10px 10px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:var(--chip);
+
+  box-sizing:border-box;
+  width:100%;
+  min-width:0;           /* critical: allow internal shrink */
+}
+
+.venue{
+  font-weight:700;
+  font-size:14px;
+}
+
+.level{
+  font-size:11px;
+  color:var(--muted);
+}
+
+/* ===== Badges (no overflow) ===== */
+.badges{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  white-space:nowrap;
+
+  max-width:130px;       /* prevents overflow */
+  justify-content:flex-end;
+}
+
+.badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:2px 7px;
+  border-radius:999px;
+  line-height:1.2;
+  font-weight:600;
+  font-size:11px;
+  flex-shrink:1;
+}
+
+.badge.fa{
+  background:var(--fa-bg);
+  color:var(--fa-text);
+}
+
+.badge.ca{
+  background:#ffffff;
+  border:1px dashed var(--ca-border);
+  color:var(--ca-text);
+}
+
+.sep{
+  color:var(--muted);
+  font-weight:400;
+  flex-shrink:0;
+}
+
+h2{
+  text-align: center;
+}
+.hint{
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h2>Robotics Venues Pyramid</h2>
+<p class="hint">
+This pyramid represents my academic goals, which I hope to fully illuminate over the course of my career.<br>
+FA = First-author, CA = Co-author.
+</p>
+
+<div class="pyramid">
+
+  <!-- ===== Top ===== -->
+  <div class="tier top">
+    <div class="card">
+      <div>
+        <div class="venue">Science Robotics</div>
+        <div class="level">Top</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 0</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Middle ===== -->
+  <div class="tier middle">
+    <div class="card">
+      <div>
+        <div class="venue">TRO</div>
+        <div class="level">Middle</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 0</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <div class="venue">IJRR</div>
+        <div class="level">Middle</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 0</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <div class="venue">RSS</div>
+        <div class="level">Middle</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 0</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+  </div>
+  <!-- ===== Base ===== -->
+  <div class="tier base">
+    <div class="card">
+      <div>
+        <div class="venue">TASE</div>
+        <div class="level">Base</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 1</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <div class="venue">RAL</div>
+        <div class="level">Base</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 0</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <div class="venue">ICRA</div>
+        <div class="level">Base</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 0</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div>
+        <div class="venue">IROS</div>
+        <div class="level">Base</div>
+      </div>
+      <div class="badges">
+        <span class="badge fa">FA × 1</span>
+        <span class="sep">|</span>
+        <span class="badge ca">CA × 2</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
