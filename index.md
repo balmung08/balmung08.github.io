@@ -198,7 +198,6 @@ body{
   margin:0;
   padding:24px;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  background:#ffffff;
   color:var(--text);
 }
 
