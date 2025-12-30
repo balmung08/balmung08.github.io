@@ -394,4 +394,56 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
   color:#6b7280;
   font-size:12px;
 }
+
+@media (max-width: 1023px) {
+  .rvp-middle{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .rvp-base{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .rvp-header{
+    padding: 0 6px;
+  }
+
+  .rvp-title{
+    font-size: 18px;
+  }
+
+  .rvp-hint{
+    font-size: 12px;
+  }
+
+  .rvp-top,
+  .rvp-middle,
+  .rvp-base{
+    grid-template-columns: 1fr;   /* 单列显示 */
+  }
+
+  .rvp-card{
+    padding: 9px;
+  }
+
+  .rvp-venue{
+    font-size: 13px;
+  }
+
+  .rvp-badges{
+    max-width: 110px;            /* 防止手机端溢出 */
+    gap: 4px;
+  }
+
+  .rvp-badge{
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .rvp-sep{
+    font-size: 11px;
+  }
+}
 </style>
