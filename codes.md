@@ -73,22 +73,30 @@ h3:has(+ .cards-container) {
 </style>
 
 
-### DRL-Based Trajectory Tracking for 4WS Robot
+### [Paper] DRL-Based Trajectory Tracking for 4WS Robot
 
 <div class="cards-container">
-
-
   <div class="card">
     <h4>Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes</h4>
-    <p><strong>Paper:</strong> <a href="xxxxx" target="_blank">The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems & Automation (IROS 2025)</a></p>
-    <!-- <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Geodesic-Based-Path-Planning" target="_blank">https://github.com/balmung08/Geodesic-Based-Path-Planning</a></p> -->
+    <p><strong>Paper:</strong> <a href="https://ieeexplore.ieee.org/document/11247526" target="_blank">The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems & Automation (IROS 2025)</a></p>
     <p><strong>Code Repo:</strong> Preparing, Comming soon</p>
     <p><strong>Abstract:</strong> We proposes a multi-modal trajectory tracking method for 4WS robots considering steering mode switching. The approach decomposes trajectory tracking into mode decision-making and tracking control, both designed based on deep reinforcement learning. The mode decider selects appropriate steering modes based on trajectory information, while the tracker executes motion control. A target trajectory random generator and training environment are developed for data-driven model training.</p>
   </div>
 </div>
 
+### [Tools] A comprehensive simulation environment for 4WIS robots
 
-### Geodesic-Based Path Planning for Port Robots
+<div class="cards-container">
+  <div class="card">
+    <h4>A comprehensive simulation environment for trajectory planning and motion control of 4WIS (Four-Wheel Independent Steering) robots</h4>
+    <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-Simulation-Environment" target="_blank">https://github.com/balmung08/4WIS-Robot-Simulation-Environment</a></p>
+    <p><strong>Abstract:</strong> We constructed a comprehensive Gazebo simulation environment for verifying 4WIS robot algorithms. This environment mainly includes the 4WIS robot URDF modeled on a real platform, a multi-source sensor system, a standardized navigation test map (BARN dataset), and a control framework that supports multimodal motion and mode switching. It provides a unified and scalable experimental platform for the simulation verification of planning and control algorithms.</p>
+  </div>
+</div>
+
+
+### [Paper] Geodesic-Based Path Planning for Port Robots
+
 <div class="cards-container">
   <div class="card">
     <h4>Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds</h4>
