@@ -74,7 +74,7 @@ h3:has(+ .cards-container) {
 </style>
 
 
-<div class="year-divider"><span>General Robot Motion Planning</span></div>
+## General Robot Motion Planning
 
 
 ### [Paper] Geodesic-Based Path Planning for Port Robots
@@ -89,7 +89,7 @@ h3:has(+ .cards-container) {
 </div>
 
 
-<div class="year-divider"><span>4WIS Robot Related Research</span></div>
+## 4WIS Robot Related Research
 
 
 ### [Paper] DRL-Based Trajectory Tracking for 4WS Robot
