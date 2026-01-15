@@ -77,7 +77,7 @@ h3:has(+ .cards-container) {
 ## General Robot Motion Planning
 
 
-### [Paper] Geodesic-Based Path Planning for Port Robots
+### **[Paper] Geodesic-Based Path Planning for Port Robots**
 
 <div class="cards-container">
   <div class="card">
@@ -92,7 +92,7 @@ h3:has(+ .cards-container) {
 ## 4WIS Robot Related Research
 
 
-### [Paper] DRL-Based Trajectory Tracking for 4WS Robot
+### **[Paper] DRL-Based Trajectory Tracking for 4WS Robot**
 
 <div class="cards-container">
   <div class="card">
@@ -103,7 +103,7 @@ h3:has(+ .cards-container) {
   </div>
 </div>
 
-### [Tools] A comprehensive simulation environment for 4WIS robots
+### **[Tools] A comprehensive simulation environment for 4WIS robots**
 
 <div class="cards-container">
   <div class="card">
