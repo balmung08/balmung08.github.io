@@ -10,6 +10,9 @@ permalink: /publications/
 
 ### Journal Papers
 
+<!-- <div class="year-divider"><span>2026</span></div> -->
+
+
 <div class="year-divider"><span>2025</span></div>
 
 * **R. Bao**, J. Wang, S. Wang\*. [Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds.](https://www.sciencedirect.com/science/article/pii/S0957417425033214) [*Expert Systems With Applications*](https://www.sciencedirect.com/journal/expert-systems-with-applications), vol. 298, 2026.
@@ -18,10 +21,10 @@ permalink: /publications/
 * Y. Xu, **R. Bao**, L. Zhang, S. Wang\*, J. Wang. [Embodied intelligence in RO/RO logistic terminal: autonomous intelligent transportation robot architecture.](https://link.springer.com/article/10.1007/s11432-024-4395-7) [*SCIENCE CHINA Information Sciences*](https://link.springer.com/journal/11432), vol. 68, no. 5, pp. 150210, Apr.25,2025.
 * G. Zhang, Z. Xing, Q. Yue, **R. Bao**, K. Liu, Y. Xia, S. Chai\*. [A Multi-objective Real-time Trajectory Planning Framework for Human-machine Mixed Traffic Based on Self-attention Guided CNN-LSTM.](https://ieeexplore.ieee.org/document/11048698) [*IEEE Transactions on Intelligent Transportation Systems*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979), vol. 26, no. 10, pp. 14764-14779, Oct. 2025.
 * L. Zhang, Y. Xu, J. Si, **R. Bao**, Y. An, S. Wang\*, J. Wang. [Autonomous transfer robot system for commercial vehicles at Ro-Ro terminals.](https://doi.org/10.1016/j.eswa.2025.128347) [*Expert Systems With Applications*](https://www.sciencedirect.com/journal/expert-systems-with-applications), vol. 289, 2025.
-* C. Wang, L. Ma\*, J. Wang, **R. Bao**, H. Yu, S. Wang. [Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions.](https://ieeexplore.ieee.org/document/11208682/) [*IEEE Transactions on Instrumentation and Measurement*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19), vol. 74, pp. 1-11, 2025, Art no. 3563611. 
+* C. Wang, L. Ma\*, J. Wang, **R. Bao**, H. Yu, S. Wang. [Continuously Indexed Domain Generalization for Fault Diagnosis under Continuously Varying Working Conditions.](https://ieeexplore.ieee.org/document/11208682) [*IEEE Transactions on Instrumentation and Measurement*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19), vol. 74, pp. 1-11, 2025, Art no. 3563611. 
 * L. Zhang, Y. An, T. Niu, **R. Bao**, S. Wang\*, J. Wang. [An Enhanced Hybrid Metaheuristic for Hierarchical Scheduling in 4WIDS Multi-robot Systems under Confined Environments.](https://doi.org/10.1016/j.conengprac.2025.106498) [*Control Engineering Practice*](https://www.sciencedirect.com/journal/control-engineering-practice), vol. 164, 2025.
 
-### Conference Papers
+### Conference Papers and Preprint
 
 <div class="year-divider"><span>2025</span></div>
 

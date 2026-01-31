@@ -91,8 +91,20 @@ h3:has(+ .cards-container) {
 
 ## 4WIS Robot Related Research
 
+<!-- ### **[Paper] Multi-modal Trajectory Planning Framework for 4WIS Robot**
 
-### **[Paper] DRL-Based Trajectory Tracking for 4WS Robot**
+<div class="cards-container">
+  <div class="card">
+    <h4>Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes</h4>
+    <p><strong>Paper:</strong> <a href="https://ieeexplore.ieee.org/document/11247526" target="_blank">The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems & Automation (IROS 2025)</a></p>
+    <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-DRL-Multimodal-Trajectory-Tracking" target="_blank">https://github.com/balmung08/4WIS-Robot-DRL-Multimodal-Trajectory-Tracking</a></p>
+    <p><strong>Abstract:</strong> We proposes a multi-modal trajectory tracking method for 4WS robots considering steering mode switching. The approach decomposes trajectory tracking into mode decision-making and tracking control, both designed based on deep reinforcement learning. The mode decider selects appropriate steering modes based on trajectory information, while the tracker executes motion control. A target trajectory random generator and training environment are developed for data-driven model training.</p>
+  </div>
+</div> -->
+
+
+
+### **[Paper] DRL-Based Trajectory Tracking for 4WIS Robot**
 
 <div class="cards-container">
   <div class="card">

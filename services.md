@@ -9,13 +9,14 @@ permalink: /services/
 ### Journal Reviewer
 
 * IEEE Robotics and Automation Letters
+* Cluster Computing-The Journal of Networks Software Tools and Applications
 * Measurement Science and Technology
 * Engineering Research Express
 
 
 ### Conference Reviewer
 
-* IEEE International Conference on Robotics and Automation (2026)
+* IEEE International Conference on Robotics and Automation (ICRA) [2026]
 
 
 ### Conference Presentations

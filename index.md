@@ -56,7 +56,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       and delivered an oral presentation on our work.
     </li>
     <li><strong>2025.09.23</strong> – Our paper 
-      <em><a href="https://ieeexplore.ieee.org/document/11208682/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11208682" target="_blank">
         Continuously Indexed Domain Generalization for Fault Diagnosis Under Continuously Varying Working Conditions
       </a></em> 
       was accepted by 
@@ -65,7 +65,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em>.
     </li>
     <li><strong>2025.09.23</strong> – My lead-author paper 
-      <em><a href="https://ieeexplore.ieee.org/document/11180012/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11180012" target="_blank">
         STGN: A Spatio-Temporal Graph Network for Real-time and Generalizable Trajectory Planning
       </a></em> 
       was accepted by 
@@ -105,14 +105,14 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em>.
     </li>
     <li><strong>2025.06.16</strong> – Our three papers 
-      <em><a href="https://ieeexplore.ieee.org/document/11247526/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11247526" target="_blank">
         Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes
       </a></em>, 
-      <em><a href="https://ieeexplore.ieee.org/document/11245857/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11245857" target="_blank">
         Dynamic Network Topology Analysis, Design, and Evaluation for Multi-Robot Vehicle Transfer in High-Density Storage Yards
       </a></em> 
       and 
-      <em><a href="https://ieeexplore.ieee.org/document/11247613/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11247613" target="_blank">
         HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area
       </a></em> 
       were accepted by 
@@ -121,7 +121,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em>.
     </li>
     <li><strong>2025.05.25</strong> – Our paper 
-      <em><a href="https://ieeexplore.ieee.org/document/11048698/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11048698" target="_blank">
         A Multi-Objective Real-Time Trajectory Planning Framework for Human–Machine Mixed Traffic Based on Self-Attention Guided CNN-LSTM
       </a></em> 
       was accepted by 
@@ -139,7 +139,7 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em>.
     </li>
     <li><strong>2025.05.23</strong> – My first lead-author paper 
-      <em><a href="https://ieeexplore.ieee.org/document/11023124/" target="_blank">
+      <em><a href="https://ieeexplore.ieee.org/document/11023124" target="_blank">
         A Hierarchical Target Vehicle Pose Detection Framework in Ro-Ro Terminal Environment
       </a></em> 
       was accepted by 
@@ -169,281 +169,3 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 <script src="assets/js/news.js"></script>
 
-
------
-
-
-<!-- ===== Robotics Venues Pyramid (Read-only) ===== -->
-<div class="rvp">
-
-  <div class="rvp-header">
-    <h2 class="rvp-title">Robotics Publication Pyramid</h2>
-    <p class="rvp-hint">
-      This pyramid represents my academic goals. I wonder if I'll be able to light them all up in my lifetime.<br>
-      FA = First-author, CA = Co-author.
-    </p>
-  </div>
-
-  <div class="rvp-pyramid">
-    <!-- Top -->
-    <div class="rvp-tier rvp-top">
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">Science Robotics</div>
-          <div class="rvp-level">Top</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 0</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-    </div>
-    <!-- Middle -->
-    <div class="rvp-tier rvp-middle">
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">TRO</div>
-          <div class="rvp-level">Middle</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 0</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">IJRR</div>
-          <div class="rvp-level">Middle</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 0</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">RSS</div>
-          <div class="rvp-level">Middle</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 0</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-    </div>
-    <!-- Base -->
-    <div class="rvp-tier rvp-base">
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">TASE</div>
-          <div class="rvp-level">Base</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 1</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">RAL</div>
-          <div class="rvp-level">Base</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 0</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">ICRA</div>
-          <div class="rvp-level">Base</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 0</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 0</span>
-        </div>
-      </div>
-      <div class="rvp-card">
-        <div class="rvp-left">
-          <div class="rvp-venue">IROS</div>
-          <div class="rvp-level">Base</div>
-        </div>
-        <div class="rvp-badges">
-          <span class="rvp-badge rvp-fa">FA × 1</span>
-          <span class="rvp-sep">|</span>
-          <span class="rvp-badge rvp-ca">CA × 2</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<style>
-/* ===== Namespace: .rvp ===== */
-
-.rvp { width:100%; }
-
-.rvp-header{
-  text-align:center;
-  margin-bottom:16px;
-}
-
-.rvp-title{
-  margin:0;
-  font-size:20px;
-}
-
-.rvp-hint{
-  margin:6px 0 0 0;
-  font-size:13px;
-  color:#6b7280;
-}
-
-/* Pyramid container */
-.rvp-pyramid{
-  display:flex;
-  flex-direction:column;
-  gap:18px;
-  align-items:center;
-}
-
-/* Tiers */
-.rvp-tier{
-  display:grid;
-  gap:14px;
-  justify-content:center;
-  width:100%;
-}
-
-.rvp-top{
-  grid-template-columns:repeat(1, minmax(0, 260px));
-}
-.rvp-middle{
-  grid-template-columns:repeat(3, minmax(0, 220px));
-}
-.rvp-base{
-  grid-template-columns:repeat(4, minmax(0, 190px));
-}
-
-/* Cards */
-.rvp-card{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:10px;
-  padding:10px;
-  background:#ffffff;              /* ✅ 白色方框 */
-  border:1px solid #d0d7de;
-  border-radius:10px;
-
-  box-sizing:border-box;
-  min-width:0;
-}
-
-/* Left */
-.rvp-venue{
-  font-weight:700;
-  font-size:14px;
-}
-.rvp-level{
-  font-size:11px;
-  color:#6b7280;
-}
-
-/* Badges */
-.rvp-badges{
-  display:flex;
-  align-items:center;
-  gap:6px;
-  white-space:nowrap;
-  max-width:130px;
-  justify-content:flex-end;
-}
-
-.rvp-badge{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  padding:2px 7px;
-  font-size:11px;
-  font-weight:600;
-  border-radius:999px;
-  flex-shrink:1;
-}
-
-.rvp-fa{
-  background:#111827;
-  color:#ffffff;
-}
-
-.rvp-ca{
-  background:#ffffff;
-  color:#374151;
-  border:1px dashed #6b7280;
-}
-
-.rvp-sep{
-  color:#6b7280;
-  font-size:12px;
-}
-
-@media (max-width: 1023px) {
-  .rvp-middle{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .rvp-base{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* Mobile */
-@media (max-width: 767px) {
-  .rvp-header{
-    padding: 0 6px;
-  }
-
-  .rvp-title{
-    font-size: 18px;
-  }
-
-  .rvp-hint{
-    font-size: 12px;
-  }
-
-  .rvp-top,
-  .rvp-middle,
-  .rvp-base{
-    grid-template-columns: 1fr;   /* 单列显示 */
-  }
-
-  .rvp-card{
-    padding: 9px;
-  }
-
-  .rvp-venue{
-    font-size: 13px;
-  }
-
-  .rvp-badges{
-    max-width: 110px;            /* 防止手机端溢出 */
-    gap: 4px;
-  }
-
-  .rvp-badge{
-    font-size: 10px;
-    padding: 2px 6px;
-  }
-
-  .rvp-sep{
-    font-size: 11px;
-  }
-}
-</style>
