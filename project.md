@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <hr class="panel-divider">
       <div class="panel-media-row">
         <div class="img-frame">
-          <img src="/pic/Project/01.png">
+          <img src="/pic/Project/01.jpg">
           <div class="img-caption">👆 Click image to play demo video</div>
         </div>
         <div class="panel-text">
