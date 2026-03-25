@@ -39,7 +39,19 @@ h3:has(+ .cards-container) {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
-
+.card p {
+    font-size: 0.95em;
+    line-height: 1.5em;
+    margin-top: 10px;
+    pointer-events: none;
+}
+.card p.link-row {
+    pointer-events: none;
+}
+.card p.link-row a {
+    pointer-events: auto;
+}
+ 
 /* --- 核心修改：Caption 显示逻辑 --- */
 /* 默认隐藏提示语 */
 .img-caption {
@@ -217,13 +229,13 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="card" onclick="handleCardClick(event, this)">
   <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
   <p class="card-period">Feb. 2023 – Jun. 2023 [Bachelor's Thesis]</p>
-  <h4><a href="https://github.com/balmung08/Spider_Robot" target="_blank">Design and Control System of Hexapod Robot</a></h4>
+  <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Geodesic-Based-Path-Planning" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/Geodesic-Based-Path-Planning</a></p>
   <p>With the advancement of robotics technology, hexapod robots, as a highly flexible mobile platform, have been widely used for task execution in complex environments. This project, based on the Raspberry Pi platform and combining motion control, visual tracking, and image transmission remote control technologies, designed and implemented a hexapod robot control system. The system includes core modules such as robot hardware design, motion control, remote controller drive, and image transmission, aiming to provide the robot with autonomous movement and remote control capabilities to perform tasks in complex environments. By integrating servo control, posture perception, remote control systems, and real-time image transmission, the project empowers the robot, enhancing its adaptability and flexibility in unknown and dynamic environments.</p>
   <div class="overview-panel">
     <hr class="panel-divider">
     <div class="panel-media-row">
       <div class="img-frame">
-        <img src="../program_pic/1.png">
+        <img src="/pic/Project/03.png">
         <div class="img-caption">👆 Click image to play demo video</div>
       </div>
       <div class="panel-text">
