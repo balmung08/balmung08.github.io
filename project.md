@@ -152,11 +152,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+### **[2025] Seismic Source Vehicle Advanced Driver Assistance System**
 
 <div class="cards-container">
   
-  ### **[2025] Seismic Source Vehicle Advanced Driver Assistance System**
-
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Mar. 2025 – Nov. 2025 [University-Enterprise Cooperation Project]</p>
@@ -185,10 +184,11 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
   </div>
+</div>
 
+### **[2024] Intelligent Inspection Robot for Harsh Environments**
 
-  ### **[2024] Intelligent Inspection Robot for Harsh Environments**
-
+<div class="cards-container">
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Oct. 2024 – Jan. 2025 [University-Enterprise Cooperation Project]</p>
@@ -217,9 +217,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
   </div>
+</div>
 
-  ### **[2024] Multi-robot for vehicle transfer at Ro/Ro terminals**
 
+### **[2024] Multi-robot for vehicle transfer at Ro/Ro terminals**
+
+<div class="cards-container">
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Mar. 2024 – Sep. 2024 [University-Enterprise Cooperation Project]</p>
@@ -248,9 +251,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
   </div>
+</div>
 
-  ### **[2023] Design and Control System of Hexapod Robot**
 
+### **[2023] Design and Control System of Hexapod Robot**
+
+<div class="cards-container">
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Feb. 2023 – Jun. 2023 [Bachelor's Thesis]</p>
@@ -276,7 +282,4 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
   </div>
-
-
-
 </div>
