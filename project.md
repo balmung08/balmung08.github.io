@@ -23,7 +23,6 @@ h3:has(+ .cards-container) {
 /* 卡片样式 - 恢复到你最开始的宽度 */
 .card {
     width: 90%; /* 恢复原始宽度 */
-    max-width: 1000px; /* 可选：设置一个最大宽度防止在大屏上过宽，或者根据需要去掉 */
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(8px);
     border-radius: 15px;
@@ -131,8 +130,10 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Mar. 2025 – Nov. 2025</p>
-    <h4>Controllable Seismic Source Vehicle ADAS</h4>
-    <p>In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd. Autonomous navigation system for seismic source vehicles operating in mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency.</p>
+    <h4>Controllable Seismic Source Vehicle Advanced Driver Assistance System Development</h4>
+    <p>In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., we developed an advanced driver assistance system for controllable seismic source vehicles, designed specifically for geological exploration in harsh environments such as mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency. <br>
+    Our system integrates multi-sensor SLAM, real-time terrain perception, and intelligent planning algorithms to enable autonomous navigation in unstructured environments. By analyzing local point clouds, it quantifies terrain risk and identifies traversable paths using an adaptive sampling strategy combined with Bayesian graph search. Optimized trajectories are generated through risk-aware planning and control modules. The system also supports multi-vehicle coordination, excitation point planning, and autonomous operation—ensuring safe, efficient, and standardized deployment in rugged field conditions.
+</p>
     <div class="overview-panel">
       <hr class="panel-divider">
       <div class="panel-media-row">
@@ -143,13 +144,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="panel-text">
           <p class="detail-section-title">Main Responsibilities</p>
           <ol class="detail-list">
-            <li>Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm.</li>
-            <li>Achieved efficient trajectory optimization and adaptive speed control in dynamic terrains.</li>
+            <li>Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm to identify flat roads and ensure safe and efficient path planning.</li>
+            <li>Achieved efficient trajectory optimization and adaptive speed control in challenging and dynamic terrains using a terrain risk-aware RRT* algorithm combined with a dynamic terrain flatness corridor and CiLQR methods.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
-            <li>Successfully delivered 12 complete vehicle systems.</li>
-            <li>Participated in the submission of two top SCI journal papers in robotics.</li>
+            <li>Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers in robotics.</li>
           </ol>
         </div>
       </div>
@@ -159,23 +159,66 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Oct. 2024 – Jan. 2025</p>
-    <h4>Intelligent Inspection Robot System</h4>
-    <p>Autonomous inspection robot for quenching furnace environments. Industrial inspection in high-temperature environments poses significant challenges due to extreme heat, low visibility, and confined operating space.</p>
+    <h4>Intelligent Inspection Robot System for Harsh Environments in Annealing Furnace Areas</h4>
+    <p>Industrial inspection in high-temperature environments such as quenching furnace zones poses significant challenges due to extreme heat, low visibility, and confined operating space. Traditional manual inspections are often inefficient and unsafe, especially under continuous production demands. With the growing push toward intelligent, unmanned factories, there is an urgent need for autonomous systems capable of reliable operation in such harsh industrial settings.<br>
+    To address this need, we developed and deployed an autonomous inspection robot specifically designed for quenching furnace environments. The system integrates multi-sensor perception, indoor positioning, and onboard computing to achieve safe, robust, and continuous monitoring. It features RGB-T-based fault detection, enabling effective identification of anomalies under variable lighting and thermal conditions. In addition, a path planning module optimized for narrow and obstacle-dense spaces ensures safe navigation in cluttered industrial layouts. The robot's four-wheel steering (4WS) system supports multiple motion modes, enabling precise trajectory tracking even in constrained environments.
+    </p>
     <div class="overview-panel">
       <hr class="panel-divider">
       <div class="panel-media-row">
         <div class="img-frame">
-          <img src="/pic/2.png">
+          <img src="/pic/2.png" data-video="/pic/2.mp4">
           <div class="img-caption">👆 Click image to play demo video</div>
         </div>
         <div class="panel-text">
+          <p class="detail-section-title">Main Responsibilities</p>
+          <ol class="detail-list">
+            <li>Assisted in RGB-T dataset collection for annealing furnace areas and built an anomaly detection algorithm.</li>
+            <li>Developed a hierarchical multimodal tracker leveraging DRL , capable of autonomously selecting the optimal steering configuration and effectively performing precise multimodal tracking in complex environments.</li>
+          </ol>
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
-            <li>Achieved safe, stable and autonomous operation for six months.</li>
-            <li>Published two papers at top robotics conference (IROS 2025).</li>
-          </ol>
+            <li>Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).</li>
         </div>
       </div>
     </div>
   </div>
+
+
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
+    <p class="card-period">Mar. 2024 – Sep. 2024</p>
+    <h4>Multi-robot system for autonomous vehicle transfer at roll-on/roll-off terminals</h4>
+    <p>With the rapid development of smart port infrastructure, leading ports like Rotterdam and Ningbo have made major strides in automation. However, traditional manual operations at roll-on/roll-off (Ro-Ro) terminals struggle to meet the rising demands for efficiency, cost-effectiveness, and standardization—driven by growing throughput, labor shortages, and increasing operational complexity.<br>
+    To address this challenge, we developed and deployed an autonomous robotic transfer system tailored for heavy-duty commercial vehicle handling. The system integrates centimeter-level precise localization and control for vehicle pick-up and drop-off, adaptive multi-mode motion planning and obstacle avoidance based on four-wheel steering (4WS), as well as multi-robot scheduling coordinated with port terminal systems. The system was successfully implemented at the Ro-Ro terminal of Yantai Port in Shandong, demonstrating reliable performance under real-world conditions. It achieved over 91% of manual transfer efficiency, operated continuously at 2–3× human working time. These results highlight the feasibility and value of intelligent robotic systems in enhancing Ro-Ro terminal automation.
+    </p>
+    <div class="overview-panel">
+      <hr class="panel-divider">
+      <div class="panel-media-row">
+        <div class="img-frame">
+          <img src="/pic/1.png" data-video="/pic/1.mp4">
+          <div class="img-caption">👆 Click image to play demo video</div>
+        </div>
+        <div class="panel-text">
+          <p class="detail-section-title">Main Responsibilities</p>
+          <ol class="detail-list">
+            <li>Designed a hierarchical vehicle pose estimation method combining Voxel-RCNN and an improved BBox fitting algorithm to address feature loss and frequent pointcloud shape changes during vehicle pickup operations.</li>
+            <li>Enabled dynamic and real-time port road network updates for pickup/drop-off operations and path planning, leveraging cloud scheduling system data, onboard multi-sensor perception, and vehicle status information.</li>
+          </ol>
+          <p class="detail-section-title">Main Achievements</p>
+          <ol class="detail-list">
+            <li>Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
 </div>
