@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Avaliable Codes
+title: Research and Avaliable Codes
 toc: true
 permalink: /codes/
 ---
@@ -29,7 +29,6 @@ h3:has(+ .cards-container) {
     overflow: hidden !important;
 }
 
-/* 如果上面的:has不支持，用这个备选方案 */
 .cards-container::before {
     content: '';
     display: block;
@@ -46,10 +45,17 @@ h3:has(+ .cards-container) {
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
     color: #1a1a1a;
+    box-sizing: border-box;
 }
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.card h4 {
+    margin: 0 0 14px;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.4em;
 }
 .card h3 {
     margin-top: 0;
@@ -68,8 +74,40 @@ h3:has(+ .cards-container) {
 }
 .card p {
     font-size: 0.95em;
-    line-height: 1.5em;
-    margin-top: 10px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/* 两列布局 */
+.card-body {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+.card-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-right {
+    flex-shrink: 0;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-right img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.12);
+    display: block;
+}
+.card-abstract {
+    font-size: 0.92em !important;
+    line-height: 1.55em !important;
+    color: #333;
 }
 </style>
 
@@ -82,11 +120,21 @@ h3:has(+ .cards-container) {
 <div class="cards-container">
   <div class="card">
     <h4>Geodesic-Based Path Planning for Port Transfer Robots on Riemannian Manifolds</h4>
-    <p><strong>Paper:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0957417425033214" target="_blank">Expert Systems With Applications (ESWA 2025)</a></p>
-    <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Geodesic-Based-Path-Planning" target="_blank">https://github.com/balmung08/Geodesic-Based-Path-Planning</a></p>
-    <p><strong>Abstract:</strong> We propose a geodesic-based path planning method formulated on Riemannian manifolds for port transfer robots. The approach constructs a Riemannian metric tensor that jointly encodes directional motion constraints, steering effort, and obstacle accessibility boundaries into local path cost structures. This transforms the planning task into a geodesic shortest path problem, which is efficiently solved using the Geometric Heat Flow (GHF) method. The resulting paths naturally comply with kinematic constraints and exhibit strong obstacle-avoidance capabilities.</p>
+    <div class="card-body">
+      <div class="card-left">
+        <p><strong>Paper:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0957417425033214" target="_blank">Expert Systems With Applications (ESWA 2025)</a></p>
+        <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Geodesic-Based-Path-Planning" target="_blank">https://github.com/balmung08/Geodesic-Based-Path-Planning</a></p>
+        <p class="card-abstract"><strong>Abstract:</strong> We propose a geodesic-based path planning method formulated on Riemannian manifolds for port transfer robots. The approach constructs a Riemannian metric tensor that jointly encodes directional motion constraints, steering effort, and obstacle accessibility boundaries into local path cost structures. This transforms the planning task into a geodesic shortest path problem, which is efficiently solved using the Geometric Heat Flow (GHF) method. The resulting paths naturally comply with kinematic constraints and exhibit strong obstacle-avoidance capabilities.</p>
+      </div>
+      <div class="card-right">
+        <img src="/pic/Research/geodesic.jpg" alt="Paper figure">
+      </div>
+    </div>
   </div>
 </div>
+
+
+
 
 
 ## 4WIS Robot Related Research
@@ -104,7 +152,7 @@ h3:has(+ .cards-container) {
 
 
 
-### **[Paper] DRL-Based Trajectory Tracking for 4WIS Robot**
+<!-- ### **[Paper] DRL-Based Trajectory Tracking for 4WIS Robot**
 
 <div class="cards-container">
   <div class="card">
@@ -123,7 +171,7 @@ h3:has(+ .cards-container) {
     <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-Simulation-Environment" target="_blank">https://github.com/balmung08/4WIS-Robot-Simulation-Environment</a></p>
     <p><strong>Abstract:</strong> We constructed a comprehensive Gazebo simulation environment for verifying 4WIS robot algorithms. This environment mainly includes the 4WIS robot URDF modeled on a real platform, a multi-source sensor system, a standardized navigation test map (BARN dataset), and a control framework that supports multimodal motion and mode switching. It provides a unified and scalable experimental platform for the simulation verification of planning and control algorithms.</p>
   </div>
-</div>
+</div> -->
 
 
 
