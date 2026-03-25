@@ -104,6 +104,13 @@ h3:has(+ .cards-container) {
 .detail-section-title { font-weight: 700; font-size: 0.9em; margin: 14px 0 6px; color: #333; }
 .detail-list { padding-left: 18px; margin: 0; }
 .detail-list li { font-size: 0.91em; line-height: 1.6em; margin-bottom: 5px; color: #2a2a2a; }
+.noli li {
+    font-size: 0.91em;
+    line-height: 1.6em;
+    margin-bottom: 5px;
+    color: #2a2a2a;
+    list-style-type: none; /* 去掉编号 */
+}
 #video-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; }
 </style>
 
@@ -177,8 +184,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <li>Achieved efficient trajectory optimization and adaptive speed control in challenging and dynamic terrains using a terrain risk-aware RRT* algorithm combined with a dynamic terrain flatness corridor and CiLQR methods.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
-          <ol class="detail-list">
-            Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers in robotics.
+          <ol class="noli">
+            <li>Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers in robotics.</li>
           </ol>
         </div>
       </div>
@@ -210,8 +217,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <li>Developed a hierarchical multimodal tracker leveraging DRL , capable of autonomously selecting the optimal steering configuration and effectively performing precise multimodal tracking in complex environments.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
-          <ol class="detail-list">
-            Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).
+          <ol class="noli">
+            <li>Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).</li>
           </ol>
         </div>
       </div>
@@ -244,8 +251,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <li>Enabled dynamic and real-time port road network updates for pickup/drop-off operations and path planning, leveraging cloud scheduling system data, onboard multi-sensor perception, and vehicle status information.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
-          <ol class="detail-list">
-            Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).
+          <ol class="noli">
+            <li>Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).</li>
           </ol>
         </div>
       </div>
@@ -311,8 +318,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <li>Built and deployed the companion WeChat Mini Program for real-time driver state visualization and remote alert functionality.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
-          <ol class="detail-list">
-            System prototype validated for accuracy, individual adaptability, and multi-hazard coverage. Awarded National-level Undergraduate Innovation & Entrepreneurship Project by Jilin University; Silver Award at the Jilin University-level Internet+ competition. 
+          <ol class="noli">
+            <li>System prototype validated for accuracy, individual adaptability, and multi-hazard coverage. Awarded National-level Undergraduate Innovation & Entrepreneurship Project by Jilin University; Silver Award at the Jilin University-level Internet+ competition. </li>
           </ol>
         </div>
       </div>
@@ -345,11 +352,13 @@ document.addEventListener("DOMContentLoaded", function () {
             <li>Led the technical documentation and patent drafting.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
-          <ol class="detail-list">
-            The system prototype was validated for high precision and rapid response. This project was recognized as an "Excellent Conclusion" project by the School of Physics, Jilin University, and awarded the Prize for Excellence in the National Undergraduate Physics Experiment Competition. Furthermore, the innovative control logic and hardware design were successfully protected by one Chinese Invention Patent and one Utility Model.
+          <ol class="noli">
+            <li>The system prototype was validated for high precision and rapid response. This project was recognized as an "Excellent Conclusion" project by the School of Physics, Jilin University, and awarded the Prize for Excellence in the National Undergraduate Physics Experiment Competition. Furthermore, the innovative control logic and hardware design were successfully protected by one Chinese Invention Patent and one Utility Model.</li>
           </ol>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
