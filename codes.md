@@ -177,11 +177,10 @@ h3:has(+ .cards-container) {
       <div class="img-frame">
         <img
           src="/pic/Research/geodesic.jpg"
-          alt="项目概述图"
+          alt="overview"
           onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
         />
-        <div style="display:none;padding:60px 20px;text-align:center;color:rgba(0,0,0,0.4);font-size:13px;">请将 YOUR_IMAGE_URL_HERE 替换为您的图片地址</div>
-        <div class="img-caption">Overview — Geodesic-Based Path Planning</div>
+        <div class="img-caption">Overview — Geodesic-Based Path Planning for Port Robots</div>
       </div>
     </div>
   </div>
@@ -215,24 +214,58 @@ function handleCardClick(e, card) {
 
 ### **[Paper] DRL-Based Trajectory Tracking for 4WIS Robot**
 
+
 <div class="cards-container">
-  <div class="card">
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint">
+      <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg>
+    </div>
     <h4>Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robot Considering Switch of Steering Modes</h4>
-    <p><strong>Paper:</strong> <a href="https://ieeexplore.ieee.org/document/11247526" target="_blank">The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems & Automation (IROS 2025)</a></p>
-    <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-DRL-Multimodal-Trajectory-Tracking" target="_blank">https://github.com/balmung08/4WIS-Robot-DRL-Multimodal-Trajectory-Tracking</a></p>
+    <p class="link-row"><strong>Paper:</strong> <a href="https://ieeexplore.ieee.org/document/11247526" target="_blank" onclick="event.stopPropagation()">The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems & Automation (IROS 2025)</a></p>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-DRL-Multimodal-Trajectory-Tracking" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/4WIS-Robot-DRL-Multimodal-Trajectory-Tracking</a></p>
     <p><strong>Abstract:</strong> We proposes a multi-modal trajectory tracking method for 4WS robots considering steering mode switching. The approach decomposes trajectory tracking into mode decision-making and tracking control, both designed based on deep reinforcement learning. The mode decider selects appropriate steering modes based on trajectory information, while the tracker executes motion control. A target trajectory random generator and training environment are developed for data-driven model training.</p>
+    <div class="overview-panel">
+      <div class="img-frame">
+        <img
+          src="/pic/Research/4ws_following.jpg"
+          alt="overview"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+        />
+        <div class="img-caption">Overview — DRL-Based Trajectory Tracking for 4WIS Robot</div>
+      </div>
+    </div>
   </div>
 </div>
+ 
+
+
 
 ### **[Tools] A comprehensive simulation environment for 4WIS robots**
 
+
+
 <div class="cards-container">
-  <div class="card">
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint">
+      <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg>
+    </div>
     <h4>A comprehensive simulation environment for trajectory planning and motion control of 4WIS (Four-Wheel Independent Steering) robots</h4>
-    <p><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-Simulation-Environment" target="_blank">https://github.com/balmung08/4WIS-Robot-Simulation-Environment</a></p>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Robot-Simulation-Environment" target="_blank">https://github.com/balmung08/4WIS-Robot-Simulation-Environment</a></p>
     <p><strong>Abstract:</strong> We constructed a comprehensive Gazebo simulation environment for verifying 4WIS robot algorithms. This environment mainly includes the 4WIS robot URDF modeled on a real platform, a multi-source sensor system, a standardized navigation test map (BARN dataset), and a control framework that supports multimodal motion and mode switching. It provides a unified and scalable experimental platform for the simulation verification of planning and control algorithms.</p>
+    <div class="overview-panel">
+      <div class="img-frame">
+        <img
+          src="/pic/Research/4ws_env.png"
+          alt="overview"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+        />
+        <div class="img-caption">Overview — A comprehensive simulation environment for 4WIS robots</div>
+      </div>
+    </div>
   </div>
 </div>
+ 
+
 
 
 
