@@ -126,7 +126,7 @@ h3:has(+ .cards-container) {
 /* 渐变边框图片框 */
 .img-frame {
     margin-top: 18px;
-    border-radius: 12px;
+    border-radius: 24px;
     overflow: hidden;
     position: relative;
     background: rgba(255,255,255,0.2);

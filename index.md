@@ -2,7 +2,7 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 2026.01.31
+> Website information updated on 2026.03.25
 
 ### 👋 Hey there! 
 
@@ -47,6 +47,13 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 <div class="news-wrapper" data-visible-count="15">
   <ul class="news-list">
+    <li><strong>2026.03.10</strong> – Our paper 
+    <em>GMPPO: Guided Model Predictive Path Optimization for Mobile Robots in Obstacle-Constrained Environments</em> 
+    was accepted by 
+    <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41" target="_blank">
+      IEEE Transactions on Industrial Electronics
+    </a></em>.
+  </li>
     <li><strong>2026.01.31</strong> – Our paper <em>How bumpy is it? Incremental Online Learning of Terrain-Induced Bumpiness Costs for Off-Road Vehicles</em> was accepted by <em>ICRA 2026</em>
     </li>
     <li><strong>2025.11.19</strong> – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).</li>
