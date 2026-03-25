@@ -319,3 +319,37 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 </div>
+
+
+<div class="cards-container">
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
+    <p class="card-period">Jun. 2021 – Aug. 2022 [Undergraduate Innovation and Entrepreneurship Training Program]</p>
+    <h4>Design and Research of an Intelligent Light Intensity Self-Stabilizing Device Based on the Faraday Effect</h4>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Miscellaneous/tree/main/FLD_Light" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/Miscellaneous/tree/main/FLD_Light</a></p>
+    <p>Precise optical experiments and industrial sensing demand highly stable laser sources, yet environmental disturbances often introduce significant noise. This project leverages the magneto-optical Faraday effect to develop a real-time, closed-loop light intensity regulation system. By modulating the magnetic field strength around a heavy flint glass medium, the system dynamically rotates the polarization plane of the incident light to compensate for intensity drifts.<br>
+    The device integrates a compact optical path—consisting of calcite polarizers and a custom electromagnetic coil—with a high-speed STM32-based feedback controller. Unlike traditional mechanical attenuators, this solid-state approach offers rapid response times and high precision, making it suitable for integration into portable optical instruments.
+    </p>
+      <div class="overview-panel">
+      <hr class="panel-divider">
+      <div class="panel-media-row">
+        <div class="img-frame">
+          <img src="/pic/Project/01.png">
+          <div class="img-caption">👆 Click image to play demo video</div>
+        </div>
+        <div class="panel-text">
+          <p class="detail-section-title">Main Responsibilities</p>
+          <ol class="detail-list">
+            <li>Engineered the control system using STM32F1, implementing a TL082-based signal amplification circuit to drive the electromagnetic load with high stability.</li>
+            <li>Authored a inverse culculating algorithm to maintain constant output intensity by processing real-time feedback from photo-detectors.</li>
+            <li>Led the technical documentation and patent drafting.</li>
+          </ol>
+          <p class="detail-section-title">Main Achievements</p>
+          <ol class="detail-list">
+            The system prototype was validated for high precision and rapid response. This project was recognized as an "Excellent Conclusion" project by the School of Physics, Jilin University, and awarded the Prize for Excellence in the National Undergraduate Physics Experiment Competition. Furthermore, the innovative control logic and hardware design were successfully protected by one Chinese Invention Patent and one Utility Model.
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
