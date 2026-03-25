@@ -71,7 +71,7 @@ h3:has(+ .cards-container) {
 
 /* 调整图片和文本的比例，因为文字变少了 */
 .panel-media-row .panel-text { flex: 1; min-width: 220px; }
-.img-frame { border-radius: 16px; overflow: hidden; position: relative; background: rgba(255,255,255,0.2); flex: 0 0 50%; max-width: 50%; border: 1px solid rgba(0,0,0,0.05); }
+.img-frame { border-radius: 16px; overflow: hidden; position: relative; background: rgba(255,255,255,0.2); flex: 0 0 50%; max-width: 40%; border: 1px solid rgba(0,0,0,0.05); }
 
 .img-frame img { width: 100%; display: block; }
 .detail-section-title { font-weight: 700; font-size: 0.9em; margin: 14px 0 6px; color: #333; }
@@ -123,13 +123,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-## Robotics & Autonomous Systems Projects
-
 <div class="cards-container">
   
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
-    <p class="card-period">Mar. 2025 – Nov. 2025</p>
+    <p class="card-period">Mar. 2025 – Nov. 2025 [University-Enterprise Cooperation Project]</p>
     <h4>Controllable Seismic Source Vehicle Advanced Driver Assistance System Development</h4>
     <p>In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., we developed an advanced driver assistance system for controllable seismic source vehicles, designed specifically for geological exploration in harsh environments such as mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency. <br>
     Our system integrates multi-sensor SLAM, real-time terrain perception, and intelligent planning algorithms to enable autonomous navigation in unstructured environments. By analyzing local point clouds, it quantifies terrain risk and identifies traversable paths using an adaptive sampling strategy combined with Bayesian graph search. Optimized trajectories are generated through risk-aware planning and control modules. The system also supports multi-vehicle coordination, excitation point planning, and autonomous operation—ensuring safe, efficient, and standardized deployment in rugged field conditions.
@@ -138,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <hr class="panel-divider">
       <div class="panel-media-row">
         <div class="img-frame">
-          <img src="/pic/3.png" data-video="/pic/3.mp4">
+          <img src="/pic/Project/3.png" data-video="/pic/Project/3.mp4">
           <div class="img-caption">👆 Click image to play demo video</div>
         </div>
         <div class="panel-text">
@@ -158,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
-    <p class="card-period">Oct. 2024 – Jan. 2025</p>
+    <p class="card-period">Oct. 2024 – Jan. 2025 [University-Enterprise Cooperation Project]</p>
     <h4>Intelligent Inspection Robot System for Harsh Environments in Annealing Furnace Areas</h4>
     <p>Industrial inspection in high-temperature environments such as quenching furnace zones poses significant challenges due to extreme heat, low visibility, and confined operating space. Traditional manual inspections are often inefficient and unsafe, especially under continuous production demands. With the growing push toward intelligent, unmanned factories, there is an urgent need for autonomous systems capable of reliable operation in such harsh industrial settings.<br>
     To address this need, we developed and deployed an autonomous inspection robot specifically designed for quenching furnace environments. The system integrates multi-sensor perception, indoor positioning, and onboard computing to achieve safe, robust, and continuous monitoring. It features RGB-T-based fault detection, enabling effective identification of anomalies under variable lighting and thermal conditions. In addition, a path planning module optimized for narrow and obstacle-dense spaces ensures safe navigation in cluttered industrial layouts. The robot's four-wheel steering (4WS) system supports multiple motion modes, enabling precise trajectory tracking even in constrained environments.
@@ -167,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <hr class="panel-divider">
       <div class="panel-media-row">
         <div class="img-frame">
-          <img src="/pic/2.png" data-video="/pic/2.mp4">
+          <img src="/pic/Project/2.png" data-video="/pic/Project/2.mp4">
           <div class="img-caption">👆 Click image to play demo video</div>
         </div>
         <div class="panel-text">
@@ -188,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
-    <p class="card-period">Mar. 2024 – Sep. 2024</p>
+    <p class="card-period">Mar. 2024 – Sep. 2024 [University-Enterprise Cooperation Project]</p>
     <h4>Multi-robot system for autonomous vehicle transfer at roll-on/roll-off terminals</h4>
     <p>With the rapid development of smart port infrastructure, leading ports like Rotterdam and Ningbo have made major strides in automation. However, traditional manual operations at roll-on/roll-off (Ro-Ro) terminals struggle to meet the rising demands for efficiency, cost-effectiveness, and standardization—driven by growing throughput, labor shortages, and increasing operational complexity.<br>
     To address this challenge, we developed and deployed an autonomous robotic transfer system tailored for heavy-duty commercial vehicle handling. The system integrates centimeter-level precise localization and control for vehicle pick-up and drop-off, adaptive multi-mode motion planning and obstacle avoidance based on four-wheel steering (4WS), as well as multi-robot scheduling coordinated with port terminal systems. The system was successfully implemented at the Ro-Ro terminal of Yantai Port in Shandong, demonstrating reliable performance under real-world conditions. It achieved over 91% of manual transfer efficiency, operated continuously at 2–3× human working time. These results highlight the feasibility and value of intelligent robotic systems in enhancing Ro-Ro terminal automation.
@@ -197,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <hr class="panel-divider">
       <div class="panel-media-row">
         <div class="img-frame">
-          <img src="/pic/1.png" data-video="/pic/1.mp4">
+          <img src="/pic/Project/1.png" data-video="/pic/Project/1.mp4">
           <div class="img-caption">👆 Click image to play demo video</div>
         </div>
         <div class="panel-text">
@@ -216,10 +214,30 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 
 
-
-
-
-
+<div class="card" onclick="handleCardClick(event, this)">
+  <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
+  <p class="card-period">Feb. 2023 – Jun. 2023 [Bachelor's Thesis]</p>
+  <h4><a href="https://github.com/balmung08/Spider_Robot" target="_blank">Design and Control System of Hexapod Robot</a></h4>
+  <p>With the advancement of robotics technology, hexapod robots, as a highly flexible mobile platform, have been widely used for task execution in complex environments. This project, based on the Raspberry Pi platform and combining motion control, visual tracking, and image transmission remote control technologies, designed and implemented a hexapod robot control system. The system includes core modules such as robot hardware design, motion control, remote controller drive, and image transmission, aiming to provide the robot with autonomous movement and remote control capabilities to perform tasks in complex environments. By integrating servo control, posture perception, remote control systems, and real-time image transmission, the project empowers the robot, enhancing its adaptability and flexibility in unknown and dynamic environments.</p>
+  <div class="overview-panel">
+    <hr class="panel-divider">
+    <div class="panel-media-row">
+      <div class="img-frame">
+        <img src="../program_pic/1.png">
+        <div class="img-caption">👆 Click image to play demo video</div>
+      </div>
+      <div class="panel-text">
+        <p class="detail-section-title">Main Contributions</p>
+        <ol class="detail-list">
+          <li>Designed and implemented the hardware structure of the six-legged robot, including the skeleton and gimbal. The structure was designed using Solidworks 3D modeling software, followed by 3D printing and assembly.</li>
+          <li>Developed the robot control system based on Raspberry Pi, integrating servo motor control, motion planning, and feedback mechanisms, enabling the robot to perform triangular gaits and allowing the gimbal to always face the target.</li>
+          <li>Designed the remote control circuit and PCB, later simplified by using an ESP32 development board and designing an extended PCB, with Micropython code written to control the robot remotely.</li>
+          <li>Implemented real-time video feedback through an image transmission module, enhancing the accuracy of feedback during operation. The video transmission utilizes public networks, with an Aliyun server handling uplink and downlink connections. The UDP protocol was adopted for image transmission to improve data transfer speed and real-time performance, ensuring low-latency feedback for control commands and video.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

@@ -158,7 +158,17 @@ h3:has(+ .cards-container) {
 }
 </style>
  
- 
+ <script>
+function handleCardClick(e, card) {
+  if (e.target.tagName === 'A') return;
+  const panel = card.querySelector('.overview-panel');
+  const isOpen = panel.classList.contains('open');
+  panel.classList.toggle('open', !isOpen);
+  card.classList.toggle('open', !isOpen);
+}
+</script>
+
+
 ## General Robot Motion Planning
  
  
@@ -186,15 +196,31 @@ h3:has(+ .cards-container) {
   </div>
 </div>
  
-<script>
-function handleCardClick(e, card) {
-  if (e.target.tagName === 'A') return;
-  const panel = card.querySelector('.overview-panel');
-  const isOpen = panel.classList.contains('open');
-  panel.classList.toggle('open', !isOpen);
-  card.classList.toggle('open', !isOpen);
-}
-</script>
+
+### **[Tools] SLAM and Motion Planning Simulation Environment**
+
+<div class="cards-container">
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint">
+      <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg>
+    </div>
+    <h4>A SLAM Simulation Environment for 3D/2D Mapping with MoveBase Planning Module</h4>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Slam_Simulation" target="_blank">https://github.com/balmung08/Slam_Simulation</a></p>
+    <p><strong>Abstract:</strong> This project implements a Gazebo-based SLAM simulation environment that supports both 3D and 2D map construction. It uses the Lio-SAM algorithm for 3D mapping and the GMapping algorithm for 2D mapping. The environment includes a Velodyne sensor model and a robot platform, with the ability to switch between different map formats (e.g., from point cloud to laser scan). This platform provides a scalable and flexible testbed for validating SLAM algorithms. Additionally, it supports robot navigation and obstacle avoidance based on the MoveBase framework.</p>
+    <div class="overview-panel">
+      <div class="img-frame">
+        <img
+          src="/pic/Research/slam.gif"
+          alt="overview"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+        />
+        <div class="img-caption">Overview — SLAM and Motion Planning Simulation Environment</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 ## 4WIS Robot Related Research
