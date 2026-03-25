@@ -135,6 +135,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+
+### **[2025] Seismic Source Vehicle Advanced Driver Assistance System**
+
 <div class="cards-container">
   
   <div class="card" onclick="handleCardClick(event, this)">
@@ -166,6 +169,9 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
+
+### **[2024] Intelligent Inspection Robot for Harsh Environments**
+
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Oct. 2024 – Jan. 2025 [University-Enterprise Cooperation Project]</p>
@@ -195,6 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
+### **[2024] Multi-robot for vehicle transfer at Ro/Ro terminals**
 
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
@@ -225,31 +232,33 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
+### **[2023] Design and Control System of Hexapod Robot**
 
-<div class="card" onclick="handleCardClick(event, this)">
-  <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
-  <p class="card-period">Feb. 2023 – Jun. 2023 [Bachelor's Thesis]</p>
-  <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Geodesic-Based-Path-Planning" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/Geodesic-Based-Path-Planning</a></p>
-  <p>With the advancement of robotics technology, hexapod robots, as a highly flexible mobile platform, have been widely used for task execution in complex environments. This project, based on the Raspberry Pi platform and combining motion control, visual tracking, and image transmission remote control technologies, designed and implemented a hexapod robot control system. The system includes core modules such as robot hardware design, motion control, remote controller drive, and image transmission, aiming to provide the robot with autonomous movement and remote control capabilities to perform tasks in complex environments. By integrating servo control, posture perception, remote control systems, and real-time image transmission, the project empowers the robot, enhancing its adaptability and flexibility in unknown and dynamic environments.</p>
-  <div class="overview-panel">
-    <hr class="panel-divider">
-    <div class="panel-media-row">
-      <div class="img-frame">
-        <img src="/pic/Project/03.png">
-        <div class="img-caption">👆 Click image to play demo video</div>
-      </div>
-      <div class="panel-text">
-        <p class="detail-section-title">Main Contributions</p>
-        <ol class="detail-list">
-          <li>Designed and implemented the hardware structure of the six-legged robot, including the skeleton and gimbal. The structure was designed using Solidworks 3D modeling software, followed by 3D printing and assembly.</li>
-          <li>Developed the robot control system based on Raspberry Pi, integrating servo motor control, motion planning, and feedback mechanisms, enabling the robot to perform triangular gaits and allowing the gimbal to always face the target.</li>
-          <li>Designed the remote control circuit and PCB, later simplified by using an ESP32 development board and designing an extended PCB, with Micropython code written to control the robot remotely.</li>
-          <li>Implemented real-time video feedback through an image transmission module, enhancing the accuracy of feedback during operation. The video transmission utilizes public networks, with an Aliyun server handling uplink and downlink connections. The UDP protocol was adopted for image transmission to improve data transfer speed and real-time performance, ensuring low-latency feedback for control commands and video.</li>
-        </ol>
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
+    <p class="card-period">Feb. 2023 – Jun. 2023 [Bachelor's Thesis]</p>
+    <h4>Design and Control System of Hexapod Robot</h4>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Geodesic-Based-Path-Planning" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/Geodesic-Based-Path-Planning</a></p>
+    <p>With the advancement of robotics technology, hexapod robots, as a highly flexible mobile platform, have been widely used for task execution in complex environments. This project, based on the Raspberry Pi platform and combining motion control, visual tracking, and image transmission remote control technologies, designed and implemented a hexapod robot control system. The system includes core modules such as robot hardware design, motion control, remote controller drive, and image transmission, aiming to provide the robot with autonomous movement and remote control capabilities to perform tasks in complex environments. By integrating servo control, posture perception, remote control systems, and real-time image transmission, the project empowers the robot, enhancing its adaptability and flexibility in unknown and dynamic environments.</p>
+    <div class="overview-panel">
+      <hr class="panel-divider">
+      <div class="panel-media-row">
+        <div class="img-frame">
+          <img src="/pic/Project/03.png">
+          <div class="img-caption">👆 Click image to play demo video</div>
+        </div>
+        <div class="panel-text">
+          <p class="detail-section-title">Main Contributions</p>
+          <ol class="detail-list">
+            <li>Designed and implemented the hardware structure of the six-legged robot, including the skeleton and gimbal. The structure was designed using Solidworks 3D modeling software, followed by 3D printing and assembly.</li>
+            <li>Developed the robot control system based on Raspberry Pi, integrating servo motor control, motion planning, and feedback mechanisms, enabling the robot to perform triangular gaits and allowing the gimbal to always face the target.</li>
+            <li>Designed the remote control circuit and PCB, later simplified by using an ESP32 development board and designing an extended PCB, with Micropython code written to control the robot remotely.</li>
+            <li>Implemented real-time video feedback through an image transmission module, enhancing the accuracy of feedback during operation. The video transmission utilizes public networks, with an Aliyun server handling uplink and downlink connections. The UDP protocol was adopted for image transmission to improve data transfer speed and real-time performance, ensuring low-latency feedback for control commands and video.</li>
+          </ol>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
