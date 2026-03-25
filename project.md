@@ -29,7 +29,13 @@ h3:has(+ .cards-container) {
     overflow: hidden !important;
 }
 
-/* 卡片样式 - 恢复到你最开始的宽度 */
+.cards-container::before {
+    content: '';
+    display: block;
+    margin-top: 0;
+}
+ 
+
 .card {
     width: 90%; /* 恢复原始宽度 */
     background: rgba(255, 255, 255, 0.15);
