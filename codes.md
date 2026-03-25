@@ -118,7 +118,6 @@ h3:has(+ .cards-container) {
     pointer-events: none;
 }
 .overview-panel.open {
-    max-height: 700px;
     opacity: 1;
     pointer-events: auto;
 }
