@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </ol>
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
-            <li>Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers in robotics.</li>
+            Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB. Participated in the preparation process and submission of two top SCI journal papers in robotics.
           </ol>
         </div>
       </div>
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </ol>
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
-            <li>Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).</li>
+            Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).
           </ol>
         </div>
       </div>
@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </ol>
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
-            <li>Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).</li>
+            Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).
           </ol>
         </div>
       </div>
@@ -277,6 +277,42 @@ document.addEventListener("DOMContentLoaded", function () {
             <li>Developed the robot control system based on Raspberry Pi, integrating servo motor control, motion planning, and feedback mechanisms, enabling the robot to perform triangular gaits and allowing the gimbal to always face the target.</li>
             <li>Designed the remote control circuit and PCB, later simplified by using an ESP32 development board and designing an extended PCB, with Micropython code written to control the robot remotely.</li>
             <li>Implemented real-time video feedback through an image transmission module, enhancing the accuracy of feedback during operation. The video transmission utilizes public networks, with an Aliyun server handling uplink and downlink connections. The UDP protocol was adopted for image transmission to improve data transfer speed and real-time performance, ensuring low-latency feedback for control commands and video.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+### **[2021] Intelligent Driver State Monitoring System**
+
+<div class="cards-container">
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
+    <p class="card-period">Jun. 2021 – Aug. 2022 [Undergraduate Innovation and Entrepreneurship Training Program]</p>
+    <h4>Physiological signal-based intelligent monitoring system for anomalous driver states</h4>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/Miscellaneous/tree/main/LYYA_system" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/Miscellaneous/tree/main/LYYA_system</a></p>
+    <p>Ensuring road safety demands timely, reliable detection of dangerous driving behaviors—yet current commercial solutions largely rely on camera-based systems that suffer from lighting sensitivity and privacy concerns. To address this, we designed and built a multi-sensor fusion device for detecting driver anomalies including fatigue, road rage, and drunk driving, grounded in direct physiological signal analysis.<br>
+    The system uses galvanic skin response sensors as its primary modality for fatigue detection. A heart rate sensor acts as a gating switch that activates road rage detection via skin conductance once baseline alertness is confirmed. An alcohol concentration sensor independently screens for drunk driving. Together, these form a unified anomalous state detection pipeline capable of real-time monitoring across multiple risk dimensions simultaneously. A companion WeChat Mini Program was developed to support future intelligent connectivity and enable remote monitoring.
+    </p>
+    <div class="overview-panel">
+      <hr class="panel-divider">
+      <div class="panel-media-row">
+        <div class="img-frame">
+          <img src="/pic/Project/02.png">
+          <div class="img-caption">👆 Click image to play demo video</div>
+        </div>
+        <div class="panel-text">
+          <p class="detail-section-title">Main Responsibilities</p>
+          <ol class="detail-list">
+            <li>Responsible for sensor signal acquisition and processing, including firmware development on Arduino for multi-channel data collection and synchronization across GSR, heart rate, and alcohol sensors.</li>
+            <li>Recruited nearly 100 volunteers and designed an emotion-elicitation protocol: exposing participants to curated video stimuli to reliably induce distinct emotional states, then collected and labeled the resulting physiological signals to construct the project's core training and validation dataset.</li>
+            <li>Built and deployed the companion WeChat Mini Program for real-time driver state visualization and remote alert functionality.</li>
+          </ol>
+          <p class="detail-section-title">Main Achievements</p>
+          <ol class="detail-list">
+            System prototype validated for accuracy, individual adaptability, and multi-hazard coverage. Awarded National-level Undergraduate Innovation & Entrepreneurship Project by Jilin University; Silver Award at the Jilin University-level Internet+ competition. 
           </ol>
         </div>
       </div>
