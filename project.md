@@ -145,10 +145,12 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-### **[2025] Seismic Source Vehicle Advanced Driver Assistance System**
+
 
 <div class="cards-container">
   
+  ### **[2025] Seismic Source Vehicle Advanced Driver Assistance System**
+
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Mar. 2025 – Nov. 2025 [University-Enterprise Cooperation Project]</p>
@@ -179,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 
 
-### **[2024] Intelligent Inspection Robot for Harsh Environments**
+  ### **[2024] Intelligent Inspection Robot for Harsh Environments**
 
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
@@ -210,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-### **[2024] Multi-robot for vehicle transfer at Ro/Ro terminals**
+  ### **[2024] Multi-robot for vehicle transfer at Ro/Ro terminals**
 
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
@@ -241,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-### **[2023] Design and Control System of Hexapod Robot**
+  ### **[2023] Design and Control System of Hexapod Robot**
 
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
