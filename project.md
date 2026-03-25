@@ -15,9 +15,18 @@ permalink: /project/
     margin-bottom: 30px;
 }
 
-/* 优化：隐藏紧跟在 container 前的特定占位标题 */
+/* 只隐藏紧邻cards-container前面的h3标题 */
+h3 + .cards-container {
+    margin-top: 0;
+}
+ 
 h3:has(+ .cards-container) {
-    display: none !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
 }
 
 /* 卡片样式 - 恢复到你最开始的宽度 */
