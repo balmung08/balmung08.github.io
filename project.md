@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <h4>Controllable Seismic Source Vehicle Advanced Driver Assistance System Development</h4>
     <p>In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., we developed an advanced driver assistance system for controllable seismic source vehicles, designed specifically for geological exploration in harsh environments such as mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency. <br>
     Our system integrates multi-sensor SLAM, real-time terrain perception, and intelligent planning algorithms to enable autonomous navigation in unstructured environments. By analyzing local point clouds, it quantifies terrain risk and identifies traversable paths using an adaptive sampling strategy combined with Bayesian graph search. Optimized trajectories are generated through risk-aware planning and control modules. The system also supports multi-vehicle coordination, excitation point planning, and autonomous operation—ensuring safe, efficient, and standardized deployment in rugged field conditions.
-</p>
+    </p>
     <div class="overview-panel">
       <hr class="panel-divider">
       <div class="panel-media-row">
@@ -179,6 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
             <li>Successfully deployed the system to replace manual inspection in narrow and harsh environments, achieving safe, stable and autonomous operation for six months. Published two papers at top robotics conference (IROS2025).</li>
+          </ol>
         </div>
       </div>
     </div>
@@ -208,6 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
             <li>Completed feasibility validation and conducted on-site field tests. Acceptance to meet accuracy, efficiency, and 15-unit mass production requirements. As key contributor, received multiple awards including the national gold award in the China International College Students' Innovation Competition. Participated in the publication of three SCI journal papers (SCIS, ESWA, ISJ) and one paper at top robotics conference (IROS2025).</li>
+          </ol>
         </div>
       </div>
     </div>
