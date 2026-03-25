@@ -328,6 +328,9 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 
+
+### **[2021] Intelligent Light Intensity Self-Stabilizing Device**
+
 <div class="cards-container">
   <div class="card" onclick="handleCardClick(event, this)">
     <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
