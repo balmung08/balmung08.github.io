@@ -10,25 +10,25 @@ permalink: /project/
 .cards-container {
     display: flex;
     flex-direction: column;
-    gap: 30px; /* 增大卡片之间的垂直间距 */
+    gap: 30px; /* 卡片之间的垂直间距 */
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-/* 优化：仅隐藏紧跟在 container 前的特定占位标题，保持页面呼吸感 */
+/* 优化：隐藏紧跟在 container 前的特定占位标题 */
 h3:has(+ .cards-container) {
     display: none !important;
 }
 
-/* 卡片样式 */
+/* 卡片样式 - 恢复到你最开始的宽度 */
 .card {
-    width: 95%; /* 稍微加宽一点点 */
-    max-width: 900px;
+    width: 90%; /* 恢复原始宽度 */
+    max-width: 1000px; /* 可选：设置一个最大宽度防止在大屏上过宽，或者根据需要去掉 */
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(8px);
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
     color: #1a1a1a;
     cursor: pointer;
@@ -38,7 +38,7 @@ h3:has(+ .cards-container) {
 }
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 
 /* --- 核心修改：Caption 显示逻辑 --- */
@@ -61,6 +61,7 @@ h3:has(+ .cards-container) {
 /* 其余样式保持不变 */
 .card h4 { margin-top: 0; font-size: 1.2em; font-weight: 700; line-height: 1.4em; pointer-events: none; }
 .card .card-period { font-size: 0.85em; color: #555; font-weight: 600; margin-bottom: 6px; pointer-events: none; }
+.card p { font-size: 0.95em; line-height: 1.6em; margin-top: 10px; pointer-events: none; }
 .expand-hint { position: absolute; top: 20px; right: 20px; width: 26px; height: 26px; border-radius: 50%; background: rgba(255,255,255,0.3); border: 0.5px solid rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; pointer-events: none; }
 .expand-hint svg { width: 12px; height: 12px; stroke: #444; transition: transform 0.3s; }
 .card.open .expand-hint svg { transform: rotate(180deg); }
@@ -68,8 +69,11 @@ h3:has(+ .cards-container) {
 .overview-panel.open { max-height: 2000px; opacity: 1; pointer-events: auto; }
 .overview-panel .panel-divider { border: none; border-top: 0.5px solid rgba(0,0,0,0.12); margin: 18px 0 14px; }
 .panel-media-row { display: flex; gap: 20px; align-items: flex-start; margin-top: 16px; flex-wrap: wrap; }
-.panel-media-row .panel-text { flex: 1; min-width: 220px; font-size: 0.93em; line-height: 1.65em; color: #2a2a2a; }
-.img-frame { border-radius: 16px; overflow: hidden; position: relative; background: rgba(255,255,255,0.2); flex: 0 0 42%; max-width: 42%; border: 1px solid rgba(0,0,0,0.05); }
+
+/* 调整图片和文本的比例，因为文字变少了 */
+.panel-media-row .panel-text { flex: 1; min-width: 220px; }
+.img-frame { border-radius: 16px; overflow: hidden; position: relative; background: rgba(255,255,255,0.2); flex: 0 0 50%; max-width: 50%; border: 1px solid rgba(0,0,0,0.05); }
+
 .img-frame img { width: 100%; display: block; }
 .detail-section-title { font-weight: 700; font-size: 0.9em; margin: 14px 0 6px; color: #333; }
 .detail-list { padding-left: 18px; margin: 0; }
@@ -124,44 +128,54 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="cards-container">
   
-### project-1
-
-
-
-<div class="cards-container">
   <div class="card" onclick="handleCardClick(event, this)">
-    <div class="expand-hint">
-      <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg>
-    </div>
+    <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
     <p class="card-period">Mar. 2025 – Nov. 2025</p>
-    <h4>Controllable Seismic Source Vehicle Advanced Driver Assistance System Development</h4>
-    In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd., we developed an advanced driver assistance system for controllable seismic source vehicles, designed specifically for geological exploration in harsh environments such as mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency.</p>
-    <p>Our system integrates multi-sensor SLAM, real-time terrain perception, and intelligent planning algorithms to enable autonomous navigation in unstructured environments. By analyzing local point clouds, it quantifies terrain risk and identifies traversable paths using an adaptive sampling strategy combined with Bayesian graph search. Optimized trajectories are generated through risk-aware planning and control modules. The system also supports multi-vehicle coordination, excitation point planning, and autonomous operation.</p>
+    <h4>Controllable Seismic Source Vehicle ADAS</h4>
+    <p>In collaboration with China Petroleum Group Eastern Geophysical Exploration Co., Ltd. Autonomous navigation system for seismic source vehicles operating in mines, deserts, and unstructured terrains. Traditional seismic acquisition in these settings often faces challenges including limited visibility, complex terrain, and heavy dependence on manual driving, which compromise safety and operational efficiency.</p>
     <div class="overview-panel">
       <hr class="panel-divider">
       <div class="panel-media-row">
         <div class="img-frame">
-          <img src="/pic/3.png" alt="Seismic Vehicle ADAS" data-video="/pic/3.mp4"
-               title="Click to play video">
+          <img src="/pic/3.png" data-video="/pic/3.mp4">
           <div class="img-caption">👆 Click image to play demo video</div>
         </div>
         <div class="panel-text">
-          <p style="margin-top:0;">
           <p class="detail-section-title">Main Responsibilities</p>
           <ol class="detail-list">
-            <li>Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm to identify flat roads and ensure safe and efficient path planning.</li>
-            <li>Achieved efficient trajectory optimization and adaptive speed control in challenging and dynamic terrains using a terrain risk-aware RRT* algorithm combined with a dynamic terrain flatness corridor and CiLQR methods.</li>
+            <li>Developed autonomous vehicle navigation on complex terrains by implementing an adaptive sampler and Bayesian learning-based graph search algorithm.</li>
+            <li>Achieved efficient trajectory optimization and adaptive speed control in dynamic terrains.</li>
           </ol>
           <p class="detail-section-title">Main Achievements</p>
           <ol class="detail-list">
-            <li>Successfully delivered 12 complete vehicle systems, generating cumulative value exceeding tens of millions RMB.</li>
-            <li>Participated in the preparation process and submission of two top SCI journal papers in robotics.</li>
+            <li>Successfully delivered 12 complete vehicle systems.</li>
+            <li>Participated in the submission of two top SCI journal papers in robotics.</li>
           </ol>
         </div>
       </div>
+    </div>
   </div>
 
-
-
-  
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint"><svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg></div>
+    <p class="card-period">Oct. 2024 – Jan. 2025</p>
+    <h4>Intelligent Inspection Robot System</h4>
+    <p>Autonomous inspection robot for quenching furnace environments. Industrial inspection in high-temperature environments poses significant challenges due to extreme heat, low visibility, and confined operating space.</p>
+    <div class="overview-panel">
+      <hr class="panel-divider">
+      <div class="panel-media-row">
+        <div class="img-frame">
+          <img src="/pic/2.png">
+          <div class="img-caption">👆 Click image to play demo video</div>
+        </div>
+        <div class="panel-text">
+          <p class="detail-section-title">Main Achievements</p>
+          <ol class="detail-list">
+            <li>Achieved safe, stable and autonomous operation for six months.</li>
+            <li>Published two papers at top robotics conference (IROS 2025).</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
