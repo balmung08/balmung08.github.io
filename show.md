@@ -62,6 +62,14 @@ permalink: /show/
                 </div>
                 <div class="select-items">
 
+                    <div class="year-divider"><span>2026</span></div>
+                    <div class="select-item" data-value="Co-author/2026/1.pdf">
+                        GMPPO: Guided Model Predictive Path Optimization for Mobile Robots in Obstacle-Constrained Environments
+                    </div>
+                    <div class="select-item" data-value="Co-author/2026/2.pdf">
+                        Terrain-Coupled Hierarchical Optimization for Multi-Robot Deployment with a Global Reachability-Cost Atlas
+                    </div>
+
                     <div class="year-divider"><span>2025</span></div>
 
                     <div class="select-item" data-value="Co-author/2025/1.pdf">

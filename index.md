@@ -2,16 +2,19 @@
 layout: home
 title: About Me
 ---
-> Website information updated on 2026.03.25
+> Website information updated on 2026.05.05
 
 ### 👋 Hey there! 
 
-I'm currently a Master's student at **Beijing Institute of Technology (BIT)**, hacking away at **mobile robots that actually work in the real world**.
+I'm currently a Master's student at **Beijing Institute of Technology (BIT)**, working on **mobile robots**  that can **operate reliably in real-world environments**.
+
+I will soon join **The Chinese University of Hong Kong (CUHK)** to conduct research in **surgical robotics**.
+
 
 ### 🔬 Research Overview
 
 My research lies at the intersection of **robotics**, **control**, and **intelligent planning**,
-with a focus on **autonomous systems** operating in **complex and unstructured environments**.
+with a focus on **autonomous systems** operating in **complex environments**.
 
 My core interest is **deep reinforcement learning for motion and decision control**,
 aiming to build systems that can **perceive, reason, and act** robustly in the real world.
@@ -25,7 +28,7 @@ but also **liberate humans from repetitive and hazardous work** —
 moving toward truly **autonomous, self-evolving systems**.
 
 My long-term goal is to **bridge rigorous mathematical modeling** with **embodied intelligence**,
-enabling robots to **understand, adapt, and act independently** in dynamic environments.
+enabling robots to **understand, adapt, and act independently** in actual environments.
 
 
 ### 🧠 Tech Stack / Keywords
@@ -34,10 +37,10 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 
 
-> *“All those moments will be lost in time, like tears in rain.”*
-> — *Blade Runner*
+<!-- > *“All those moments will be lost in time, like tears in rain.”*
+> — *Blade Runner* -->
 
-> [📄 **Download My Current Curriculum Vitae (PDF)**](/pic/cv.pdf)
+<!-- > [📄 **Download My Current Curriculum Vitae (PDF)**](/pic/cv.pdf) -->
 
 --------------------
 
@@ -47,14 +50,35 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
 
 <div class="news-wrapper" data-visible-count="15">
   <ul class="news-list">
-    <li><strong>2026.03.10</strong> – Our paper 
-    <em>GMPPO: Guided Model Predictive Path Optimization for Mobile Robots in Obstacle-Constrained Environments</em> 
+    <li><strong>2026.04.28</strong> – I was awarded the title of Outstanding Master’s Graduate of Higher Education Institutions in Beijing.</li>
+    <li>
+    <strong>2026.04.25</strong> – Accepted the Ph.D. offer from 
+    <a href="https://www.cuhk.edu.hk/english/" target="_blank">
+      The Chinese University of Hong Kong
+    </a>- 
+    <a href="https://sites.google.com/view/surgicalroboticslab" target="_blank">
+      Surgical Robotics and Instrumentation Laboratory.
+    </a>
+    </li>
+    <li><strong>2026.04.22</strong> – Our paper  
+    <em><a href="https://ieeexplore.ieee.org/document/11501734" target="_blank">
+        Terrain-Coupled Hierarchical Optimization for Multi-Robot Deployment with a Global Reachability-Cost Atlas
+      </a></em> 
+    was accepted by 
+    <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907" target="_blank">
+      IEEE Internet of Things Journal.
+    </a></em>
+    </li>
+    <li><strong>2026.03.10</strong> – Our paper  
+    <em><a href="https://ieeexplore.ieee.org/document/11458826" target="_blank">
+        GMPPO: Guided Model Predictive Path Optimization for Mobile Robots in Obstacle-Constrained Environments
+      </a></em> 
     was accepted by 
     <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41" target="_blank">
-      IEEE Transactions on Industrial Electronics
-    </a></em>.
-  </li>
-    <li><strong>2026.01.31</strong> – Our paper <em>How bumpy is it? Incremental Online Learning of Terrain-Induced Bumpiness Costs for Off-Road Vehicles</em> was accepted by <em>ICRA 2026</em>
+      IEEE Transactions on Industrial Electronics.
+    </a></em>
+    </li>
+    <li><strong>2026.01.31</strong> – Our paper <em>How bumpy is it? Incremental Online Learning of Terrain-Induced Bumpiness Costs for Off-Road Vehicles</em> was accepted by <em>ICRA 2026.</em>
     </li>
     <li><strong>2025.11.19</strong> – I was pleased to obtain an IELTS overall score of 7.0 (7.5/7.5/6.5/6.0).</li>
     <li><strong>2025.10.29</strong> – I was honored to receive the highly competitive National Graduate Student Scholarship of China.</li>
@@ -70,8 +94,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19" target="_blank">
-        IEEE Transactions on Instrumentation and Measurement
-      </a></em>.
+        IEEE Transactions on Instrumentation and Measurement.
+      </a></em>
     </li>
     <li><strong>2025.09.23</strong> – My lead-author paper 
       <em><a href="https://ieeexplore.ieee.org/document/11180012" target="_blank">
@@ -79,13 +103,13 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856" target="_blank">
-        IEEE Transactions on Automation Science and Engineering
-      </a></em>.
+        IEEE Transactions on Automation Science and Engineering.
+      </a></em>
     </li>
     <li><strong>2025.09.09</strong> – I was invited to review a manuscript for 
       <em><a href="https://iopscience.iop.org/journal/2631-8695" target="_blank">
-        Engineering Research Express
-      </a></em>, 
+        Engineering Research Express,
+      </a></em> 
       marking my first involvement in academic peer review.
     </li>
     <li><strong>2025.09.09</strong> – My lead-author paper 
@@ -94,15 +118,15 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank">
-        Expert Systems With Applications
-      </a></em>.
+        Expert Systems With Applications.
+      </a></em>
     </li>
     <li><strong>2025.09.07</strong> – My lead-author preliminary work 
       <em><a href="https://arxiv.org/abs/2509.06115" target="_blank">
         Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots
       </a></em> 
       was uploaded to 
-      <em><a href="https://arxiv.org/" target="_blank">arXiv</a></em>.
+      <em><a href="https://arxiv.org/" target="_blank">arXiv.</a></em>
     </li>
     <li><strong>2025.07.14</strong> – Our paper 
       <em><a href="https://doi.org/10.1016/j.conengprac.2025.106498" target="_blank">
@@ -110,8 +134,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://www.sciencedirect.com/journal/control-engineering-practice" target="_blank">
-        Control Engineering Practice
-      </a></em>.
+        Control Engineering Practice.
+      </a></em>
     </li>
     <li><strong>2025.06.16</strong> – Our three papers 
       <em><a href="https://ieeexplore.ieee.org/document/11247526" target="_blank">
@@ -126,8 +150,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       were accepted by 
       <em><a href="https://ieeexplore.ieee.org/xpl/conhome/11245651/proceeding" target="_blank">
-        IROS 2025
-      </a></em>.
+        IROS 2025.
+      </a></em>
     </li>
     <li><strong>2025.05.25</strong> – Our paper 
       <em><a href="https://ieeexplore.ieee.org/document/11048698" target="_blank">
@@ -135,8 +159,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979" target="_blank">
-        IEEE Transactions on Intelligent Transportation Systems
-      </a></em>.
+        IEEE Transactions on Intelligent Transportation Systems.
+      </a></em>
     </li>
     <li><strong>2025.05.24</strong> – Our paper 
       <em><a href="https://doi.org/10.1016/j.eswa.2025.128347" target="_blank">
@@ -144,8 +168,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank">
-        Expert Systems With Applications
-      </a></em>.
+        Expert Systems With Applications.
+      </a></em>
     </li>
     <li><strong>2025.05.23</strong> – My first lead-author paper 
       <em><a href="https://ieeexplore.ieee.org/document/11023124" target="_blank">
@@ -153,8 +177,8 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361" target="_blank">
-        IEEE Sensors Journal
-      </a></em>.
+        IEEE Sensors Journal.
+      </a></em>
     </li>
     <li><strong>2025.03.11</strong> – Our paper 
       <em><a href="https://link.springer.com/article/10.1007/s11432-024-4395-7" target="_blank">
@@ -162,13 +186,18 @@ enabling robots to **understand, adapt, and act independently** in dynamic envir
       </a></em> 
       was accepted by 
       <em><a href="https://link.springer.com/journal/11432" target="_blank">
-        SCIENCE CHINA Information Sciences
-      </a></em>.
+        SCIENCE CHINA Information Sciences.
+      </a></em>
     </li>
     <li><strong>2024.11.24</strong> – As team leader, I led my team to win the National Second Award in the China Postgraduate “Dual-Carbon” Innovation Competition.</li>
     <li><strong>2024.10.25</strong> – As team leader, I led my team to win the National Third Award in the China Postgraduate Robot Innovation and Design Competition.</li>
     <li><strong>2024.10.14</strong> – As one of the key members, we won the National Gold Award in the China International College Students’ Innovation Competition. Congratulations!</li>
-    <li><strong>2023.09.01</strong> – I have officially become a master's student at Beijing Institute of Technology.</li>
+    <li><strong>2023.09.01</strong> – I have officially become a master's student at <a href="https://www.bit.edu.cn/index.htm" target="_blank">
+        Beijing Institute of Technology
+      </a> - <a href="https://ac.bit.edu.cn/xygk/zzjg/jcxszz/f0ed351496e54a458c76a932001ef94d.htm" target="_blank">
+      Institute of Intelligent Sensing and Motion Control. </a></li>
+
+    
   </ul>
 </div>
 
