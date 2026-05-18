@@ -47,7 +47,7 @@ permalink: /publications/
 
 * H. Yuan, L. Zhang, **R. Bao**, J. Si, S. Wang, T. Niu\*. [HFSENet: Hierarchical Fusion Semantic Enhancement Network for RGB-T Semantic Segmentation in Annealing Furnace Operation Area.](https://ieeexplore.ieee.org/document/11247613) [*IROS2025*](https://ieeexplore.ieee.org/xpl/conhome/11245651/proceeding).
 
-> **$^\dagger$ denotes equal contribution, and $^*$ denotes corresponding author.**
+> **$\dagger$ denotes equal contribution and $*$ denotes corresponding author**
 
 
 ### Patent

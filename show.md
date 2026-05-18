@@ -46,9 +46,9 @@ permalink: /show/
                     <div class="select-item" data-value="First-author/2025/4.pdf">
                         Deep Reinforcement Learning-Based Trajectory Tracking Framework for 4WS Robots Considering Switch of Steering Modes
                     </div>
-                    <div class="select-item" data-value="First-author/2025/5.pdf">
+                    <!-- <div class="select-item" data-value="First-author/2025/5.pdf">
                         Hybrid A* Path Planning with Multi-Modal Motion Extension for Four-Wheel Steering Mobile Robots
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

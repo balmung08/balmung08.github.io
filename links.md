@@ -7,6 +7,8 @@ permalink: /links/
 
 ### Lab & Research
 
+* [The Chinese University of Hong Kong - Surgical Robotics and Instrumentation Laboratory](https://sites.google.com/view/surgicalroboticslab)
+
 * [Beijing Institute of Technology - Institute of Intelligent Sensing and Motion Control](https://ac.bit.edu.cn/xygk/zzjg/jcxszz/f0ed351496e54a458c76a932001ef94d.htm)
 
 
