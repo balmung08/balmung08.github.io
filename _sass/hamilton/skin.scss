@@ -3,6 +3,11 @@
 body {
   color: $text-color;
   background-color: $background-color;
+  background-image:
+    radial-gradient(circle at 18% 16%, rgba(255,255,255,0.92), rgba(255,255,255,0) 30rem),
+    radial-gradient(circle at 82% 8%, rgba(188,197,207,0.42), rgba(188,197,207,0) 24rem),
+    linear-gradient(135deg, lighten($background-color, 8%) 0%, $background-color 38%, darken($background-color, 8%) 100%);
+  background-attachment: fixed;
 }
 
 a {
@@ -63,17 +68,24 @@ table {
 ///////// Layout ///////////
 
 .site-header {
-  background-color: $background-color;
+  background-color: rgba($background-color, 0.88);
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.92), rgba($background-color,0.74));
   border-top-color: $border-color-dark;
   border-bottom-color: $border-color-light;
+  box-shadow: 0 8px 26px rgba(darken($border-color-dark, 8%), 0.08);
+  -webkit-backdrop-filter: blur(14px) saturate(128%);
+  backdrop-filter: blur(14px) saturate(128%);
 }
 
 .site-sidebar {
   border-color: $border-color-light;
+  background: linear-gradient(180deg, rgba(255,255,255,0.48), rgba($background-color,0.5));
+  box-shadow: 1px 0 0 rgba(255,255,255,0.72) inset;
 }
 
 .site-title {
   color: $text-color;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.75);
   
   &:visited {
     color: $text-color;
@@ -81,8 +93,12 @@ table {
 }
 
 .site-nav {
-  background-color: $background-color;
+  background-color: rgba($background-color, 0.82);
+  background-image: linear-gradient(135deg, rgba(255,255,255,0.78), rgba($background-color,0.64));
   border-color: $border-color;
+  box-shadow: 0 10px 24px rgba(darken($border-color-dark, 8%), 0.1);
+  -webkit-backdrop-filter: blur(12px) saturate(124%);
+  backdrop-filter: blur(12px) saturate(124%);
 
   .menu-icon {
     > svg path {
@@ -95,7 +111,8 @@ table {
   }
 
   .dropdown-content {
-    background-color: $border-color-light;
+    background-color: rgba($border-color-light, 0.94);
+    background-image: linear-gradient(145deg, rgba(255,255,255,0.88), rgba($border-color-light,0.84));
     box-shadow: $dropdown-shadow;
   }
 }
@@ -103,6 +120,7 @@ table {
 .post-list {
   li {
     border-bottom-color: $border-color-light;
+    background: linear-gradient(180deg, rgba(255,255,255,0.34), rgba(255,255,255,0));
   }
 }
 
@@ -124,7 +142,9 @@ table {
 
 ul.post-tags {
   li {
-    background-color: $border-color-light;
+    background-color: rgba($border-color-light, 0.82);
+    background-image: linear-gradient(135deg, rgba(255,255,255,0.78), rgba($border-color-light,0.78));
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
   }
 }
 
@@ -168,6 +188,7 @@ ul.post-tags {
 .toc-title {
   color: $background-color;
   background-color: $border-color-dark;
+  background-image: linear-gradient(135deg, lighten($border-color-dark, 10%), $border-color-dark);
   border-color: $border-color;
 }
 
