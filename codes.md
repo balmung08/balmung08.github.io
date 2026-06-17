@@ -197,6 +197,30 @@ function handleCardClick(e, card) {
 </div>
  
 
+### **[Paper] Hybrid A* Planning with Backend Optimization**
+
+<div class="cards-container">
+  <div class="card" onclick="handleCardClick(event, this)">
+    <div class="expand-hint">
+      <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5"><path d="M2 4l4 4 4-4"/></svg>
+    </div>
+    <h4>Ackermann Hybrid A* Planner with Safe-Corridor Backend Optimization</h4>
+    <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Hybrid-Astar-Safe-Corridor-Optimization" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/4WIS-Hybrid-Astar-Safe-Corridor-Optimization</a></p>
+    <p><strong>Abstract:</strong> This work develops a general motion planning framework that combines a bidirectional Hybrid A* front-end planner with safe-corridor backend trajectory optimization. The front-end search generates a kinematically feasible coarse path under Ackermann/nonholonomic motion constraints, while the CasADi/IPOPT backend refines the trajectory by improving smoothness, obstacle clearance, curvature continuity, timing, and execution quality. The framework is designed for general mobile robot navigation in cluttered environments and does not rely on multi-modal motion switching.</p>
+    <div class="overview-panel">
+      <div class="img-frame">
+        <img
+          src="/pic/Research/4wis_hybrid_astar_safe_corridor.png"
+          alt="overview"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+        />
+        <div class="img-caption">Overview — Ackermann Hybrid A* Planner with Safe-Corridor Backend Optimization</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ### **[Tools] SLAM and Motion Planning Simulation Environment**
 
 <div class="cards-container">
@@ -291,7 +315,5 @@ function handleCardClick(e, card) {
   </div>
 </div>
  
-
-
 
 
