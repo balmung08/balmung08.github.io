@@ -197,7 +197,7 @@ function handleCardClick(e, card) {
 </div>
  
 
-### **[Paper] Hybrid A* Planning with Backend Optimization**
+### **[Tools] Hybrid A* Planning with Backend Optimization**
 
 <div class="cards-container">
   <div class="card" onclick="handleCardClick(event, this)">
@@ -206,7 +206,7 @@ function handleCardClick(e, card) {
     </div>
     <h4>Ackermann Hybrid A* Planner with Safe-Corridor Backend Optimization</h4>
     <p class="link-row"><strong>Code Repo:</strong> <a href="https://github.com/balmung08/4WIS-Hybrid-Astar-Safe-Corridor-Optimization" target="_blank" onclick="event.stopPropagation()">https://github.com/balmung08/4WIS-Hybrid-Astar-Safe-Corridor-Optimization</a></p>
-    <p><strong>Abstract:</strong> This work develops a general motion planning framework that combines a bidirectional Hybrid A* front-end planner with safe-corridor backend trajectory optimization. The front-end search generates a kinematically feasible coarse path under Ackermann/nonholonomic motion constraints, while the CasADi/IPOPT backend refines the trajectory by improving smoothness, obstacle clearance, curvature continuity, timing, and execution quality. The framework is designed for general mobile robot navigation in cluttered environments and does not rely on multi-modal motion switching.</p>
+    <p><strong>Abstract:</strong> A ROS2 Humble planning package for Ackermann-style mobile robots, integrating a bidirectional Hybrid A* front-end, safe-corridor generation, and a CasADi/IPOPT nonlinear optimization backend. The tool supports map-based start-goal planning, front-end and optimized trajectory publication, safe-corridor visualization, moving vehicle footprint playback, and online parameter tuning in RViz.</p>
     <div class="overview-panel">
       <div class="img-frame">
         <img
@@ -315,5 +315,3 @@ function handleCardClick(e, card) {
   </div>
 </div>
  
-
-
